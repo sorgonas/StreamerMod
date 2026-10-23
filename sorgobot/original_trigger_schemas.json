@@ -1,0 +1,1251 @@
+{
+  "2002": [
+    "serverId",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "2003": [
+    "serverId",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "2001": [
+    "serverId",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "804": [
+    "clientId",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "805": [
+    "clientId",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "803": [
+    "clientId",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "302": [
+    "commandId",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "301": [
+    "commandId",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "601": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "602": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "14001": [
+    "obsId",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "14002": [
+    "obsId",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "14003": [
+    "eventName",
+    "obsId",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "14007": [
+    "obsId",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "14008": [
+    "obsId",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "14004": [
+    "sceneName",
+    "obsId",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "14005": [
+    "obsId",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "14006": [
+    "obsId",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "14009": [
+    "vendorName",
+    "eventName",
+    "obsId",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "15001": [
+    "midiDevice",
+    "midiEvent",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "452": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "451": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "455": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "454": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "453": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "458": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "457": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "456": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "460": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "459": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "462": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "461": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "187": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "188": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "189": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "190": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "474": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "476": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "475": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "481": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "489": [
+    "tiers",
+    "min",
+    "max",
+    "subType",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "484": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "488": [
+    "tiers",
+    "min",
+    "max",
+    "subType",
+    "monthsGifted",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "498": [
+    "min",
+    "max",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "485": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "483": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "482": [
+    "min",
+    "max",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "487": [
+    "tiers",
+    "min",
+    "max",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "486": [
+    "tiers",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "139": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "138": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "194": [
+    "rewardType",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "463": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "464": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "480": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "465": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "466": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "140": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "142": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "141": [
+    "min",
+    "max",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "147": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "146": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "133": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "102": [
+    "min",
+    "max",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "157": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "496": [
+    "customPowerUpId",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "120": [
+    "username",
+    "isUserId",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "101": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "106": [
+    "tiers",
+    "min",
+    "max",
+    "subType",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "479": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "105": [
+    "tiers",
+    "min",
+    "max",
+    "subType",
+    "monthsGifted",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "148": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "150": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "149": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "167": [
+    "state",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "165": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "166": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "169": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "111": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "110": [
+    "min",
+    "max",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "108": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "109": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "135": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "497": [
+    "min",
+    "max",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "478": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "469": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "470": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "473": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "127": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "125": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "161": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "126": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "196": [
+    "powerUpType",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "131": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "130": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "128": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "132": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "129": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "124": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "477": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "163": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "162": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "107": [
+    "min",
+    "max",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "160": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "159": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "158": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "104": [
+    "tiers",
+    "min",
+    "max",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "112": [
+    "rewardId",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "171": [
+    "rewardId",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "494": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "490": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "492": [
+    "min",
+    "max",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "491": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "493": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "151": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "152": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "144": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "156": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "155": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "154": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "118": [
+    "gameOnly",
+    "gameId",
+    "gameName",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "103": [
+    "tiers",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "121": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "495": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "468": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "192": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "195": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "193": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "186": [
+    "minutes",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "137": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "136": [
+    "min",
+    "max",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "191": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "145": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "164": [
+    "min",
+    "max",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "467": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "471": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "472": [
+    "min",
+    "max",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "119": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "182": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "183": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "180": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "181": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "173": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "174": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "175": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "178": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "179": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "501": [
+    "watcherId",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "502": [
+    "watcherId",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "503": [
+    "watcherId",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "504": [
+    "watcherId",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "511": [
+    "fileTailId",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "42001": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "711": [
+    "variableName",
+    "persisted",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "712": [
+    "variableName",
+    "persisted",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "709": [
+    "variableName",
+    "persisted",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "703": [
+    "processName",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "704": [
+    "processName",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "706": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "702": [
+    "variables",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "701": [
+    "timerId",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "708": [
+    "toastId",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "710": [
+    "userLogon",
+    "platform",
+    "variableName",
+    "persisted",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "402": [
+    "commandId",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "401": [
+    "commandId",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "4001": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "4002": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "4003": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "4005": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "4006": [
+    "min",
+    "max",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "4007": [
+    "min",
+    "max",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "4008": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "4009": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "4010": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "4011": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "4014": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "4015": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "4016": [
+    "username",
+    "isUserId",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "4019": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "4020": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "4031": [
+    "min",
+    "max",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "4012": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "4013": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "4021": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "4022": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "4027": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "4028": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "4029": [
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ],
+  "4030": [
+    "min",
+    "max",
+    "id",
+    "type",
+    "enabled",
+    "exclusions"
+  ]
+}

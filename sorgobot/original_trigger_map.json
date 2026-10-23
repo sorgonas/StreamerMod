@@ -1,0 +1,782 @@
+{
+  "1": {
+    "name": "Custom",
+    "native": 90202
+  },
+  "101": {
+    "name": "TwitchFollow",
+    "native": 101
+  },
+  "102": {
+    "name": "TwitchCheer",
+    "native": 92503
+  },
+  "103": {
+    "name": "TwitchSub",
+    "native": 90850
+  },
+  "104": {
+    "name": "TwitchReSub",
+    "native": 90851
+  },
+  "105": {
+    "name": "TwitchGiftSub",
+    "native": 90031
+  },
+  "106": {
+    "name": "TwitchGiftBomb",
+    "native": 90032
+  },
+  "107": {
+    "name": "TwitchRaid",
+    "native": 107
+  },
+  "108": {
+    "name": "TwitchHypeTrainStart",
+    "native": 91050
+  },
+  "109": {
+    "name": "TwitchHypeTrainUpdate",
+    "native": 91051
+  },
+  "110": {
+    "name": "TwitchHypeTrainLevelUp",
+    "native": 91052
+  },
+  "111": {
+    "name": "TwitchHypeTrainEnd",
+    "native": 91053
+  },
+  "112": {
+    "name": "TwitchRewardRedemption",
+    "native": 112
+  },
+  "118": {
+    "name": "TwitchStreamUpdate",
+    "native": 90030
+  },
+  "119": {
+    "name": "TwitchWhisper",
+    "native": 92607
+  },
+  "120": {
+    "name": "TwitchFirstWord",
+    "native": 120
+  },
+  "121": {
+    "name": "TwitchSubCounterRollover",
+    "native": 91150
+  },
+  "124": {
+    "name": "TwitchPresentViewers",
+    "native": 92701
+  },
+  "125": {
+    "name": "TwitchPollCreated",
+    "native": 90650
+  },
+  "126": {
+    "name": "TwitchPollUpdated",
+    "native": 90651
+  },
+  "127": {
+    "name": "TwitchPollCompleted",
+    "native": 90652
+  },
+  "128": {
+    "name": "TwitchPredictionCreated",
+    "native": 90660
+  },
+  "129": {
+    "name": "TwitchPredictionUpdated",
+    "native": 90661
+  },
+  "130": {
+    "name": "TwitchPredictionCompleted",
+    "native": 90663
+  },
+  "131": {
+    "name": "TwitchPredictionCanceled",
+    "native": 90664
+  },
+  "132": {
+    "name": "TwitchPredictionLocked",
+    "native": 90662
+  },
+  "133": {
+    "name": "TwitchChatMessage",
+    "native": 133
+  },
+  "135": {
+    "name": "TwitchChatMessageDeleted",
+    "native": 92401
+  },
+  "136": {
+    "name": "TwitchUserTimedOut",
+    "native": 90751
+  },
+  "137": {
+    "name": "TwitchUserBanned",
+    "native": 90750
+  },
+  "138": {
+    "name": "TwitchAnnouncement",
+    "native": 92303
+  },
+  "139": {
+    "name": "TwitchAdRun",
+    "native": 90950
+  },
+  "140": {
+    "name": "TwitchBotWhisper",
+    "native": 92608
+  },
+  "14001": {
+    "name": "ObsConnected",
+    "native": 90363
+  },
+  "14002": {
+    "name": "ObsDisconnected",
+    "native": 90364
+  },
+  "14003": {
+    "name": "ObsEvent",
+    "native": 90365
+  },
+  "14004": {
+    "name": "ObsSceneChanged",
+    "native": 14004
+  },
+  "14005": {
+    "name": "ObsStreamingStarted",
+    "native": 14005
+  },
+  "14006": {
+    "name": "ObsStreamingStopped",
+    "native": 14006
+  },
+  "14007": {
+    "name": "ObsRecordingStarted",
+    "native": 90356
+  },
+  "14008": {
+    "name": "ObsRecordingStopped",
+    "native": 90357
+  },
+  "14009": {
+    "name": "ObsVendorEvent",
+    "native": 90366
+  },
+  "141": {
+    "name": "TwitchCharityDonation",
+    "native": 92209
+  },
+  "142": {
+    "name": "TwitchCharityCompleted",
+    "native": 92208
+  },
+  "144": {
+    "name": "TwitchShoutoutCreated",
+    "native": 92204
+  },
+  "145": {
+    "name": "TwitchUserUntimedOut",
+    "native": 92402
+  },
+  "146": {
+    "name": "TwitchCharityStarted",
+    "native": 92206
+  },
+  "147": {
+    "name": "TwitchCharityProgress",
+    "native": 92207
+  },
+  "148": {
+    "name": "TwitchGoalBegin",
+    "native": 92500
+  },
+  "149": {
+    "name": "TwitchGoalProgress",
+    "native": 92501
+  },
+  "150": {
+    "name": "TwitchGoalEnd",
+    "native": 92502
+  },
+  "15001": {
+    "name": "MidiMessage",
+    "native": 90245
+  },
+  "151": {
+    "name": "TwitchShieldModeBegin",
+    "native": 92200
+  },
+  "152": {
+    "name": "TwitchShieldModeEnd",
+    "native": 92201
+  },
+  "154": {
+    "name": "TwitchStreamOnline",
+    "native": 91250
+  },
+  "155": {
+    "name": "TwitchStreamOffline",
+    "native": 91251
+  },
+  "156": {
+    "name": "TwitchShoutoutReceived",
+    "native": 92205
+  },
+  "157": {
+    "name": "TwitchChatCleared",
+    "native": 92400
+  },
+  "158": {
+    "name": "TwitchRaidStart",
+    "native": 92800
+  },
+  "159": {
+    "name": "TwitchRaidSend",
+    "native": 90951
+  },
+  "160": {
+    "name": "TwitchRaidCancelled",
+    "native": 92801
+  },
+  "161": {
+    "name": "TwitchPollTerminated",
+    "native": 90653
+  },
+  "162": {
+    "name": "TwitchPyramidSuccess",
+    "native": 90033
+  },
+  "163": {
+    "name": "TwitchPyramidBroken",
+    "native": 90034
+  },
+  "164": {
+    "name": "TwitchViewerCountUpdate",
+    "native": 91252
+  },
+  "165": {
+    "name": "TwitchGuestStarSessionBegin",
+    "native": 92210
+  },
+  "166": {
+    "name": "TwitchGuestStarSessionEnd",
+    "native": 92211
+  },
+  "167": {
+    "name": "TwitchGuestStarGuestUpdate",
+    "native": 92212
+  },
+  "169": {
+    "name": "TwitchGuestStarSettingsUpdate",
+    "native": 92213
+  },
+  "171": {
+    "name": "TwitchRewardRedemptionUpdated",
+    "native": 90550
+  },
+  "173": {
+    "name": "TwitchBroadcasterAuthenticated",
+    "native": 92600
+  },
+  "174": {
+    "name": "TwitchBroadcasterChatConnected",
+    "native": 92601
+  },
+  "175": {
+    "name": "TwitchBroadcasterChatDisconnected",
+    "native": 92602
+  },
+  "178": {
+    "name": "TwitchBroadcasterEventSubConnected",
+    "native": 92603
+  },
+  "179": {
+    "name": "TwitchBroadcasterEventSubDisconnected",
+    "native": 92604
+  },
+  "180": {
+    "name": "TwitchSevenTVEmoteAdded",
+    "native": 92704
+  },
+  "181": {
+    "name": "TwitchSevenTVEmoteRemoved",
+    "native": 92705
+  },
+  "182": {
+    "name": "TwitchBetterTTVEmoteAdded",
+    "native": 92702
+  },
+  "183": {
+    "name": "TwitchBetterTTVEmoteRemoved",
+    "native": 92703
+  },
+  "186": {
+    "name": "TwitchUpcomingAd",
+    "native": 92700
+  },
+  "187": {
+    "name": "TwitchModeratorAdded",
+    "native": 90755
+  },
+  "188": {
+    "name": "TwitchModeratorRemoved",
+    "native": 90756
+  },
+  "189": {
+    "name": "TwitchVipAdded",
+    "native": 90753
+  },
+  "190": {
+    "name": "TwitchVipRemoved",
+    "native": 90754
+  },
+  "191": {
+    "name": "TwitchUserUnbanned",
+    "native": 90752
+  },
+  "192": {
+    "name": "TwitchUnbanRequestApproved",
+    "native": 92417
+  },
+  "193": {
+    "name": "TwitchUnbanRequestDenied",
+    "native": 92418
+  },
+  "194": {
+    "name": "TwitchAutomaticRewardRedemption",
+    "native": 92506
+  },
+  "195": {
+    "name": "TwitchUnbanRequestCreated",
+    "native": 92416
+  },
+  "196": {
+    "name": "TwitchPowerUpRedemption",
+    "native": 92504
+  },
+  "2001": {
+    "name": "WebsocketCustomServerOpen",
+    "native": 90263
+  },
+  "2002": {
+    "name": "WebsocketCustomServerClose",
+    "native": 90264
+  },
+  "2003": {
+    "name": "WebsocketCustomServerMessage",
+    "native": 90265
+  },
+  "301": {
+    "name": "SpeechToTextDictation",
+    "native": 90252
+  },
+  "302": {
+    "name": "SpeechToTextCommand",
+    "native": 90201
+  },
+  "401": {
+    "name": "CommandTriggered",
+    "native": 401
+  },
+  "402": {
+    "name": "CommandCooldown",
+    "native": 402
+  },
+  "42001": {
+    "name": "SystemClipboardChanged",
+    "native": 90250
+  },
+  "451": {
+    "name": "TwitchChatEmoteModeOn",
+    "native": 91450
+  },
+  "452": {
+    "name": "TwitchChatEmoteModeOff",
+    "native": 91451
+  },
+  "453": {
+    "name": "TwitchChatFollowerModeOn",
+    "native": 91452
+  },
+  "454": {
+    "name": "TwitchChatFollowerModeOff",
+    "native": 91453
+  },
+  "455": {
+    "name": "TwitchChatFollowerModeChanged",
+    "native": 91454
+  },
+  "456": {
+    "name": "TwitchChatSlowModeOn",
+    "native": 91455
+  },
+  "457": {
+    "name": "TwitchChatSlowModeOff",
+    "native": 91456
+  },
+  "458": {
+    "name": "TwitchChatSlowModeChanged",
+    "native": 91457
+  },
+  "459": {
+    "name": "TwitchChatSubscriberModeOn",
+    "native": 91458
+  },
+  "460": {
+    "name": "TwitchChatSubscriberModeOff",
+    "native": 91459
+  },
+  "461": {
+    "name": "TwitchChatUniqueModeOn",
+    "native": 91460
+  },
+  "462": {
+    "name": "TwitchChatUniqueModeOff",
+    "native": 91461
+  },
+  "463": {
+    "name": "TwitchAutoModMessageHeld",
+    "native": 92412
+  },
+  "464": {
+    "name": "TwitchAutoModMessageUpdate",
+    "native": 92413
+  },
+  "465": {
+    "name": "TwitchBlockedTermsAdded",
+    "native": 92403
+  },
+  "466": {
+    "name": "TwitchBlockedTermsDeleted",
+    "native": 92404
+  },
+  "467": {
+    "name": "TwitchWarnedUser",
+    "native": 92202
+  },
+  "468": {
+    "name": "TwitchSuspiciousUserUpdate",
+    "native": 92415
+  },
+  "469": {
+    "name": "TwitchPermittedTermsAdded",
+    "native": 92405
+  },
+  "470": {
+    "name": "TwitchPermittedTermsDeleted",
+    "native": 92406
+  },
+  "471": {
+    "name": "TwitchWarningAcknowledged",
+    "native": 92203
+  },
+  "472": {
+    "name": "TwitchWatchStreak",
+    "native": 92315
+  },
+  "473": {
+    "name": "TwitchPollArchived",
+    "native": 90654
+  },
+  "474": {
+    "name": "TwitchSharedChatSessionBegin",
+    "native": 92300
+  },
+  "475": {
+    "name": "TwitchSharedChatSessionUpdate",
+    "native": 92301
+  },
+  "476": {
+    "name": "TwitchSharedChatSessionEnd",
+    "native": 92302
+  },
+  "477": {
+    "name": "TwitchPrimePaidUpgrade",
+    "native": 90853
+  },
+  "478": {
+    "name": "TwitchPayItForward",
+    "native": 90854
+  },
+  "479": {
+    "name": "TwitchGiftPaidUpgrade",
+    "native": 90852
+  },
+  "480": {
+    "name": "TwitchBitsBadgeTier",
+    "native": 92316
+  },
+  "481": {
+    "name": "TwitchSharedChatAnnouncement",
+    "native": 92304
+  },
+  "482": {
+    "name": "TwitchSharedChatRaid",
+    "native": 92312
+  },
+  "483": {
+    "name": "TwitchSharedChatPrimePaidUpgrade",
+    "native": 92310
+  },
+  "484": {
+    "name": "TwitchSharedChatGiftPaidUpgrade",
+    "native": 92309
+  },
+  "485": {
+    "name": "TwitchSharedChatPayItForward",
+    "native": 92311
+  },
+  "486": {
+    "name": "TwitchSharedChatSub",
+    "native": 92305
+  },
+  "487": {
+    "name": "TwitchSharedChatResub",
+    "native": 92306
+  },
+  "488": {
+    "name": "TwitchSharedChatSubGift",
+    "native": 92307
+  },
+  "489": {
+    "name": "TwitchSharedChatCommunitySubGift",
+    "native": 92308
+  },
+  "490": {
+    "name": "TwitchSharedChatUserBanned",
+    "native": 92408
+  },
+  "491": {
+    "name": "TwitchSharedChatUserUnbanned",
+    "native": 92410
+  },
+  "492": {
+    "name": "TwitchSharedChatUserTimedout",
+    "native": 92409
+  },
+  "493": {
+    "name": "TwitchSharedChatUserUntimedout",
+    "native": 92411
+  },
+  "494": {
+    "name": "TwitchSharedChatMessageDeleted",
+    "native": 92407
+  },
+  "495": {
+    "name": "TwitchSuspiciousUserMessage",
+    "native": 92414
+  },
+  "496": {
+    "name": "TwitchCustomPowerUpRedemption",
+    "native": 92505
+  },
+  "497": {
+    "name": "TwitchModiversary",
+    "native": 92313
+  },
+  "498": {
+    "name": "TwitchSharedModiversary",
+    "native": 92314
+  },
+  "501": {
+    "name": "FileWatcherChanged",
+    "native": 90210
+  },
+  "502": {
+    "name": "FileWatcherCreated",
+    "native": 90211
+  },
+  "503": {
+    "name": "FileWatcherDeleted",
+    "native": 90212
+  },
+  "504": {
+    "name": "FileWatcherRenamed",
+    "native": 90213
+  },
+  "511": {
+    "name": "FileTailChanged",
+    "native": 90200
+  },
+  "601": {
+    "name": "QuoteAdded",
+    "native": 90203
+  },
+  "602": {
+    "name": "QuoteShow",
+    "native": 90254
+  },
+  "701": {
+    "name": "TimedAction",
+    "native": 701
+  },
+  "702": {
+    "name": "Test",
+    "native": 90041
+  },
+  "703": {
+    "name": "ProcessStarted",
+    "native": 90214
+  },
+  "704": {
+    "name": "ProcessStopped",
+    "native": 90215
+  },
+  "706": {
+    "name": "StreamerbotStarted",
+    "native": 90040
+  },
+  "708": {
+    "name": "ToastActivation",
+    "native": 90251
+  },
+  "709": {
+    "name": "GlobalVariableUpdated",
+    "native": 90222
+  },
+  "710": {
+    "name": "UserGlobalVariableUpdated",
+    "native": 90223
+  },
+  "711": {
+    "name": "GlobalVariableCreated",
+    "native": 90220
+  },
+  "712": {
+    "name": "GlobalVariableDeleted",
+    "native": 90221
+  },
+  "803": {
+    "name": "WebsocketClientOpen",
+    "native": 90260
+  },
+  "804": {
+    "name": "WebsocketClientClose",
+    "native": 90261
+  },
+  "805": {
+    "name": "WebsocketClientMessage",
+    "native": 90262
+  },
+  "184": {
+    "name": "TwitchBotEventSubConnected",
+    "native": 92609
+  },
+  "185": {
+    "name": "TwitchBotEventSubDisconnected",
+    "native": 92610
+  },
+  "113": {
+    "name": "TwitchRewardCreated",
+    "native": 92900
+  },
+  "114": {
+    "name": "TwitchRewardUpdated",
+    "native": 92901
+  },
+  "115": {
+    "name": "TwitchRewardDeleted",
+    "native": 92902
+  },
+  "4001": {
+    "name": "YouTubeBroadcastStarted",
+    "native": 4001
+  },
+  "4002": {
+    "name": "YouTubeBroadcastEnded",
+    "native": 4002
+  },
+  "4003": {
+    "name": "YouTubeMessage",
+    "native": 4003
+  },
+  "4005": {
+    "name": "YouTubeUserBanned",
+    "native": 4005
+  },
+  "4006": {
+    "name": "YouTubeSuperChat",
+    "native": 4006
+  },
+  "4007": {
+    "name": "YouTubeSuperSticker",
+    "native": 4007
+  },
+  "4008": {
+    "name": "YouTubeNewSponsor",
+    "native": 4008
+  },
+  "4009": {
+    "name": "YouTubeMemberMileStone",
+    "native": 4009
+  },
+  "4010": {
+    "name": "YouTubeNewSponsorOnlyStarted",
+    "native": 4010
+  },
+  "4011": {
+    "name": "YouTubeNewSponsorOnlyEnded",
+    "native": 4011
+  },
+  "4014": {
+    "name": "YouTubeMembershipGift",
+    "native": 4014
+  },
+  "4015": {
+    "name": "YouTubeGiftMembershipReceived",
+    "native": 4015
+  },
+  "4016": {
+    "name": "YouTubeFirstWords",
+    "native": 4016
+  },
+  "4019": {
+    "name": "YouTubeBroadcastMonitoringStarted",
+    "native": 4019
+  },
+  "4020": {
+    "name": "YouTubeBroadcastMonitoringEnded",
+    "native": 4020
+  },
+  "4031": {
+    "name": "YouTubeUserTimedout",
+    "native": 4031
+  },
+  "4012": {
+    "name": "YouTubeStatisticsUpdated",
+    "native": 4012
+  },
+  "4013": {
+    "name": "YouTubeBroadcastUpdated",
+    "native": 4013
+  },
+  "4021": {
+    "name": "YouTubeBroadcastAdded",
+    "native": 4021
+  },
+  "4022": {
+    "name": "YouTubeBroadcastRemoved",
+    "native": 4022
+  },
+  "4027": {
+    "name": "YouTubePollClosed",
+    "native": 4027
+  },
+  "4028": {
+    "name": "YouTubePollStarted",
+    "native": 4028
+  },
+  "4029": {
+    "name": "YouTubePollUpdated",
+    "native": 4029
+  },
+  "4030": {
+    "name": "YouTubeJewelsGifted",
+    "native": 4030
+  }
+}

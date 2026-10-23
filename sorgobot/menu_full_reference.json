@@ -1,0 +1,3683 @@
+{
+  "steps": {
+    "core/action-queues/clear-action-queue": {
+      "path": "Core · Action Queues · Clear Action Queue",
+      "status": "mapped"
+    },
+    "core/action-queues/set-action-queue-blocking-state": {
+      "path": "Core · Action Queues · Set Action Queue Blocking State",
+      "status": "mapped"
+    },
+    "core/action-queues/set-action-queue-pause-state": {
+      "path": "Core · Action Queues · Set Action Queue Pause State",
+      "status": "mapped"
+    },
+    "core/actions/get-action-group-state": {
+      "path": "Core · Actions · Get Action Group State",
+      "status": "mapped"
+    },
+    "core/actions/get-action-state": {
+      "path": "Core · Actions · Get Action State",
+      "status": "mapped"
+    },
+    "core/actions/run-action": {
+      "path": "Core · Actions · Run Action",
+      "status": "mapped"
+    },
+    "core/actions/set-action-group-state": {
+      "path": "Core · Actions · Set Action Group State",
+      "status": "mapped"
+    },
+    "core/actions/set-action-state": {
+      "path": "Core · Actions · Set Action State",
+      "status": "mapped"
+    },
+    "core/actions/set-sub-action-state": {
+      "path": "Core · Actions · Set Sub-Action State",
+      "status": "mapped"
+    },
+    "core/actions/set-sub-action-weight": {
+      "path": "Core · Actions · Set Sub-Action Weight",
+      "status": "mapped"
+    },
+    "core/arguments/set-argument": {
+      "path": "Core · Arguments · Set Argument",
+      "status": "mapped"
+    },
+    "core/commands/get-command-group-state": {
+      "path": "Core · Commands · Get Command Group State",
+      "status": "mapped"
+    },
+    "core/commands/get-command-state": {
+      "path": "Core · Commands · Get Command State",
+      "status": "mapped"
+    },
+    "core/commands/get-commands": {
+      "path": "Core · Commands · Get Commands",
+      "status": "mapped"
+    },
+    "core/commands/set-command-group-state": {
+      "path": "Core · Commands · Set Command Group State",
+      "status": "mapped"
+    },
+    "core/commands/set-command-state": {
+      "path": "Core · Commands · Set Command State",
+      "status": "mapped"
+    },
+    "core/csharp/execute-csharp-code": {
+      "path": "Core · C# · Execute C# Code",
+      "status": "mapped"
+    },
+    "core/csharp/execute-csharp-method": {
+      "path": "Core · C# · Execute C# Method",
+      "status": "mapped"
+    },
+    "core/delay": {
+      "path": "Core · Delay",
+      "status": "mapped"
+    },
+    "core/file-io/file-exists": {
+      "path": "Core · File I/O · File Exists",
+      "status": "mapped"
+    },
+    "core/file-io/folder-exists": {
+      "path": "Core · File I/O · Folder Exists",
+      "status": "mapped"
+    },
+    "core/file-io/read-lines-from-file": {
+      "path": "Core · File I/O · Read Lines From File",
+      "status": "mapped"
+    },
+    "core/file-io/read-random-line-from-file": {
+      "path": "Core · File I/O · Read Random Line From File",
+      "status": "mapped"
+    },
+    "core/file-io/read-specific-line-from-file": {
+      "path": "Core · File I/O · Read Specific Line From File",
+      "status": "mapped"
+    },
+    "core/file-io/write-to-file": {
+      "path": "Core · File I/O · Write To File",
+      "status": "mapped"
+    },
+    "core/file-tail/set-file-tail-state": {
+      "path": "Core · File Tail · Set File Tail State",
+      "status": "mapped"
+    },
+    "core/globals/clear-non-persisted-globals": {
+      "path": "Core · Globals · Clear Non-Persisted Globals",
+      "status": "mapped"
+    },
+    "core/globals/clear-non-persisted-user-globals": {
+      "path": "Core · Globals · Clear Non-Persisted User Globals",
+      "status": "mapped"
+    },
+    "core/globals/global-get": {
+      "path": "Core · Globals · Global (Get)",
+      "status": "mapped"
+    },
+    "core/globals/global-set": {
+      "path": "Core · Globals · Global (Set)",
+      "status": "mapped"
+    },
+    "core/logic/break": {
+      "path": "Core · Logic · Break",
+      "status": "mapped"
+    },
+    "core/logic/get-input": {
+      "path": "Core · Logic · Get Input",
+      "status": "mapped"
+    },
+    "core/logic/get-random-number": {
+      "path": "Core · Logic · Get Random Number",
+      "status": "mapped"
+    },
+    "core/logic/if-else": {
+      "path": "Core · Logic · If/Else",
+      "status": "mapped"
+    },
+    "core/logic/loop-break": {
+      "path": "Core · Logic · Loop Break",
+      "status": "mapped"
+    },
+    "core/logic/loop-continue": {
+      "path": "Core · Logic · Loop Continue",
+      "status": "mapped"
+    },
+    "core/logic/switch": {
+      "path": "Core · Logic · Switch",
+      "status": "mapped"
+    },
+    "core/logic/while": {
+      "path": "Core · Logic · While",
+      "status": "mapped"
+    },
+    "core/midi/control-change": {
+      "path": "Core · MIDI · Control Change",
+      "status": "mapped"
+    },
+    "core/midi/generic-event": {
+      "path": "Core · MIDI · Generic Event",
+      "status": "mapped"
+    },
+    "core/midi/note-on": {
+      "path": "Core · MIDI · Note On",
+      "status": "mapped"
+    },
+    "core/misc/comment": {
+      "path": "Core · Misc · Comment",
+      "status": "mapped"
+    },
+    "core/misc/log": {
+      "path": "Core · Misc · Log",
+      "status": "mapped"
+    },
+    "core/network/fetch-url": {
+      "path": "Core · Network · Fetch URL",
+      "status": "mapped"
+    },
+    "core/network/udp-broadcast": {
+      "path": "Core · Network · UDP Broadcast",
+      "status": "mapped"
+    },
+    "core/points/admin/get-points-definition": {
+      "path": "Core · Points · Admin · Get Points Definition",
+      "status": "mapped"
+    },
+    "core/points/admin/reset-points-definition": {
+      "path": "Core · Points · Admin · Reset Points Definition",
+      "status": "mapped"
+    },
+    "core/points/bulk/award-points-to-all": {
+      "path": "Core · Points · Bulk · Award Points To All",
+      "status": "mapped"
+    },
+    "core/points/groups/award-points-to-group": {
+      "path": "Core · Points · Groups · Award Points To Group",
+      "status": "mapped"
+    },
+    "core/points/groups/get-group-multiplier": {
+      "path": "Core · Points · Groups · Get Group Multiplier",
+      "status": "mapped"
+    },
+    "core/points/groups/remove-group-multiplier": {
+      "path": "Core · Points · Groups · Remove Group Multiplier",
+      "status": "mapped"
+    },
+    "core/points/groups/set-group-multiplier": {
+      "path": "Core · Points · Groups · Set Group Multiplier",
+      "status": "mapped"
+    },
+    "core/points/leaderboards/get-points-leaderboard": {
+      "path": "Core · Points · Leaderboards · Get Points Leaderboard",
+      "status": "mapped"
+    },
+    "core/points/user/award-points": {
+      "path": "Core · Points · User · Award Points",
+      "status": "mapped"
+    },
+    "core/points/user/check-points": {
+      "path": "Core · Points · User · Check Points",
+      "status": "mapped"
+    },
+    "core/points/user/delete-points": {
+      "path": "Core · Points · User · Delete Points",
+      "status": "mapped"
+    },
+    "core/points/user/get-points": {
+      "path": "Core · Points · User · Get Points",
+      "status": "mapped"
+    },
+    "core/points/user/get-user-multiplier": {
+      "path": "Core · Points · User · Get User Multiplier",
+      "status": "mapped"
+    },
+    "core/points/user/reset-user-points": {
+      "path": "Core · Points · User · Reset User Points",
+      "status": "mapped"
+    },
+    "core/points/user/set-points": {
+      "path": "Core · Points · User · Set Points",
+      "status": "mapped"
+    },
+    "core/points/user/spend-points": {
+      "path": "Core · Points · User · Spend Points",
+      "status": "mapped"
+    },
+    "core/points/user/transfer-points": {
+      "path": "Core · Points · User · Transfer Points",
+      "status": "mapped"
+    },
+    "core/points/user/update-points": {
+      "path": "Core · Points · User · Update Points",
+      "status": "mapped"
+    },
+    "core/quotes/add-quote": {
+      "path": "Core · Quotes · Add Quote",
+      "status": "mapped"
+    },
+    "core/quotes/delete-quote": {
+      "path": "Core · Quotes · Delete Quote",
+      "status": "mapped"
+    },
+    "core/quotes/get-quote": {
+      "path": "Core · Quotes · Get Quote",
+      "status": "mapped"
+    },
+    "core/quotes/get-quote-count": {
+      "path": "Core · Quotes · Get Quote Count",
+      "status": "mapped"
+    },
+    "core/signals/send-local-signal": {
+      "path": "Core · Signals · Send Local Signal",
+      "status": "mapped"
+    },
+    "core/signals/wait-for-local-signal": {
+      "path": "Core · Signals · Wait for Local Signal",
+      "status": "mapped"
+    },
+    "core/sounds/play-sound": {
+      "path": "Core · Sounds · Play Sound",
+      "status": "mapped"
+    },
+    "core/sounds/play-sound-from-folder": {
+      "path": "Core · Sounds · Play Sound From Folder",
+      "status": "mapped"
+    },
+    "core/sounds/stop-all-sound-playback": {
+      "path": "Core · Sounds · Stop All Sound Playback",
+      "status": "mapped"
+    },
+    "core/sounds/stop-sound-playback": {
+      "path": "Core · Sounds · Stop Sound Playback",
+      "status": "mapped"
+    },
+    "core/system/keyboard-press": {
+      "path": "Core · System · Keyboard Press",
+      "status": "mapped"
+    },
+    "core/system/run-a-program": {
+      "path": "Core · System · Run a Program",
+      "status": "mapped"
+    },
+    "core/system/toast-notification": {
+      "path": "Core · System · Toast Notification",
+      "status": "mapped"
+    },
+    "core/timers/set-timer-state": {
+      "path": "Core · Timers · Set Timer State",
+      "status": "mapped"
+    },
+    "core/triggers/custom-event-trigger": {
+      "path": "Core · Triggers · Custom Event Trigger",
+      "status": "mapped"
+    },
+    "core/triggers/set-trigger-state": {
+      "path": "Core · Triggers · Set Trigger State",
+      "status": "mapped"
+    },
+    "core/users/clear-users-from-group": {
+      "path": "Core · Users · Clear Users From Group",
+      "status": "mapped"
+    },
+    "core/voice-control/set-voice-control-command": {
+      "path": "Core · Voice Control · Set Voice Control Command",
+      "status": "mapped"
+    },
+    "core/voice-control/set-voice-control-command-state": {
+      "path": "Core · Voice Control · Set Voice Control Command State",
+      "status": "mapped"
+    },
+    "obs-studio/create-record-chapter": {
+      "path": "OBS Studio · Create Record Chapter",
+      "status": "mapped"
+    },
+    "obs-studio/filters/set-state-of-a-random-filter": {
+      "path": "OBS Studio · Filters · Set State of a Random Filter",
+      "status": "mapped"
+    },
+    "obs-studio/get-current-scene": {
+      "path": "OBS Studio · Get Current Scene",
+      "status": "mapped"
+    },
+    "obs-studio/get-status": {
+      "path": "OBS Studio · Get Status",
+      "status": "mapped"
+    },
+    "obs-studio/groups/set-random-group-source-visible": {
+      "path": "OBS Studio · Groups · Set Random Group Source Visible",
+      "status": "mapped"
+    },
+    "obs-studio/raw": {
+      "path": "OBS Studio · Raw",
+      "status": "mapped"
+    },
+    "obs-studio/recording": {
+      "path": "OBS Studio · Recording",
+      "status": "mapped"
+    },
+    "obs-studio/replay/set-replay-buffer-state": {
+      "path": "OBS Studio · Replay · Set Replay Buffer State",
+      "status": "mapped"
+    },
+    "obs-studio/scenes/get-scene-item-properties": {
+      "path": "OBS Studio · Scenes · Get Scene Item Properties",
+      "status": "mapped"
+    },
+    "obs-studio/scenes/hide-scenes-sources": {
+      "path": "OBS Studio · Scenes · Hide Scene's Sources",
+      "status": "mapped"
+    },
+    "obs-studio/scenes/set-random-scene-source-visible": {
+      "path": "OBS Studio · Scenes · Set Random Scene Source Visible",
+      "status": "mapped"
+    },
+    "obs-studio/scenes/set-scene-filter-state": {
+      "path": "OBS Studio · Scenes · Set Scene Filter State",
+      "status": "mapped"
+    },
+    "obs-studio/set-active-scene": {
+      "path": "OBS Studio · Set Active Scene",
+      "status": "mapped"
+    },
+    "obs-studio/sources/flip-source": {
+      "path": "OBS Studio · Sources · Flip Source",
+      "status": "mapped"
+    },
+    "obs-studio/sources/hide-groups-sources": {
+      "path": "OBS Studio · Sources · Hide Group's Sources",
+      "status": "mapped"
+    },
+    "obs-studio/sources/hide-sources-filters": {
+      "path": "OBS Studio · Sources · Hide Source's Filters",
+      "status": "mapped"
+    },
+    "obs-studio/sources/rotate-source": {
+      "path": "OBS Studio · Sources · Rotate Source",
+      "status": "mapped"
+    },
+    "obs-studio/sources/set-browser-source-url": {
+      "path": "OBS Studio · Sources · Set Browser Source URL",
+      "status": "mapped"
+    },
+    "obs-studio/sources/set-color-source-color": {
+      "path": "OBS Studio · Sources · Set Color Source Color",
+      "status": "mapped"
+    },
+    "obs-studio/sources/set-gdi-text": {
+      "path": "OBS Studio · Sources · Set GDI Text",
+      "status": "mapped"
+    },
+    "obs-studio/sources/set-image-source-file": {
+      "path": "OBS Studio · Sources · Set Image Source File",
+      "status": "mapped"
+    },
+    "obs-studio/sources/set-media-source-file": {
+      "path": "OBS Studio · Sources · Set Media Source File",
+      "status": "mapped"
+    },
+    "obs-studio/sources/set-media-state": {
+      "path": "OBS Studio · Sources · Set Media State",
+      "status": "mapped"
+    },
+    "obs-studio/sources/set-source-audio-track-state": {
+      "path": "OBS Studio · Sources · Set Source Audio Track State",
+      "status": "mapped"
+    },
+    "obs-studio/sources/set-source-filter-state": {
+      "path": "OBS Studio · Sources · Set Source Filter State",
+      "status": "mapped"
+    },
+    "obs-studio/sources/set-source-mute-state": {
+      "path": "OBS Studio · Sources · Set Source Mute State",
+      "status": "mapped"
+    },
+    "obs-studio/sources/set-source-visibility-state": {
+      "path": "OBS Studio · Sources · Set Source Visibility State",
+      "status": "mapped"
+    },
+    "obs-studio/streaming": {
+      "path": "OBS Studio · Streaming",
+      "status": "mapped"
+    },
+    "obs-studio/take-screenshot": {
+      "path": "OBS Studio · Take Screenshot",
+      "status": "mapped"
+    },
+    "twitch/ads/get-ad-schedule": {
+      "path": "Twitch · Ads · Get Ad Schedule",
+      "status": "mapped"
+    },
+    "twitch/ads/get-pre-roll-free-time": {
+      "path": "Twitch · Ads · Get Pre-roll Free Time",
+      "status": "mapped"
+    },
+    "twitch/ads/run-commercial": {
+      "path": "Twitch · Ads · Run Commercial",
+      "status": "mapped"
+    },
+    "twitch/ads/snooze-ad": {
+      "path": "Twitch · Ads · Snooze Ad",
+      "status": "mapped"
+    },
+    "twitch/channel/add-viewer-count": {
+      "path": "Twitch · Channel · Add Viewer Count",
+      "status": "mapped"
+    },
+    "twitch/channel/create-clip": {
+      "path": "Twitch · Channel · Create Clip",
+      "status": "mapped"
+    },
+    "twitch/channel/create-stream-marker": {
+      "path": "Twitch · Channel · Create Stream Marker",
+      "status": "mapped"
+    },
+    "twitch/channel/set-channel-branded-content": {
+      "path": "Twitch · Channel · Set Channel Branded Content",
+      "status": "mapped"
+    },
+    "twitch/channel/set-channel-game": {
+      "path": "Twitch · Channel · Set Channel Game",
+      "status": "mapped"
+    },
+    "twitch/channel/set-channel-title": {
+      "path": "Twitch · Channel · Set Channel Title",
+      "status": "mapped"
+    },
+    "twitch/chat/send-message-to-channel": {
+      "path": "Twitch · Chat · Send Message to Channel",
+      "status": "mapped"
+    },
+    "twitch/followers/get-follower-count": {
+      "path": "Twitch · Followers · Get Follower Count",
+      "status": "mapped"
+    },
+    "twitch/followers/get-latest-follower": {
+      "path": "Twitch · Followers · Get Latest Follower",
+      "status": "mapped"
+    },
+    "twitch/moderation/add-moderator": {
+      "path": "Twitch · Moderation · Add Moderator",
+      "status": "mapped"
+    },
+    "twitch/moderation/add-vip": {
+      "path": "Twitch · Moderation · Add VIP",
+      "status": "mapped"
+    },
+    "twitch/moderation/ban-user": {
+      "path": "Twitch · Moderation · Ban User",
+      "status": "mapped"
+    },
+    "twitch/moderation/chat-modes/emote-only": {
+      "path": "Twitch · Moderation · Chat Modes · Emote Only",
+      "status": "mapped"
+    },
+    "twitch/moderation/chat-modes/follow-mode": {
+      "path": "Twitch · Moderation · Chat Modes · Follow Mode",
+      "status": "mapped"
+    },
+    "twitch/moderation/chat-modes/slow-mode": {
+      "path": "Twitch · Moderation · Chat Modes · Slow Mode",
+      "status": "mapped"
+    },
+    "twitch/moderation/chat-modes/subscriber-only": {
+      "path": "Twitch · Moderation · Chat Modes · Subscriber Only",
+      "status": "mapped"
+    },
+    "twitch/moderation/remove-moderator": {
+      "path": "Twitch · Moderation · Remove Moderator",
+      "status": "mapped"
+    },
+    "twitch/moderation/remove-vip": {
+      "path": "Twitch · Moderation · Remove VIP",
+      "status": "mapped"
+    },
+    "twitch/moderation/timeout-user": {
+      "path": "Twitch · Moderation · Timeout User",
+      "status": "mapped"
+    },
+    "twitch/moderation/unban-user": {
+      "path": "Twitch · Moderation · Unban User",
+      "status": "mapped"
+    },
+    "twitch/moderation/untimeout-user": {
+      "path": "Twitch · Moderation · UnTimeout User",
+      "status": "mapped"
+    },
+    "twitch/polls/archive-active-poll": {
+      "path": "Twitch · Polls · Archive Active Poll",
+      "status": "mapped"
+    },
+    "twitch/polls/create-poll": {
+      "path": "Twitch · Polls · Create Poll",
+      "status": "mapped"
+    },
+    "twitch/polls/get-active-poll": {
+      "path": "Twitch · Polls · Get Active Poll",
+      "status": "mapped"
+    },
+    "twitch/polls/terminate-active-poll": {
+      "path": "Twitch · Polls · Terminate Active Poll",
+      "status": "mapped"
+    },
+    "twitch/predictions/cancel-active-prediction": {
+      "path": "Twitch · Predictions · Cancel Active Prediction",
+      "status": "mapped"
+    },
+    "twitch/predictions/create-prediction": {
+      "path": "Twitch · Predictions · Create Prediction",
+      "status": "mapped"
+    },
+    "twitch/predictions/get-active-prediction": {
+      "path": "Twitch · Predictions · Get Active Prediction",
+      "status": "mapped"
+    },
+    "twitch/predictions/lock-active-prediction": {
+      "path": "Twitch · Predictions · Lock Active Prediction",
+      "status": "mapped"
+    },
+    "twitch/predictions/resolve-last-prediction": {
+      "path": "Twitch · Predictions · Resolve Last Prediction",
+      "status": "mapped"
+    },
+    "twitch/predictions/resolve-last-prediction-by-title": {
+      "path": "Twitch · Predictions · Resolve Last Prediction by Title",
+      "status": "mapped"
+    },
+    "twitch/raid/cancel-raid": {
+      "path": "Twitch · Raid · Cancel Raid",
+      "status": "mapped"
+    },
+    "twitch/raid/start-raid": {
+      "path": "Twitch · Raid · Start Raid",
+      "status": "mapped"
+    },
+    "twitch/rewards/configure-rewards": {
+      "path": "Twitch · Rewards · Configure Rewards",
+      "status": "mapped"
+    },
+    "twitch/rewards/get-reward-info": {
+      "path": "Twitch · Rewards · Get Reward Info",
+      "status": "mapped"
+    },
+    "twitch/rewards/reset-reward-counter": {
+      "path": "Twitch · Rewards · Reset Reward Counter",
+      "status": "mapped"
+    },
+    "twitch/rewards/reset-reward-user-counters": {
+      "path": "Twitch · Rewards · Reset Reward User Counters",
+      "status": "mapped"
+    },
+    "twitch/rewards/set-background-color": {
+      "path": "Twitch · Rewards · Set Background Color",
+      "status": "mapped"
+    },
+    "twitch/rewards/set-cost": {
+      "path": "Twitch · Rewards · Set Cost",
+      "status": "mapped"
+    },
+    "twitch/rewards/set-enabled-state": {
+      "path": "Twitch · Rewards · Set Enabled State",
+      "status": "mapped"
+    },
+    "twitch/rewards/set-global-cooldown": {
+      "path": "Twitch · Rewards · Set Global Cooldown",
+      "status": "mapped"
+    },
+    "twitch/rewards/set-group-enabled-state": {
+      "path": "Twitch · Rewards · Set Group Enabled State",
+      "status": "mapped"
+    },
+    "twitch/rewards/set-group-paused-state": {
+      "path": "Twitch · Rewards · Set Group Paused State",
+      "status": "mapped"
+    },
+    "twitch/rewards/set-max-per-stream": {
+      "path": "Twitch · Rewards · Set Max Per Stream",
+      "status": "mapped"
+    },
+    "twitch/rewards/set-max-per-user-per-stream": {
+      "path": "Twitch · Rewards · Set Max per User Per Stream",
+      "status": "mapped"
+    },
+    "twitch/rewards/set-paused-state": {
+      "path": "Twitch · Rewards · Set Paused State",
+      "status": "mapped"
+    },
+    "twitch/rewards/set-prompt": {
+      "path": "Twitch · Rewards · Set Prompt",
+      "status": "mapped"
+    },
+    "twitch/rewards/set-title": {
+      "path": "Twitch · Rewards · Set Title",
+      "status": "mapped"
+    },
+    "twitch/rewards/update": {
+      "path": "Twitch · Rewards · Update",
+      "status": "mapped"
+    },
+    "twitch/rewards/update-redemption-status": {
+      "path": "Twitch · Rewards · Update Redemption Status",
+      "status": "mapped"
+    },
+    "twitch/sub-counter/get-twitch-sub-counter-count": {
+      "path": "Twitch · Sub Counter · Get Twitch Sub Counter Count",
+      "status": "mapped"
+    },
+    "twitch/sub-counter/set-twitch-sub-counter-count": {
+      "path": "Twitch · Sub Counter · Set Twitch Sub Counter Count",
+      "status": "mapped"
+    },
+    "twitch/subscribers/get-latest-subscriber": {
+      "path": "Twitch · Subscribers · Get Latest Subscriber",
+      "status": "mapped"
+    },
+    "twitch/subscribers/get-subscriber-count": {
+      "path": "Twitch · Subscribers · Get Subscriber Count",
+      "status": "mapped"
+    },
+    "twitch/tags/add-channel-tag": {
+      "path": "Twitch · Tags · Add Channel Tag",
+      "status": "mapped"
+    },
+    "twitch/tags/clear-channel-tags": {
+      "path": "Twitch · Tags · Clear Channel Tags",
+      "status": "mapped"
+    },
+    "twitch/tags/remove-channel-tag": {
+      "path": "Twitch · Tags · Remove Channel Tag",
+      "status": "mapped"
+    },
+    "twitch/tags/set-channel-tags": {
+      "path": "Twitch · Tags · Set Channel Tags",
+      "status": "mapped"
+    },
+    "twitch/user-groups/add-user-to-group": {
+      "path": "Twitch · User Groups · Add User To Group",
+      "status": "mapped"
+    },
+    "twitch/user-groups/remove-user-from-group": {
+      "path": "Twitch · User Groups · Remove User From Group",
+      "status": "mapped"
+    },
+    "twitch/user-groups/user-in-group": {
+      "path": "Twitch · User Groups · User in Group",
+      "status": "mapped"
+    },
+    "twitch/user/add-broadcaster-information": {
+      "path": "Twitch · User · Add Broadcaster Information",
+      "status": "mapped"
+    },
+    "twitch/user/add-present-user": {
+      "path": "Twitch · User · Add Present User",
+      "status": "mapped"
+    },
+    "twitch/user/add-random-users": {
+      "path": "Twitch · User · Add Random Users",
+      "status": "mapped"
+    },
+    "twitch/user/get-team-info-for-target": {
+      "path": "Twitch · User · Get Team Info For Target",
+      "status": "mapped"
+    },
+    "twitch/user/get-user-info-for-target": {
+      "path": "Twitch · User · Get User Info for Target",
+      "status": "mapped"
+    },
+    "elgato/camera-hub/epoccam/set-ar-lens": {
+      "path": "Elgato · Camera Hub · Epoccam · EpocCam Set AR Lens",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/epoccam/set-bitrate": {
+      "path": "Elgato · Camera Hub · Epoccam · EpocCam Set Bitrate",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/epoccam/set-camera": {
+      "path": "Elgato · Camera Hub · Epoccam · EpocCam Set Camera",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/epoccam/set-flash-mode": {
+      "path": "Elgato · Camera Hub · Epoccam · EpocCam Set Flash Mode",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/prompter/fast-forward-chapter": {
+      "path": "Elgato · Camera Hub · Prompter · Prompter Fast Forward Chapter",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/prompter/get-selected-script": {
+      "path": "Elgato · Camera Hub · Prompter · Prompter Get Selected Script",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/prompter/rewind-chapter": {
+      "path": "Elgato · Camera Hub · Prompter · Prompter Rewind Chapter",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/prompter/set-auto-scroll-state": {
+      "path": "Elgato · Camera Hub · Prompter · Prompter Set Auto Scroll",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/prompter/set-brightness": {
+      "path": "Elgato · Camera Hub · Prompter · Prompter Set Brightness",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/prompter/set-chapter": {
+      "path": "Elgato · Camera Hub · Prompter · Set Chapter",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/prompter/set-crosshair-image": {
+      "path": "Elgato · Camera Hub · Prompter · Prompter Set Crosshair Image",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/prompter/set-crosshair-state": {
+      "path": "Elgato · Camera Hub · Prompter · Set Crosshair State",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/prompter/set-font": {
+      "path": "Elgato · Camera Hub · Prompter · Prompter Set Font",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/prompter/set-font-size": {
+      "path": "Elgato · Camera Hub · Prompter · Prompter Set Font Size",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/prompter/set-horizontal-margin": {
+      "path": "Elgato · Camera Hub · Prompter · Prompter Set Horizontal Margin",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/prompter/set-line-spacing": {
+      "path": "Elgato · Camera Hub · Prompter · Prompter Set Line Spacing",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/prompter/set-mode": {
+      "path": "Elgato · Camera Hub · Prompter · Prompter Set Mode",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/prompter/set-opacity": {
+      "path": "Elgato · Camera Hub · Prompter · Prompter Set Opacity",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/prompter/set-script": {
+      "path": "Elgato · Camera Hub · Prompter · Set Script",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/prompter/set-vertical-margin": {
+      "path": "Elgato · Camera Hub · Prompter · Prompter Set Vertical Margin",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/set-anti-flicker": {
+      "path": "Elgato · Camera Hub · Webcam · Webcam Set Anti Flicker",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/set-auto-white-balance": {
+      "path": "Elgato · Camera Hub · Webcam · Webcam Set Auto White Balance",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/set-brightness": {
+      "path": "Elgato · Camera Hub · Webcam · Webcam Set Brightness",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/set-contrast": {
+      "path": "Elgato · Camera Hub · Webcam · Webcam Set Contrast",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/set-dynamic-range": {
+      "path": "Elgato · Camera Hub · Webcam · Webcam Set Dynamic Range",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/set-focus": {
+      "path": "Elgato · Camera Hub · Webcam · Webcam Set Focus",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/set-noise-reduction": {
+      "path": "Elgato · Camera Hub · Webcam · Webcam Set Noise Reduction",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/set-pan": {
+      "path": "Elgato · Camera Hub · Webcam · Webcam Set Pan",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/set-saturation": {
+      "path": "Elgato · Camera Hub · Webcam · Webcam Set Saturation",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/set-sharpness": {
+      "path": "Elgato · Camera Hub · Webcam · Webcam Set Sharpness",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/set-tilt": {
+      "path": "Elgato · Camera Hub · Webcam · Webcam Set Tilt",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/set-white-balance": {
+      "path": "Elgato · Camera Hub · Webcam · Webcam Set White Balance",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/set-white-balance-tint": {
+      "path": "Elgato · Camera Hub · Webcam · Webcam Set White Balance Tint",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/set-zoom": {
+      "path": "Elgato · Camera Hub · Webcam · Webcam Set Zoom",
+      "status": "Fehlt"
+    },
+    "elgato/control-center/brightness/set-brightness": {
+      "path": "Elgato · Control Center · Brightness · Set Brightness",
+      "status": "Fehlt"
+    },
+    "elgato/control-center/power/set-power-state": {
+      "path": "Elgato · Control Center · Power · Set Power State",
+      "status": "Fehlt"
+    },
+    "elgato/control-center/temperature/set-temperature": {
+      "path": "Elgato · Control Center · Temperature · Set Temperature",
+      "status": "Fehlt"
+    },
+    "elgato/stream-deck/execute-mcp-action": {
+      "path": "Elgato · Stream Deck · Execute MCP Action",
+      "status": "Nicht verfügbar mit der eingerichteten OpenDeck-2.14.1-Gegenstelle",
+      "note": "Elgato MCP Server ist veröffentlicht, unterstützt offiziell Windows/macOS und benötigt eine MCP-fähige Elgato-Anwendung. Kein kompatibler lokaler Endpunkt eingerichtet; kein vollständiger Abschluss behauptet."
+    },
+    "elgato/stream-deck/set-background": {
+      "path": "Elgato · Stream Deck · Set Background",
+      "status": "Nativ angebunden (eigenes Studio-Plugin)"
+    },
+    "elgato/stream-deck/set-state": {
+      "path": "Elgato · Stream Deck · Set State",
+      "status": "Nativ angebunden (eigenes Studio-Plugin)"
+    },
+    "elgato/stream-deck/set-title": {
+      "path": "Elgato · Stream Deck · Set Title",
+      "status": "Nativ angebunden (eigenes Studio-Plugin)"
+    },
+    "elgato/stream-deck/set-value": {
+      "path": "Elgato · Stream Deck · Set Value",
+      "status": "Nativ angebunden (eigenes Studio-Plugin)"
+    },
+    "elgato/stream-deck/show-alert": {
+      "path": "Elgato · Stream Deck · Show Alert",
+      "status": "Nativ angebunden (eigenes Studio-Plugin)"
+    },
+    "elgato/stream-deck/show-ok": {
+      "path": "Elgato · Stream Deck · Show OK",
+      "status": "Nativ angebunden (eigenes Studio-Plugin)"
+    },
+    "elgato/stream-deck/toggle-state": {
+      "path": "Elgato · Stream Deck · Toggle State",
+      "status": "Nativ angebunden (eigenes Studio-Plugin)"
+    },
+    "elgato/studio/open-storage-location": {
+      "path": "Elgato · Studio · Open Storage Location",
+      "status": "Fehlt"
+    },
+    "elgato/studio/preview/get-preview-info": {
+      "path": "Elgato · Studio · Preview · Get Preview Info",
+      "status": "Fehlt"
+    },
+    "elgato/studio/preview/set-preview-fullscreen-state": {
+      "path": "Elgato · Studio · Preview · Set Preview Fullscreen State",
+      "status": "Fehlt"
+    },
+    "elgato/studio/preview/set-preview-mute-state": {
+      "path": "Elgato · Studio · Preview · Set Preview Mute State",
+      "status": "Fehlt"
+    },
+    "elgato/studio/preview/set-preview-volume": {
+      "path": "Elgato · Studio · Preview · Set Preview Volume",
+      "status": "Fehlt"
+    },
+    "elgato/studio/recording/get-last-recording-info": {
+      "path": "Elgato · Studio · Recording · Get Last Recording Info",
+      "status": "Fehlt"
+    },
+    "elgato/studio/recording/get-recording-info": {
+      "path": "Elgato · Studio · Recording · Get Recording Info",
+      "status": "Fehlt"
+    },
+    "elgato/studio/recording/set-recording-state": {
+      "path": "Elgato · Studio · Recording · Set Recording State",
+      "status": "Fehlt"
+    },
+    "elgato/studio/take-snapshot": {
+      "path": "Elgato · Studio · Take Snapshot",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link-3/channels/add-application-to-channel": {
+      "path": "Elgato · Wave Link 3 · Channels · Add Application To Channel",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link-3/channels/adjust-channel-volume": {
+      "path": "Elgato · Wave Link 3 · Channels · Adjust Channel Volume",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link-3/channels/get-channel-information": {
+      "path": "Elgato · Wave Link 3 · Channels · Get Channel Information",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link-3/channels/mute-channel": {
+      "path": "Elgato · Wave Link 3 · Channels · Mute Channel",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link-3/channels/set-channel-effect-state": {
+      "path": "Elgato · Wave Link 3 · Channels · Set Channel Effect State",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link-3/channels/set-channel-mix-mute": {
+      "path": "Elgato · Wave Link 3 · Channels · Set Channel Mix Mute",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link-3/channels/set-channel-volume": {
+      "path": "Elgato · Wave Link 3 · Channels · Set Channel Volume",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link-3/inputs/get-input-device-information": {
+      "path": "Elgato · Wave Link 3 · Inputs · Get Input Device Information",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link-3/inputs/mute-input-device": {
+      "path": "Elgato · Wave Link 3 · Inputs · Mute Input Device",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link-3/inputs/set-input-clipguard-state": {
+      "path": "Elgato · Wave Link 3 · Inputs · Set Input Clipguard State",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link-3/inputs/set-input-gain": {
+      "path": "Elgato · Wave Link 3 · Inputs · Set Input Gain",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link-3/inputs/set-input-gain-lock-state": {
+      "path": "Elgato · Wave Link 3 · Inputs · Set Input Gain Lock State",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link-3/inputs/set-input-low-cut-filter": {
+      "path": "Elgato · Wave Link 3 · Inputs · Set Input Low Cut Filter",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link-3/inputs/set-mic-pc-balance": {
+      "path": "Elgato · Wave Link 3 · Inputs · Set Mic Pc Balance",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link-3/mixes/adjust-mix-volume": {
+      "path": "Elgato · Wave Link 3 · Mixes · Adjust Mix Volume",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link-3/mixes/get-mix-information": {
+      "path": "Elgato · Wave Link 3 · Mixes · Get Mix Information",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link-3/mixes/set-mix-volume": {
+      "path": "Elgato · Wave Link 3 · Mixes · Set Mix Volume",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link-3/outputs/add-output-device-to-mix": {
+      "path": "Elgato · Wave Link 3 · Outputs · Add Output Device To Mix",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link-3/outputs/get-selected-output-device": {
+      "path": "Elgato · Wave Link 3 · Outputs · Get Selected Output Device",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link-3/outputs/set-monitored-mix": {
+      "path": "Elgato · Wave Link 3 · Outputs · Set Monitored Mix",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link-3/outputs/set-output-volume": {
+      "path": "Elgato · Wave Link 3 · Outputs · Set Output Volume",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link/get-filter-state": {
+      "path": "Elgato · Wave Link · Get Filter State",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link/get-input-information": {
+      "path": "Elgato · Wave Link · Get Input Information",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link/get-microphone-information": {
+      "path": "Elgato · Wave Link · Get Microphone Information",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link/get-output-volumes": {
+      "path": "Elgato · Wave Link · Get Output Volumes",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link/get-selected-output": {
+      "path": "Elgato · Wave Link · Get Selected Output",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link/mute-input": {
+      "path": "Elgato · Wave Link · Mute Input",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link/mute-microphone": {
+      "path": "Elgato · Wave Link · Mute Microphone",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link/mute-output": {
+      "path": "Elgato · Wave Link · Mute Output",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link/set-filter-bypass-state": {
+      "path": "Elgato · Wave Link · Set Filter Bypass State",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link/set-filter-state": {
+      "path": "Elgato · Wave Link · Set Filter State",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link/set-input-volume": {
+      "path": "Elgato · Wave Link · Set Input Volume",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link/set-microphone-balance": {
+      "path": "Elgato · Wave Link · Set Microphone Balance",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link/set-microphone-gain": {
+      "path": "Elgato · Wave Link · Set Microphone Gain",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link/set-microphone-output-volume": {
+      "path": "Elgato · Wave Link · Set Microphone Output Volume",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link/set-output-monitor-device": {
+      "path": "Elgato · Wave Link · Set Output Monitor Device",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link/set-output-volume": {
+      "path": "Elgato · Wave Link · Set Output Volume",
+      "status": "Fehlt"
+    },
+    "integrations/discord/basic-webhook": {
+      "path": "Integrations · Discord · Basic Webhook",
+      "status": "Nativ"
+    },
+    "integrations/ifttt/notification-advanced": {
+      "path": "Integrations · Ifttt · Notification Advanced",
+      "status": "Fehlt"
+    },
+    "integrations/ifttt/notification-basic": {
+      "path": "Integrations · Ifttt · Notification Basic",
+      "status": "Fehlt"
+    },
+    "integrations/lumia-stream/send-command": {
+      "path": "Integrations · Lumia Stream · Send Command",
+      "status": "Fehlt"
+    },
+    "integrations/lumia-stream/set-color": {
+      "path": "Integrations · Lumia Stream · Set Color",
+      "status": "Fehlt"
+    },
+    "integrations/lumia-stream/set-to-default": {
+      "path": "Integrations · Lumia Stream · Set to Default",
+      "status": "Fehlt"
+    },
+    "integrations/mtion/get-active-clubhouse": {
+      "path": "Integrations · Mtion · Get Active Clubhouse",
+      "status": "Fehlt"
+    },
+    "integrations/mtion/send-trigger": {
+      "path": "Integrations · Mtion · Sends Trigger",
+      "status": "Fehlt"
+    },
+    "integrations/obsbot/gimbal/move-gimbal-down": {
+      "path": "Integrations · Obsbot · Gimbal · Move Gimbal Down",
+      "status": "Fehlt"
+    },
+    "integrations/obsbot/gimbal/move-gimbal-left": {
+      "path": "Integrations · Obsbot · Gimbal · Move Gimbal Left",
+      "status": "Fehlt"
+    },
+    "integrations/obsbot/gimbal/move-gimbal-right": {
+      "path": "Integrations · Obsbot · Gimbal · Move Gimbal Right",
+      "status": "Fehlt"
+    },
+    "integrations/obsbot/gimbal/move-gimbal-up": {
+      "path": "Integrations · Obsbot · Gimbal · Move Gimbal Up",
+      "status": "Fehlt"
+    },
+    "integrations/obsbot/gimbal/reset-gimbal": {
+      "path": "Integrations · Obsbot · Gimbal · Reset Gimbal",
+      "status": "Fehlt"
+    },
+    "integrations/obsbot/gimbal/set-gimbal-position": {
+      "path": "Integrations · Obsbot · Gimbal · Set Gimbal Position",
+      "status": "Fehlt"
+    },
+    "integrations/obsbot/power/set-sleep-state": {
+      "path": "Integrations · Obsbot · Power · Set Sleep State",
+      "status": "Fehlt"
+    },
+    "integrations/obsbot/take-snapshot": {
+      "path": "Integrations · Obsbot · Take Snapshot",
+      "status": "Fehlt"
+    },
+    "integrations/obsbot/zoom/max": {
+      "path": "Integrations · Obsbot · Zoom · Max",
+      "status": "Fehlt"
+    },
+    "integrations/obsbot/zoom/min": {
+      "path": "Integrations · Obsbot · Zoom · Min",
+      "status": "Fehlt"
+    },
+    "integrations/obsbot/zoom/set-zoom-level": {
+      "path": "Integrations · Obsbot · Zoom · Set Zoom Level",
+      "status": "Fehlt"
+    },
+    "integrations/pronouns/add-pronouns-for-user": {
+      "path": "Integrations · Pronouns · Add Pronouns for User",
+      "status": "Fehlt"
+    },
+    "integrations/streamfog/backgrounds/play-video-background": {
+      "path": "Integrations · Streamfog · Backgrounds · Play Video Background",
+      "status": "Fehlt"
+    },
+    "integrations/streamfog/backgrounds/play-video-background-by-name": {
+      "path": "Integrations · Streamfog · Backgrounds · Play Video Background By Name",
+      "status": "Fehlt"
+    },
+    "integrations/streamfog/lenses/activate-lens": {
+      "path": "Integrations · Streamfog · Lenses · Activate Lens",
+      "status": "Fehlt"
+    },
+    "integrations/streamfog/lenses/activate-lens-by-name": {
+      "path": "Integrations · Streamfog · Lenses · Activate Lens by Name",
+      "status": "Fehlt"
+    },
+    "integrations/streamfog/lenses/deactivate-lens": {
+      "path": "Integrations · Streamfog · Lenses · Deactivate Lens",
+      "status": "Fehlt"
+    },
+    "integrations/streamfog/outfits/activate-outfit": {
+      "path": "Integrations · Streamfog · Outfits · Activate Outfit",
+      "status": "Fehlt"
+    },
+    "integrations/streamfog/outfits/activate-outfit-by-name": {
+      "path": "Integrations · Streamfog · Outfits · Activate Outfit by Name",
+      "status": "Fehlt"
+    },
+    "integrations/streamfog/outfits/reset-look": {
+      "path": "Integrations · Streamfog · Outfits · Reset Look",
+      "status": "Fehlt"
+    },
+    "integrations/streamlabs/spin-wheel": {
+      "path": "Integrations · Streamlabs · Spin Wheel",
+      "status": "Fehlt"
+    },
+    "integrations/tits/activate-trigger": {
+      "path": "Integrations · Tits · Activate Trigger",
+      "status": "Fehlt"
+    },
+    "integrations/tits/activate-trigger-by-name": {
+      "path": "Integrations · Tits · Activate Trigger by Name",
+      "status": "Fehlt"
+    },
+    "integrations/tits/throw-item": {
+      "path": "Integrations · Tits · Throw Item",
+      "status": "Fehlt"
+    },
+    "integrations/tits/throw-item-by-name": {
+      "path": "Integrations · Tits · Throw Item by Name",
+      "status": "Fehlt"
+    },
+    "integrations/tits/throw-items": {
+      "path": "Integrations · Tits · Throw Items",
+      "status": "Fehlt"
+    },
+    "integrations/tits/throw-items-by-name": {
+      "path": "Integrations · Tits · Throw Items by Name",
+      "status": "Fehlt"
+    },
+    "integrations/voicemod/get-current-voice": {
+      "path": "Integrations · Voicemod · Get Current Voice",
+      "status": "Fehlt"
+    },
+    "integrations/voicemod/play-sound": {
+      "path": "Integrations · Voicemod · Play Sound",
+      "status": "Fehlt"
+    },
+    "integrations/voicemod/select-random-voice": {
+      "path": "Integrations · Voicemod · Select Random Voice",
+      "status": "Fehlt"
+    },
+    "integrations/voicemod/select-voice": {
+      "path": "Integrations · Voicemod · Select Voice",
+      "status": "Fehlt"
+    },
+    "integrations/voicemod/select-voice-by-id": {
+      "path": "Integrations · Voicemod · Select Voice By ID",
+      "status": "Fehlt"
+    },
+    "integrations/voicemod/select-voice-by-name": {
+      "path": "Integrations · Voicemod · Select Voice By Name",
+      "status": "Fehlt"
+    },
+    "integrations/voicemod/set-background-effect-state": {
+      "path": "Integrations · Voicemod · Set Background Effect State",
+      "status": "Fehlt"
+    },
+    "integrations/voicemod/set-censor-state": {
+      "path": "Integrations · Voicemod · Set Censor State",
+      "status": "Fehlt"
+    },
+    "integrations/voicemod/set-hear-my-voice-state": {
+      "path": "Integrations · Voicemod · Set Hear My Voice State",
+      "status": "Fehlt"
+    },
+    "integrations/voicemod/set-mute-state": {
+      "path": "Integrations · Voicemod · Set Mute State",
+      "status": "Fehlt"
+    },
+    "integrations/voicemod/set-voice-changer-state": {
+      "path": "Integrations · Voicemod · Set Voice Changer State",
+      "status": "Fehlt"
+    },
+    "integrations/voicemod/stop-all-sounds": {
+      "path": "Integrations · Voicemod · Stop All Sounds",
+      "status": "Fehlt"
+    },
+    "integrations/vtube-studio/color-tint": {
+      "path": "Integrations · Vtube Studio · Color Tint",
+      "status": "Fehlt"
+    },
+    "integrations/vtube-studio/get-current-model": {
+      "path": "Integrations · Vtube Studio · Get Current Model",
+      "status": "Fehlt"
+    },
+    "integrations/vtube-studio/load-model": {
+      "path": "Integrations · Vtube Studio · Load Model",
+      "status": "Fehlt"
+    },
+    "integrations/vtube-studio/load-model-by-name": {
+      "path": "Integrations · Vtube Studio · Load Model by Name",
+      "status": "Fehlt"
+    },
+    "integrations/vtube-studio/move-model": {
+      "path": "Integrations · Vtube Studio · Move Model",
+      "status": "Fehlt"
+    },
+    "integrations/vtube-studio/reset-all-color-tints": {
+      "path": "Integrations · Vtube Studio · Reset All Color Tints",
+      "status": "Fehlt"
+    },
+    "integrations/vtube-studio/send-raw-request": {
+      "path": "Integrations · Vtube Studio · Send Raw Request",
+      "status": "Fehlt"
+    },
+    "integrations/vtube-studio/set-expression-state": {
+      "path": "Integrations · Vtube Studio · Set Expression State",
+      "status": "Fehlt"
+    },
+    "integrations/vtube-studio/trigger-hotkey": {
+      "path": "Integrations · Vtube Studio · Trigger Hotkey",
+      "status": "Fehlt"
+    },
+    "integrations/vtube-studio/trigger-hotkey-by-name": {
+      "path": "Integrations · Vtube Studio · Trigger Hotkey by Name",
+      "status": "Fehlt"
+    },
+    "kick/channel/set-channel-category": {
+      "path": "Kick · Channel · Set Channel Category",
+      "status": "Fehlt"
+    },
+    "kick/channel/set-channel-title": {
+      "path": "Kick · Channel · Set Channel Title",
+      "status": "Fehlt"
+    },
+    "kick/chat/reply-to-message": {
+      "path": "Kick · Chat · Reply to Message",
+      "status": "Fehlt"
+    },
+    "kick/chat/send-message-to-channel": {
+      "path": "Kick · Chat · Send Message",
+      "status": "Fehlt"
+    },
+    "kick/moderation/ban-user": {
+      "path": "Kick · Moderation · Ban User",
+      "status": "Fehlt"
+    },
+    "kick/moderation/timeout-user": {
+      "path": "Kick · Moderation · Timeout User",
+      "status": "Fehlt"
+    },
+    "kick/moderation/unban-user": {
+      "path": "Kick · Moderation · Unban User",
+      "status": "Fehlt"
+    },
+    "kick/moderation/untimeout-user": {
+      "path": "Kick · Moderation · UnTimeout User",
+      "status": "Fehlt"
+    },
+    "kick/rewards/configure-rewards": {
+      "path": "Kick · Rewards · Configure Rewards",
+      "status": "Fehlt"
+    },
+    "kick/rewards/get-reward-info": {
+      "path": "Kick · Rewards · Get Reward Info",
+      "status": "Fehlt"
+    },
+    "kick/rewards/reset-reward-counter": {
+      "path": "Kick · Rewards · Reset Reward Counter",
+      "status": "Fehlt"
+    },
+    "kick/rewards/reset-reward-user-counters": {
+      "path": "Kick · Rewards · Reset Reward User Counters",
+      "status": "Fehlt"
+    },
+    "kick/rewards/set-background-color": {
+      "path": "Kick · Rewards · Set Background Color",
+      "status": "Fehlt"
+    },
+    "kick/rewards/set-cost": {
+      "path": "Kick · Rewards · Set Cost",
+      "status": "Fehlt"
+    },
+    "kick/rewards/set-description": {
+      "path": "Kick · Rewards · Set Description",
+      "status": "Fehlt"
+    },
+    "kick/rewards/set-enabled-state": {
+      "path": "Kick · Rewards · Set Enabled State",
+      "status": "Fehlt"
+    },
+    "kick/rewards/set-group-enabled-state": {
+      "path": "Kick · Rewards · Set Group Enabled State",
+      "status": "Fehlt"
+    },
+    "kick/rewards/set-group-paused-state": {
+      "path": "Kick · Rewards · Set Group Paused State",
+      "status": "Fehlt"
+    },
+    "kick/rewards/set-paused-state": {
+      "path": "Kick · Rewards · Set Paused State",
+      "status": "Fehlt"
+    },
+    "kick/rewards/set-title": {
+      "path": "Kick · Rewards · Set Title",
+      "status": "Fehlt"
+    },
+    "kick/rewards/update": {
+      "path": "Kick · Rewards · Update",
+      "status": "Fehlt"
+    },
+    "kick/user-groups/add-user-to-group": {
+      "path": "Kick · User Groups · Add User To Group",
+      "status": "Fehlt"
+    },
+    "kick/user-groups/remove-user-from-group": {
+      "path": "Kick · User Groups · Remove User From Group",
+      "status": "Fehlt"
+    },
+    "kick/user-groups/user-in-group": {
+      "path": "Kick · User Groups · User in Group",
+      "status": "Fehlt"
+    },
+    "kick/user/add-broadcaster-information": {
+      "path": "Kick · User · Add Broadcaster Information",
+      "status": "Fehlt"
+    },
+    "kick/user/add-random-users": {
+      "path": "Kick · User · Add Random Users",
+      "status": "Fehlt"
+    },
+    "kick/user/get-user-info-for-target": {
+      "path": "Kick · User · Get User Info for Target Info",
+      "status": "Fehlt"
+    },
+    "meld-studio/effects/set-effect-enabled-state": {
+      "path": "Meld Studio · Effects · Set Effect Enabled State",
+      "status": "Fehlt"
+    },
+    "meld-studio/get-current-scene": {
+      "path": "Meld Studio · Get Current Scene",
+      "status": "Fehlt"
+    },
+    "meld-studio/get-status": {
+      "path": "Meld Studio · Get Status",
+      "status": "Fehlt"
+    },
+    "meld-studio/layers/set-browser-layer-url": {
+      "path": "Meld Studio · Layers · Set Browser Layer Url",
+      "status": "Fehlt"
+    },
+    "meld-studio/layers/set-layer-visibility-state": {
+      "path": "Meld Studio · Layers · Set Layer Visibility State",
+      "status": "Fehlt"
+    },
+    "meld-studio/layers/set-media-layer-source": {
+      "path": "Meld Studio · Layers · Set Media Layer Source",
+      "status": "Fehlt"
+    },
+    "meld-studio/layers/set-text": {
+      "path": "Meld Studio · Layers · Set Text",
+      "status": "Fehlt"
+    },
+    "meld-studio/record-clip": {
+      "path": "Meld Studio · Record Clip",
+      "status": "Fehlt"
+    },
+    "meld-studio/recording": {
+      "path": "Meld Studio · Recording",
+      "status": "Fehlt"
+    },
+    "meld-studio/show-scene": {
+      "path": "Meld Studio · Show Scene",
+      "status": "Fehlt"
+    },
+    "meld-studio/streaming": {
+      "path": "Meld Studio · Streaming",
+      "status": "Fehlt"
+    },
+    "meld-studio/take-screenshot": {
+      "path": "Meld Studio · Take Screenshot",
+      "status": "Fehlt"
+    },
+    "meld-studio/take-vertical-screenshot": {
+      "path": "Meld Studio · Take Vertical Screenshot",
+      "status": "Fehlt"
+    },
+    "meld-studio/tracks/set-layer-track-muted-state": {
+      "path": "Meld Studio · Tracks · Set Layer Track Muted State",
+      "status": "Fehlt"
+    },
+    "meld-studio/tracks/set-track-muted-state": {
+      "path": "Meld Studio · Tracks · Set Track Muted State",
+      "status": "Fehlt"
+    },
+    "polypop/trigger-alert": {
+      "path": "PolyPop · Trigger Alert",
+      "status": "Fehlt"
+    },
+    "settings/pick-color": {
+      "path": "Settings · Pick Color",
+      "status": "Native Unteraktion; Originalparameter-/Importparität offen"
+    },
+    "settings/reset-credits": {
+      "path": "Settings · Reset Credits",
+      "status": "Native Unteraktion; Originalparameter-/Importparität offen"
+    },
+    "settings/reset-first-words": {
+      "path": "Settings · Reset First Words",
+      "status": "Native Unteraktion; Originalparameter-/Importparität offen"
+    },
+    "settings/set-voice-control-input": {
+      "path": "Settings · Set Voice Control Input",
+      "status": "Fehlt"
+    },
+    "speakerbot/activate-voicegate-profile": {
+      "path": "Speaker.bot · Activate VoiceGate Profile",
+      "status": "Fehlt"
+    },
+    "speakerbot/clear-pending": {
+      "path": "Speaker.bot · Clear Pending",
+      "status": "Fehlt"
+    },
+    "speakerbot/set-enabled-state": {
+      "path": "Speaker.bot · Set Enabled State",
+      "status": "Fehlt"
+    },
+    "speakerbot/set-paused-state": {
+      "path": "Speaker.bot · Set Paused State",
+      "status": "Fehlt"
+    },
+    "speakerbot/speak": {
+      "path": "Speaker.bot · Speak",
+      "status": "Fehlt"
+    },
+    "speakerbot/speak-udp": {
+      "path": "Speaker.bot · Speak (UDP)",
+      "status": "Fehlt"
+    },
+    "speakerbot/stop-speaking": {
+      "path": "Speaker.bot · Stop Speaking",
+      "status": "Fehlt"
+    },
+    "streamerbot/decks/deck-notify": {
+      "path": "Streamer.bot · Decks · Deck Notify",
+      "status": "Native StreamerMod-Umsetzung (OpenDeck/direkt); Original-Website-Protokoll nicht unterstützt"
+    },
+    "streamerbot/decks/item-set-background": {
+      "path": "Streamer.bot · Decks · Item Set Background",
+      "status": "Native StreamerMod-Umsetzung (OpenDeck/direkt); Original-Website-Protokoll nicht unterstützt"
+    },
+    "streamerbot/decks/item-set-icon": {
+      "path": "Streamer.bot · Decks · Item Set Icon",
+      "status": "Native StreamerMod-Umsetzung (OpenDeck/direkt); Original-Website-Protokoll nicht unterstützt"
+    },
+    "streamerbot/decks/item-set-state": {
+      "path": "Streamer.bot · Decks · Item Set State",
+      "status": "Native StreamerMod-Umsetzung (OpenDeck/direkt); Original-Website-Protokoll nicht unterstützt"
+    },
+    "streamerbot/decks/item-set-title": {
+      "path": "Streamer.bot · Decks · Item Set Title",
+      "status": "Native StreamerMod-Umsetzung (OpenDeck/direkt); Original-Website-Protokoll nicht unterstützt"
+    },
+    "streamerbot/decks/item-set-value": {
+      "path": "Streamer.bot · Decks · Item Set Value",
+      "status": "Native StreamerMod-Umsetzung (OpenDeck/direkt); Original-Website-Protokoll nicht unterstützt"
+    },
+    "streamerbot/decks/item-toggle-state": {
+      "path": "Streamer.bot · Decks · Item Toggle State",
+      "status": "Native StreamerMod-Umsetzung (OpenDeck/direkt); Original-Website-Protokoll nicht unterstützt"
+    },
+    "streamerbot/decks/page-next": {
+      "path": "Streamer.bot · Decks · Page Next",
+      "status": "Native StreamerMod-Umsetzung (OpenDeck/direkt); Original-Website-Protokoll nicht unterstützt"
+    },
+    "streamerbot/decks/page-previous": {
+      "path": "Streamer.bot · Decks · Page Previous",
+      "status": "Native StreamerMod-Umsetzung (OpenDeck/direkt); Original-Website-Protokoll nicht unterstützt"
+    },
+    "streamerbot/decks/page-set": {
+      "path": "Streamer.bot · Decks · Page Set",
+      "status": "Native StreamerMod-Umsetzung (OpenDeck/direkt); Original-Website-Protokoll nicht unterstützt"
+    },
+    "streamerbot/remote/send-remote-signal": {
+      "path": "Streamer.bot · Remote · Send Remote Signal",
+      "status": "Native StreamerMod-Umsetzung (OpenDeck/direkt); Original-Website-Protokoll nicht unterstützt"
+    },
+    "streamerbot/remote/send-remote-trigger": {
+      "path": "Streamer.bot · Remote · Send Remote Trigger",
+      "status": "Native StreamerMod-Umsetzung (OpenDeck/direkt); Original-Website-Protokoll nicht unterstützt"
+    },
+    "streamerbot/remote/wait-for-remote-signal": {
+      "path": "Streamer.bot · Remote · Wait For Remote Signal",
+      "status": "Native StreamerMod-Umsetzung (OpenDeck/direkt); Original-Website-Protokoll nicht unterstützt"
+    },
+    "streamlabs-desktop/filters/set-state-of-a-random-filter": {
+      "path": "Streamlabs Desktop · Filters · Set State of a Random Filter",
+      "status": "Fehlt"
+    },
+    "streamlabs-desktop/groups/hide-groups-sources": {
+      "path": "Streamlabs Desktop · Groups · Hide Group's Sources",
+      "status": "Fehlt"
+    },
+    "streamlabs-desktop/groups/set-random-group-source-visible": {
+      "path": "Streamlabs Desktop · Groups · Set Random Group Source Visible",
+      "status": "Fehlt"
+    },
+    "streamlabs-desktop/recording": {
+      "path": "Streamlabs Desktop · Recording",
+      "status": "Fehlt"
+    },
+    "streamlabs-desktop/scenes/get-current-scene": {
+      "path": "Streamlabs Desktop · Scenes · Get Current Scene",
+      "status": "Fehlt"
+    },
+    "streamlabs-desktop/scenes/set-active-scene": {
+      "path": "Streamlabs Desktop · Scenes · Set Active Scene",
+      "status": "Fehlt"
+    },
+    "streamlabs-desktop/scenes/set-scene-filter-state": {
+      "path": "Streamlabs Desktop · Scenes · Set Scene Filter State",
+      "status": "Fehlt"
+    },
+    "streamlabs-desktop/sources/flip-source": {
+      "path": "Streamlabs Desktop · Sources · Flip Source",
+      "status": "Fehlt"
+    },
+    "streamlabs-desktop/sources/hide-sources-filters": {
+      "path": "Streamlabs Desktop · Sources · Hide Source's Filters",
+      "status": "Fehlt"
+    },
+    "streamlabs-desktop/sources/rotate-source": {
+      "path": "Streamlabs Desktop · Sources · Rotate Source",
+      "status": "Fehlt"
+    },
+    "streamlabs-desktop/sources/set-browser-source-url": {
+      "path": "Streamlabs Desktop · Sources · Set Browser Source URL",
+      "status": "Fehlt"
+    },
+    "streamlabs-desktop/sources/set-gdi-text": {
+      "path": "Streamlabs Desktop · Sources · Set GDI Text",
+      "status": "Fehlt"
+    },
+    "streamlabs-desktop/sources/set-source-filter-state": {
+      "path": "Streamlabs Desktop · Sources · Set Source Filter State",
+      "status": "Fehlt"
+    },
+    "streamlabs-desktop/sources/set-source-mute-state": {
+      "path": "Streamlabs Desktop · Sources · Set Source Mute State",
+      "status": "Fehlt"
+    },
+    "streamlabs-desktop/sources/set-source-visibility-state": {
+      "path": "Streamlabs Desktop · Sources · Set Source Visibility State",
+      "status": "Fehlt"
+    },
+    "streamlabs-desktop/streaming": {
+      "path": "Streamlabs Desktop · Streaming",
+      "status": "Fehlt"
+    },
+    "twitch/charity/get-latest-charity-campaign": {
+      "path": "Twitch · Charity · Get Latest Charity Campaign",
+      "status": "Fehlt"
+    },
+    "twitch/chat/clear-chat-messages": {
+      "path": "Twitch · Chat · Clear Chat Messages",
+      "status": "Fehlt"
+    },
+    "twitch/chat/get-pinned-chat-message": {
+      "path": "Twitch · Chat · Get Pinned Chat Message",
+      "status": "Fehlt"
+    },
+    "twitch/chat/pin-chat-message": {
+      "path": "Twitch · Chat · Pin Chat Message",
+      "status": "Fehlt"
+    },
+    "twitch/chat/reply-to-message": {
+      "path": "Twitch · Chat · Reply To Message",
+      "status": "Fehlt"
+    },
+    "twitch/chat/send-announcement-to-channel": {
+      "path": "Twitch · Chat · Send Announcement to Channel",
+      "status": "Fehlt"
+    },
+    "twitch/chat/unpin-chat-message": {
+      "path": "Twitch · Chat · Unpin Chat Message",
+      "status": "Fehlt"
+    },
+    "twitch/chat/updated-pinned-chat-message-duration": {
+      "path": "Twitch · Chat · Updated Pinned Chat Message Duration",
+      "status": "Fehlt"
+    },
+    "twitch/clips/get-clip-download-urls": {
+      "path": "Twitch · Clips · Get Clip Download Urls",
+      "status": "Fehlt"
+    },
+    "twitch/followers/get-follow-age-info-for-target": {
+      "path": "Twitch · Followers · Get Follow Age Info for Target",
+      "status": "Nur Alt-Runtime"
+    },
+    "twitch/guest-star/assign-guest-star-slot": {
+      "path": "Twitch · Guest Star · Assign Guest Star Slot",
+      "status": "Fehlt"
+    },
+    "twitch/guest-star/create-guest-star-session": {
+      "path": "Twitch · Guest Star · Create Guest Star Session",
+      "status": "Fehlt"
+    },
+    "twitch/guest-star/delete-guest-star-invite": {
+      "path": "Twitch · Guest Star · Delete Guest Star Invite",
+      "status": "Fehlt"
+    },
+    "twitch/guest-star/delete-guest-star-slot": {
+      "path": "Twitch · Guest Star · Delete Guest Star Slot",
+      "status": "Fehlt"
+    },
+    "twitch/guest-star/end-guest-star-session": {
+      "path": "Twitch · Guest Star · End Guest Star Session",
+      "status": "Fehlt"
+    },
+    "twitch/guest-star/get-channel-guest-star-settings": {
+      "path": "Twitch · Guest Star · Get Channel Guest Star Settings",
+      "status": "Fehlt"
+    },
+    "twitch/guest-star/get-guest-star-invites": {
+      "path": "Twitch · Guest Star · Get Guest Star Invites",
+      "status": "Fehlt"
+    },
+    "twitch/guest-star/get-guest-star-session": {
+      "path": "Twitch · Guest Star · Get Guest Star Session",
+      "status": "Fehlt"
+    },
+    "twitch/guest-star/send-guest-star-invite": {
+      "path": "Twitch · Guest Star · Send Guest Star Invite",
+      "status": "Fehlt"
+    },
+    "twitch/guest-star/update-channel-guest-star-settings": {
+      "path": "Twitch · Guest Star · Update Channel Guest Star Settings",
+      "status": "Fehlt"
+    },
+    "twitch/guest-star/update-guest-star-slot": {
+      "path": "Twitch · Guest Star · Update Guest Star Slot",
+      "status": "Fehlt"
+    },
+    "twitch/guest-star/update-guest-star-slot-settings": {
+      "path": "Twitch · Guest Star · Update Guest Star Slot Settings",
+      "status": "Fehlt"
+    },
+    "twitch/moderation/add-suspicious-status": {
+      "path": "Twitch · Moderation · Add Suspicious Status",
+      "status": "Fehlt"
+    },
+    "twitch/moderation/remove-suspicious-status": {
+      "path": "Twitch · Moderation · Remove Suspicious Status",
+      "status": "Fehlt"
+    },
+    "twitch/moderation/send-shoutout": {
+      "path": "Twitch · Moderation · Send Shoutout",
+      "status": "Nur Alt-Runtime"
+    },
+    "twitch/moderation/shield/get-shield-mode-status": {
+      "path": "Twitch · Moderation · Shield · Get Shield Mode Status",
+      "status": "Fehlt"
+    },
+    "twitch/moderation/shield/update-shield-mode-status": {
+      "path": "Twitch · Moderation · Shield · Update Shield Mode Status",
+      "status": "Fehlt"
+    },
+    "twitch/moderation/warn-user": {
+      "path": "Twitch · Moderation · Warn User",
+      "status": "Fehlt"
+    },
+    "youtube/moderation/ban-user": {
+      "path": "YouTube · Moderation · Ban User",
+      "status": "Fehlt"
+    },
+    "youtube/moderation/timeout-user": {
+      "path": "YouTube · Moderation · Timeout User",
+      "status": "Fehlt"
+    },
+    "youtube/polls/create-poll": {
+      "path": "YouTube · Polls · Create Poll",
+      "status": "Fehlt"
+    },
+    "youtube/polls/end-poll": {
+      "path": "YouTube · Polls · End Poll",
+      "status": "Fehlt"
+    },
+    "youtube/send-message-to-channel": {
+      "path": "YouTube · Send Message to Channel",
+      "status": "Fehlt"
+    },
+    "youtube/set-description": {
+      "path": "YouTube · Set Description",
+      "status": "Fehlt"
+    },
+    "youtube/set-title": {
+      "path": "YouTube · Set Title",
+      "status": "Fehlt"
+    },
+    "youtube/set-title-and-description": {
+      "path": "YouTube · Set Title And Description",
+      "status": "Fehlt"
+    },
+    "youtube/user-groups/add-user-to-group": {
+      "path": "YouTube · User Groups · Add User to Group",
+      "status": "Fehlt"
+    },
+    "youtube/user-groups/remove-user-from-group": {
+      "path": "YouTube · User Groups · Remove User from Group",
+      "status": "Fehlt"
+    },
+    "youtube/user-groups/user-in-group": {
+      "path": "YouTube · User Groups · User in Group",
+      "status": "Fehlt"
+    },
+    "youtube/user/add-broadcaster-information": {
+      "path": "YouTube · User · Add Broadcaster Information",
+      "status": "Fehlt"
+    }
+  },
+  "triggers": {
+    "core/commands/command-cooldown": {
+      "path": "Core · Commands · Command Cooldown",
+      "status": "mapped"
+    },
+    "core/commands/command-triggered": {
+      "path": "Core · Commands · Command Triggered",
+      "status": "mapped"
+    },
+    "core/file-folder-watcher/changed": {
+      "path": "Core · File/Folder Watcher · Changed",
+      "status": "mapped"
+    },
+    "core/file-folder-watcher/created": {
+      "path": "Core · File/Folder Watcher · Created",
+      "status": "mapped"
+    },
+    "core/file-folder-watcher/deleted": {
+      "path": "Core · File/Folder Watcher · Deleted",
+      "status": "mapped"
+    },
+    "core/file-folder-watcher/renamed": {
+      "path": "Core · File/Folder Watcher · Renamed",
+      "status": "mapped"
+    },
+    "core/file-io/file-tail/changed": {
+      "path": "Core · File I/O · File Tail · Changed",
+      "status": "mapped"
+    },
+    "core/global-variables/global-variable-created": {
+      "path": "Core · Global Variables · Global Variable Created",
+      "status": "mapped"
+    },
+    "core/global-variables/global-variable-deleted": {
+      "path": "Core · Global Variables · Global Variable Deleted",
+      "status": "mapped"
+    },
+    "core/global-variables/global-variable-updated": {
+      "path": "Core · Global Variables · Global Variable Updated",
+      "status": "mapped"
+    },
+    "core/global-variables/user-global-variable-updated": {
+      "path": "Core · Global Variables · User Global Variable Updated",
+      "status": "mapped"
+    },
+    "core/groups/added": {
+      "path": "Core · Groups · Added",
+      "status": "mapped"
+    },
+    "core/groups/cleared": {
+      "path": "Core · Groups · Cleared",
+      "status": "mapped"
+    },
+    "core/groups/removed": {
+      "path": "Core · Groups · Removed",
+      "status": "mapped"
+    },
+    "core/groups/users-added": {
+      "path": "Core · Groups · Users Added",
+      "status": "mapped"
+    },
+    "core/groups/users-removed": {
+      "path": "Core · Groups · Users Removed",
+      "status": "mapped"
+    },
+    "core/inputs/controller-axis": {
+      "path": "Core · Inputs · Controller Axis",
+      "status": "mapped"
+    },
+    "core/inputs/controller-button": {
+      "path": "Core · Inputs · Controller Button",
+      "status": "mapped"
+    },
+    "core/inputs/controller-hat": {
+      "path": "Core · Inputs · Controller Hat",
+      "status": "mapped"
+    },
+    "core/inputs/key-press": {
+      "path": "Core · Inputs · Key Press",
+      "status": "mapped"
+    },
+    "core/inputs/mouse-click": {
+      "path": "Core · Inputs · Mouse Click",
+      "status": "mapped"
+    },
+    "core/midi/message": {
+      "path": "Core · MIDI · Message",
+      "status": "mapped"
+    },
+    "core/processes/process-started": {
+      "path": "Core · Processes · Process Started",
+      "status": "mapped"
+    },
+    "core/processes/process-stopped": {
+      "path": "Core · Processes · Process Stopped",
+      "status": "mapped"
+    },
+    "core/quotes/quote-added": {
+      "path": "Core · Quotes · Quote Added",
+      "status": "mapped"
+    },
+    "core/quotes/show-quote": {
+      "path": "Core · Quotes · Show Quote",
+      "status": "mapped"
+    },
+    "core/schedule/cron": {
+      "path": "Core · Schedule · Cron",
+      "status": "mapped"
+    },
+    "core/schedule/timed-actions": {
+      "path": "Core · Schedule · Timed Actions",
+      "status": "mapped"
+    },
+    "core/streamerbot-started": {
+      "path": "Core · Streamer.bot Started",
+      "status": "mapped"
+    },
+    "core/system/clipboard-changed": {
+      "path": "Core · System · Clipboard Changed",
+      "status": "mapped"
+    },
+    "core/system/toast-activation": {
+      "path": "Core · System · Toast Activation",
+      "status": "mapped"
+    },
+    "core/test": {
+      "path": "Core · Test",
+      "status": "mapped"
+    },
+    "core/voice-control/command": {
+      "path": "Core · Voice Control · Command",
+      "status": "mapped"
+    },
+    "core/voice-control/dictation": {
+      "path": "Core · Voice Control · Dictation",
+      "status": "mapped"
+    },
+    "core/voice-control/log": {
+      "path": "Core · Voice Control · Log",
+      "status": "mapped"
+    },
+    "core/websocket/client/websocket-client-closed": {
+      "path": "Core · WebSocket · Client · Websocket Client Closed",
+      "status": "mapped"
+    },
+    "core/websocket/client/websocket-client-message": {
+      "path": "Core · WebSocket · Client · Websocket Client Message",
+      "status": "mapped"
+    },
+    "core/websocket/client/websocket-client-opened": {
+      "path": "Core · WebSocket · Client · Websocket Client Opened",
+      "status": "mapped"
+    },
+    "core/websocket/custom-server/connection-closed": {
+      "path": "Core · WebSocket · Custom Server · WebSocket Custom Server Connection Closed",
+      "status": "mapped"
+    },
+    "core/websocket/custom-server/connection-opened": {
+      "path": "Core · WebSocket · Custom Server · WebSocket Custom Server Connection Opened",
+      "status": "mapped"
+    },
+    "core/websocket/custom-server/message": {
+      "path": "Core · WebSocket · Custom Server · WebSocket Custom Server Message",
+      "status": "mapped"
+    },
+    "custom/custom": {
+      "path": "Custom · Custom",
+      "status": "mapped"
+    },
+    "obs-studio/connected": {
+      "path": "OBS Studio · Connected",
+      "status": "mapped"
+    },
+    "obs-studio/disconnected": {
+      "path": "OBS Studio · Disconnected",
+      "status": "mapped"
+    },
+    "obs-studio/event": {
+      "path": "OBS Studio · Event",
+      "status": "mapped"
+    },
+    "obs-studio/recording-started": {
+      "path": "OBS Studio · Recording Started",
+      "status": "mapped"
+    },
+    "obs-studio/recording-stopped": {
+      "path": "OBS Studio · Recording Stopped",
+      "status": "mapped"
+    },
+    "obs-studio/scene-changed": {
+      "path": "OBS Studio · Scene Changed",
+      "status": "mapped"
+    },
+    "obs-studio/streaming-started": {
+      "path": "OBS Studio · Streaming Started",
+      "status": "mapped"
+    },
+    "obs-studio/streaming-stopped": {
+      "path": "OBS Studio · Streaming Stopped",
+      "status": "mapped"
+    },
+    "obs-studio/vendor-event": {
+      "path": "OBS Studio · Vendor Event",
+      "status": "mapped"
+    },
+    "twitch/ads/ad-run": {
+      "path": "Twitch · Ads · Ad Run",
+      "status": "mapped"
+    },
+    "twitch/channel-reward/reward-redemption": {
+      "path": "Twitch · Channel Reward · Reward Redemption",
+      "status": "mapped"
+    },
+    "twitch/channel-reward/reward-redemption-updated": {
+      "path": "Twitch · Channel Reward · Reward Redemption Updated",
+      "status": "mapped"
+    },
+    "twitch/channel/follow": {
+      "path": "Twitch · Channel · Follow",
+      "status": "mapped"
+    },
+    "twitch/channel/stream-offline": {
+      "path": "Twitch · Channel · Stream Offline",
+      "status": "mapped"
+    },
+    "twitch/channel/stream-online": {
+      "path": "Twitch · Channel · Stream Online",
+      "status": "mapped"
+    },
+    "twitch/channel/viewer-count-update": {
+      "path": "Twitch · Channel · Viewer Count Update",
+      "status": "mapped"
+    },
+    "twitch/chat/first-words": {
+      "path": "Twitch · Chat · First Words",
+      "status": "mapped"
+    },
+    "twitch/chat/message": {
+      "path": "Twitch · Chat · Message",
+      "status": "mapped"
+    },
+    "twitch/chat/mode/emote-mode-off": {
+      "path": "Twitch · Chat · Mode · Emote Mode Off",
+      "status": "mapped"
+    },
+    "twitch/chat/mode/emote-mode-on": {
+      "path": "Twitch · Chat · Mode · Emote Mode On",
+      "status": "mapped"
+    },
+    "twitch/chat/mode/follower-mode-changed": {
+      "path": "Twitch · Chat · Mode · Follower Mode Changed",
+      "status": "mapped"
+    },
+    "twitch/chat/mode/follower-mode-off": {
+      "path": "Twitch · Chat · Mode · Follower Mode Off",
+      "status": "mapped"
+    },
+    "twitch/chat/mode/follower-mode-on": {
+      "path": "Twitch · Chat · Mode · Follower Mode On",
+      "status": "mapped"
+    },
+    "twitch/chat/mode/slow-mode-changed": {
+      "path": "Twitch · Chat · Mode · Slow Mode Changed",
+      "status": "mapped"
+    },
+    "twitch/chat/mode/slow-mode-off": {
+      "path": "Twitch · Chat · Mode · Slow Mode Off",
+      "status": "mapped"
+    },
+    "twitch/chat/mode/slow-mode-on": {
+      "path": "Twitch · Chat · Mode · Slow Mode On",
+      "status": "mapped"
+    },
+    "twitch/chat/mode/subscriber-mode-off": {
+      "path": "Twitch · Chat · Mode · Subscriber Mode Off",
+      "status": "mapped"
+    },
+    "twitch/chat/mode/subscriber-mode-on": {
+      "path": "Twitch · Chat · Mode · Subscriber Mode On",
+      "status": "mapped"
+    },
+    "twitch/chat/mode/unique-mode-off": {
+      "path": "Twitch · Chat · Mode · Unique Mode Off",
+      "status": "mapped"
+    },
+    "twitch/chat/mode/unique-mode-on": {
+      "path": "Twitch · Chat · Mode · Unique Mode On",
+      "status": "mapped"
+    },
+    "twitch/general/stream-update": {
+      "path": "Twitch · General · Stream Update",
+      "status": "mapped"
+    },
+    "twitch/hype-train/end": {
+      "path": "Twitch · Hype Train · Hype Train End",
+      "status": "mapped"
+    },
+    "twitch/hype-train/level-up": {
+      "path": "Twitch · Hype Train · Hype Train Level Up",
+      "status": "mapped"
+    },
+    "twitch/hype-train/start": {
+      "path": "Twitch · Hype Train · Hype Train Starts",
+      "status": "mapped"
+    },
+    "twitch/hype-train/update": {
+      "path": "Twitch · Hype Train · Hype Train Update",
+      "status": "mapped"
+    },
+    "twitch/moderation/moderator-added": {
+      "path": "Twitch · Moderation · Moderator Added",
+      "status": "mapped"
+    },
+    "twitch/moderation/moderator-removed": {
+      "path": "Twitch · Moderation · Moderator Removed",
+      "status": "mapped"
+    },
+    "twitch/moderation/user-banned": {
+      "path": "Twitch · Moderation · User Banned",
+      "status": "mapped"
+    },
+    "twitch/moderation/user-timed-out": {
+      "path": "Twitch · Moderation · User Timed Out",
+      "status": "mapped"
+    },
+    "twitch/moderation/user-unbanned": {
+      "path": "Twitch · Moderation · User Unbanned",
+      "status": "mapped"
+    },
+    "twitch/moderation/vip-added": {
+      "path": "Twitch · Moderation · VIP Added",
+      "status": "mapped"
+    },
+    "twitch/moderation/vip-removed": {
+      "path": "Twitch · Moderation · VIP Removed",
+      "status": "mapped"
+    },
+    "twitch/polls/poll-archived": {
+      "path": "Twitch · Polls · Poll Archived",
+      "status": "mapped"
+    },
+    "twitch/polls/poll-completed": {
+      "path": "Twitch · Polls · Poll Completed",
+      "status": "mapped"
+    },
+    "twitch/polls/poll-created": {
+      "path": "Twitch · Polls · Poll Created",
+      "status": "mapped"
+    },
+    "twitch/polls/poll-terminated": {
+      "path": "Twitch · Polls · Poll Terminated",
+      "status": "mapped"
+    },
+    "twitch/polls/poll-updated": {
+      "path": "Twitch · Polls · Poll Updated",
+      "status": "mapped"
+    },
+    "twitch/predictions/prediction-canceled": {
+      "path": "Twitch · Predictions · Prediction Canceled",
+      "status": "mapped"
+    },
+    "twitch/predictions/prediction-completed": {
+      "path": "Twitch · Predictions · Prediction Completed",
+      "status": "mapped"
+    },
+    "twitch/predictions/prediction-created": {
+      "path": "Twitch · Predictions · Prediction Created",
+      "status": "mapped"
+    },
+    "twitch/predictions/prediction-locked": {
+      "path": "Twitch · Predictions · Prediction Locked",
+      "status": "mapped"
+    },
+    "twitch/predictions/prediction-updated": {
+      "path": "Twitch · Predictions · Prediction Updated",
+      "status": "mapped"
+    },
+    "twitch/pyramid/broken": {
+      "path": "Twitch · Pyramid · Pyramid Broken",
+      "status": "mapped"
+    },
+    "twitch/pyramid/success": {
+      "path": "Twitch · Pyramid · Pyramid Success",
+      "status": "mapped"
+    },
+    "twitch/raid/raid": {
+      "path": "Twitch · Raid · Raid",
+      "status": "mapped"
+    },
+    "twitch/raid/send": {
+      "path": "Twitch · Raid · Raid Send",
+      "status": "mapped"
+    },
+    "twitch/subscriptions/gift-bomb": {
+      "path": "Twitch · Subscriptions · Gift Bomb",
+      "status": "mapped"
+    },
+    "twitch/subscriptions/gift-paid-upgrade": {
+      "path": "Twitch · Subscriptions · Gift Paid Upgrade",
+      "status": "mapped"
+    },
+    "twitch/subscriptions/gift-subscription": {
+      "path": "Twitch · Subscriptions · Gift Subscription",
+      "status": "mapped"
+    },
+    "twitch/subscriptions/pay-it-forward": {
+      "path": "Twitch · Subscriptions · Pay It Forward",
+      "status": "mapped"
+    },
+    "twitch/subscriptions/prime-paid-upgrade": {
+      "path": "Twitch · Subscriptions · Prime Paid Upgrade",
+      "status": "mapped"
+    },
+    "twitch/subscriptions/resubscription": {
+      "path": "Twitch · Subscriptions · Resubscription",
+      "status": "mapped"
+    },
+    "twitch/subscriptions/sub-counter-rollover": {
+      "path": "Twitch · Subscriptions · Sub Counter Rollover",
+      "status": "mapped"
+    },
+    "twitch/subscriptions/subscription": {
+      "path": "Twitch · Subscriptions · Subscription",
+      "status": "mapped"
+    },
+    "custom/code-event": {
+      "path": "Custom · Custom Code Event",
+      "status": "mapped"
+    },
+    "elgato/camera-hub/connected": {
+      "path": "Elgato · Camera Hub · Connected",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/disconnected": {
+      "path": "Elgato · Camera Hub · Disconnected",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/prompter/auto-scroll-chapter-disabled": {
+      "path": "Elgato · Camera Hub · Prompter · Auto Scroll Chapter Disabled",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/prompter/auto-scroll-chapter-enabled": {
+      "path": "Elgato · Camera Hub · Prompter · Auto Scroll Chapter Enabled",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/prompter/auto-scroll-disabled": {
+      "path": "Elgato · Camera Hub · Prompter · Auto Scroll Disabled",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/prompter/auto-scroll-enabled": {
+      "path": "Elgato · Camera Hub · Prompter · Auto Scroll Enabled",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/prompter/background-color-changed": {
+      "path": "Elgato · Camera Hub · Prompter · Background Color Changed",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/prompter/brightness-changed": {
+      "path": "Elgato · Camera Hub · Prompter · Brightness Changed",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/prompter/channels-changed": {
+      "path": "Elgato · Camera Hub · Prompter · Channels Changed",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/prompter/connected": {
+      "path": "Elgato · Camera Hub · Prompter · Connected",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/prompter/contrast-changed": {
+      "path": "Elgato · Camera Hub · Prompter · Contrast Changed",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/prompter/crosshair-color-changed": {
+      "path": "Elgato · Camera Hub · Prompter · Crosshair Color Changed",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/prompter/crosshair-disabled": {
+      "path": "Elgato · Camera Hub · Prompter · Crosshair Disabled",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/prompter/crosshair-enabled": {
+      "path": "Elgato · Camera Hub · Prompter · Crosshair Enabled",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/prompter/crosshair-image-changed": {
+      "path": "Elgato · Camera Hub · Prompter · Crosshair Image Changed",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/prompter/disconnected": {
+      "path": "Elgato · Camera Hub · Prompter · Disconnected",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/prompter/font-changed": {
+      "path": "Elgato · Camera Hub · Prompter · Font Changed",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/prompter/font-color-changed": {
+      "path": "Elgato · Camera Hub · Prompter · Font Color Changed",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/prompter/font-size-changed": {
+      "path": "Elgato · Camera Hub · Prompter · Font Size Changed",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/prompter/horizontal-margin-changed": {
+      "path": "Elgato · Camera Hub · Prompter · Horizontal Margin Changed",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/prompter/line-spacing-changed": {
+      "path": "Elgato · Camera Hub · Prompter · Line Spacing Changed",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/prompter/mode-changed": {
+      "path": "Elgato · Camera Hub · Prompter · Mode Changed",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/prompter/opacity-changed": {
+      "path": "Elgato · Camera Hub · Prompter · Opacity Changed",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/prompter/scroll-speed-changed": {
+      "path": "Elgato · Camera Hub · Prompter · Scroll Speed Changed",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/prompter/selected-channel-changed": {
+      "path": "Elgato · Camera Hub · Prompter · Selected Channel Changed",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/prompter/selected-chapter-changed": {
+      "path": "Elgato · Camera Hub · Prompter · Selected Chapter Changed",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/prompter/selected-script-changed": {
+      "path": "Elgato · Camera Hub · Prompter · Selected Script Changed",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/prompter/vertical-margin-changed": {
+      "path": "Elgato · Camera Hub · Prompter · Vertical Margin Changed",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/activated": {
+      "path": "Elgato · Camera Hub · Webcam · Webcam Activated",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/anti-flicker-changed": {
+      "path": "Elgato · Camera Hub · Webcam · Anti Flicker Changed",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/ar-lens-changed": {
+      "path": "Elgato · Camera Hub · Webcam · AR Lens Changed",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/auto-exposure-disabled": {
+      "path": "Elgato · Camera Hub · Webcam · Auto Exposure Disabled",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/auto-exposure-enabled": {
+      "path": "Elgato · Camera Hub · Webcam · Auto Exposure Enabled",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/auto-focus-disabled": {
+      "path": "Elgato · Camera Hub · Webcam · Auto Focus Disabled",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/auto-focus-enabled": {
+      "path": "Elgato · Camera Hub · Webcam · Auto Focus Enabled",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/auto-white-balance-disabled": {
+      "path": "Elgato · Camera Hub · Webcam · Auto White Balance Disabled",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/auto-white-balance-enabled": {
+      "path": "Elgato · Camera Hub · Webcam · Auto White Balance Enabled",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/bitrate-changed": {
+      "path": "Elgato · Camera Hub · Webcam · Bitrate Changed",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/brightness-changed": {
+      "path": "Elgato · Camera Hub · Webcam · Brightness Changed",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/contrast-changed": {
+      "path": "Elgato · Camera Hub · Webcam · Contrast Changed",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/deactivated": {
+      "path": "Elgato · Camera Hub · Webcam · Webcam Deactivated",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/device-orientation-changed": {
+      "path": "Elgato · Camera Hub · Webcam · Device Orientation Changed",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/exposure-auto-lock-disabled": {
+      "path": "Elgato · Camera Hub · Webcam · Exposure Auto Lock Disabled",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/exposure-auto-lock-enabled": {
+      "path": "Elgato · Camera Hub · Webcam · Exposure Auto Lock Enabled",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/flash-disabled": {
+      "path": "Elgato · Camera Hub · Webcam · Flash Disabled",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/flash-enabled": {
+      "path": "Elgato · Camera Hub · Webcam · Flash Enabled",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/flipped": {
+      "path": "Elgato · Camera Hub · Webcam · Flipped",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/focus-changed": {
+      "path": "Elgato · Camera Hub · Webcam · Focus Changed",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/iso-changed": {
+      "path": "Elgato · Camera Hub · Webcam · ISO Changed",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/lens-changed": {
+      "path": "Elgato · Camera Hub · Webcam · Lens Changed",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/live-iso-changed": {
+      "path": "Elgato · Camera Hub · Webcam · Live ISO Changed",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/live-shutter-speed-changed": {
+      "path": "Elgato · Camera Hub · Webcam · Live Shutter Speed Changed",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/live-white-balance-changed": {
+      "path": "Elgato · Camera Hub · Webcam · Live White Balance Changed",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/live-white-balance-tint-changed": {
+      "path": "Elgato · Camera Hub · Webcam · Live White Balance Tint Changed",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/mirrored": {
+      "path": "Elgato · Camera Hub · Webcam · Mirrored",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/noise-reduction-disabled": {
+      "path": "Elgato · Camera Hub · Webcam · Noise Reduction Disabled",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/noise-reduction-enabled": {
+      "path": "Elgato · Camera Hub · Webcam · Noise Reduction Enabled",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/overscan-changed": {
+      "path": "Elgato · Camera Hub · Webcam · Overscan Changed",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/pan-changed": {
+      "path": "Elgato · Camera Hub · Webcam · Pan Changed",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/saturation-changed": {
+      "path": "Elgato · Camera Hub · Webcam · Saturation Changed",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/selected-webcam-changed": {
+      "path": "Elgato · Camera Hub · Webcam · Selected Webcam Changed",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/sharpness-changed": {
+      "path": "Elgato · Camera Hub · Webcam · Sharpness Changed",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/shutter-speed-changed": {
+      "path": "Elgato · Camera Hub · Webcam · Shutter Speed Changed",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/snapshot-taken": {
+      "path": "Elgato · Camera Hub · Webcam · Snapshot Taken",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/tilt-changed": {
+      "path": "Elgato · Camera Hub · Webcam · Tilt Changed",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/white-balance-changed": {
+      "path": "Elgato · Camera Hub · Webcam · White Balance Changed",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/white-balance-tint-changed": {
+      "path": "Elgato · Camera Hub · Webcam · White Balance Tint Changed",
+      "status": "Fehlt"
+    },
+    "elgato/camera-hub/webcam/zoom-changed": {
+      "path": "Elgato · Camera Hub · Webcam · Zoom Changed",
+      "status": "Fehlt"
+    },
+    "elgato/control-center/brightness-changed": {
+      "path": "Elgato · Control Center · Brightness Changed",
+      "status": "Fehlt"
+    },
+    "elgato/control-center/device-added": {
+      "path": "Elgato · Control Center · Device Added",
+      "status": "Fehlt"
+    },
+    "elgato/control-center/device-configuration-changed": {
+      "path": "Elgato · Control Center · Device Configuration Changed",
+      "status": "Fehlt"
+    },
+    "elgato/control-center/device-power-state-changed": {
+      "path": "Elgato · Control Center · Device Power State Changed",
+      "status": "Fehlt"
+    },
+    "elgato/control-center/device-powered-off": {
+      "path": "Elgato · Control Center · Device Powered Off",
+      "status": "Fehlt"
+    },
+    "elgato/control-center/device-powered-on": {
+      "path": "Elgato · Control Center · Device Powered On",
+      "status": "Fehlt"
+    },
+    "elgato/control-center/device-removed": {
+      "path": "Elgato · Control Center · Device Removed",
+      "status": "Fehlt"
+    },
+    "elgato/control-center/device-renamed": {
+      "path": "Elgato · Control Center · Device Renamed",
+      "status": "Fehlt"
+    },
+    "elgato/control-center/temperature-changed": {
+      "path": "Elgato · Control Center · Temperature Changed",
+      "status": "Fehlt"
+    },
+    "elgato/stream-deck/connected": {
+      "path": "Elgato · Stream Deck · Stream Deck Connected",
+      "status": "Nativ angebunden (eigenes Studio-Plugin)"
+    },
+    "elgato/stream-deck/disconnected": {
+      "path": "Elgato · Stream Deck · Stream Deck Disconnected",
+      "status": "Nativ angebunden (eigenes Studio-Plugin)"
+    },
+    "elgato/stream-deck/info": {
+      "path": "Elgato · Stream Deck · Stream Deck Info",
+      "status": "Nativ angebunden (eigenes Studio-Plugin)"
+    },
+    "elgato/studio/connected": {
+      "path": "Elgato · Studio · Connected",
+      "status": "Fehlt"
+    },
+    "elgato/studio/disconnected": {
+      "path": "Elgato · Studio · Disconnected",
+      "status": "Fehlt"
+    },
+    "elgato/studio/level-changed": {
+      "path": "Elgato · Studio · Level Changed",
+      "status": "Fehlt"
+    },
+    "elgato/studio/preview-fullscreen-changed": {
+      "path": "Elgato · Studio · Preview Fullscreen Changed",
+      "status": "Fehlt"
+    },
+    "elgato/studio/preview-volume-changed": {
+      "path": "Elgato · Studio · Preview Volume Changed",
+      "status": "Fehlt"
+    },
+    "elgato/studio/preview-volume-mute-changed": {
+      "path": "Elgato · Studio · Preview Volume Mute Changed",
+      "status": "Fehlt"
+    },
+    "elgato/studio/recording-changed": {
+      "path": "Elgato · Studio · Recording Changed",
+      "status": "Fehlt"
+    },
+    "elgato/studio/recording-finished": {
+      "path": "Elgato · Studio · Recording Finished",
+      "status": "Fehlt"
+    },
+    "elgato/studio/snapshot-taken": {
+      "path": "Elgato · Studio · Snapshot Taken",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link-3/channels/changed": {
+      "path": "Elgato · Wave Link 3 · Channels · Changed",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link-3/channels/channel-effects-changed": {
+      "path": "Elgato · Wave Link 3 · Channels · Channel Effects Changed",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link-3/channels/channel-mute-changed": {
+      "path": "Elgato · Wave Link 3 · Channels · Channel Mute Changed",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link-3/channels/channel-updated": {
+      "path": "Elgato · Wave Link 3 · Channels · Channel Updated",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link-3/channels/channel-volume-changed": {
+      "path": "Elgato · Wave Link 3 · Channels · Channel Volume Changed",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link-3/connected": {
+      "path": "Elgato · Wave Link 3 · Connected",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link-3/disconnected": {
+      "path": "Elgato · Wave Link 3 · Disconnected",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link-3/inputs/dsp-effects-changed": {
+      "path": "Elgato · Wave Link 3 · Inputs · Dsp Effects Changed",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link-3/inputs/input-device-updated": {
+      "path": "Elgato · Wave Link 3 · Inputs · Input Device Updated",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link-3/inputs/input-devices-changed": {
+      "path": "Elgato · Wave Link 3 · Inputs · Input Devices Changed",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link-3/inputs/input-gain-changed": {
+      "path": "Elgato · Wave Link 3 · Inputs · Input Gain Changed",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link-3/mixes/changed": {
+      "path": "Elgato · Wave Link 3 · Mixes · Changed",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link-3/mixes/mix-updated": {
+      "path": "Elgato · Wave Link 3 · Mixes · Mix Updated",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link-3/outputs/main-output-device-changed": {
+      "path": "Elgato · Wave Link 3 · Outputs · Main Output Device Changed",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link-3/outputs/output-device-updated": {
+      "path": "Elgato · Wave Link 3 · Outputs · Output Device Updated",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link-3/outputs/output-mix-changed": {
+      "path": "Elgato · Wave Link 3 · Outputs · Output Mix Changed",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link-3/system/create-profile-requested": {
+      "path": "Elgato · Wave Link 3 · System · Create Profile Requested",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link-3/system/focused-app-changed": {
+      "path": "Elgato · Wave Link 3 · System · Focused App Changed",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link-3/system/level-meter-updated": {
+      "path": "Elgato · Wave Link 3 · System · Level Meter Updated",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link/connected": {
+      "path": "Elgato · Wave Link · Wave Link Connected",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link/disconnected": {
+      "path": "Elgato · Wave Link · Wave Link Disconnected",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link/filter-added": {
+      "path": "Elgato · Wave Link · Wave Link Filter Added",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link/filter-bypass-state-changed": {
+      "path": "Elgato · Wave Link · Wave Link Filter Bypass State Changed",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link/filter-changed": {
+      "path": "Elgato · Wave Link · Wave Link Filter Changed",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link/filter-deleted": {
+      "path": "Elgato · Wave Link · Wave Link Filter Deleted",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link/input-level-meter-changed": {
+      "path": "Elgato · Wave Link · Input Level Meter Changed",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link/input-mute-changed": {
+      "path": "Elgato · Wave Link · Input Mute Changed",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link/input-name-changed": {
+      "path": "Elgato · Wave Link · Input Name Changed",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link/input-volume-changed": {
+      "path": "Elgato · Wave Link · Input Volume Changed",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link/microphone-balance-changed": {
+      "path": "Elgato · Wave Link · Microphone Balance Changed",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link/microphone-gain-changed": {
+      "path": "Elgato · Wave Link · Microphone Gain Changed",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link/microphone-mute-changed": {
+      "path": "Elgato · Wave Link · Microphone Mute Changed",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link/microphone-output-volume-changed": {
+      "path": "Elgato · Wave Link · Microphone Output Volume Changed",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link/microphone-setting-changed": {
+      "path": "Elgato · Wave Link · Microphone Setting Changed",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link/output-level-meter-changed": {
+      "path": "Elgato · Wave Link · Output Level Meter Changed",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link/output-mute-changed": {
+      "path": "Elgato · Wave Link · Output Mute Changed",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link/output-switched": {
+      "path": "Elgato · Wave Link · Output Switched",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link/output-volume-changed": {
+      "path": "Elgato · Wave Link · Output Volume Changed",
+      "status": "Fehlt"
+    },
+    "elgato/wave-link/selected-output-changed": {
+      "path": "Elgato · Wave Link · Selected Output Changed",
+      "status": "Fehlt"
+    },
+    "integrations/crowdcontrol/coin-exchange": {
+      "path": "Integrations · Crowdcontrol · Coin Exchange",
+      "status": "Fehlt"
+    },
+    "integrations/crowdcontrol/effect-failure": {
+      "path": "Integrations · Crowdcontrol · Effect Failure",
+      "status": "Fehlt"
+    },
+    "integrations/crowdcontrol/effect-request": {
+      "path": "Integrations · Crowdcontrol · Effect Request",
+      "status": "Fehlt"
+    },
+    "integrations/crowdcontrol/effect-success": {
+      "path": "Integrations · Crowdcontrol · Effect Success",
+      "status": "Fehlt"
+    },
+    "integrations/crowdcontrol/game-session-end": {
+      "path": "Integrations · Crowdcontrol · Game Session End",
+      "status": "Fehlt"
+    },
+    "integrations/crowdcontrol/game-session-start": {
+      "path": "Integrations · Crowdcontrol · Game Session Start",
+      "status": "Fehlt"
+    },
+    "integrations/crowdcontrol/timed-effect-ended": {
+      "path": "Integrations · Crowdcontrol · Timed Effect Ended",
+      "status": "Fehlt"
+    },
+    "integrations/crowdcontrol/timed-effect-started": {
+      "path": "Integrations · Crowdcontrol · Timed Effect Started",
+      "status": "Fehlt"
+    },
+    "integrations/crowdcontrol/timed-effect-update": {
+      "path": "Integrations · Crowdcontrol · Timed Effect Updated",
+      "status": "Fehlt"
+    },
+    "integrations/donordrive/donation": {
+      "path": "Integrations · Donordrive · Donation",
+      "status": "Fehlt"
+    },
+    "integrations/donordrive/incentive": {
+      "path": "Integrations · Donordrive · Incentive",
+      "status": "Fehlt"
+    },
+    "integrations/donordrive/profile-updated": {
+      "path": "Integrations · Donordrive · Profile Updated",
+      "status": "Fehlt"
+    },
+    "integrations/fourthwall/donation": {
+      "path": "Integrations · Fourthwall · Fourthwall Donation",
+      "status": "Fehlt"
+    },
+    "integrations/fourthwall/gift-draw-ended": {
+      "path": "Integrations · Fourthwall · Gift Draw Ended",
+      "status": "Fehlt"
+    },
+    "integrations/fourthwall/gift-draw-started": {
+      "path": "Integrations · Fourthwall · Gift Draw Started",
+      "status": "Fehlt"
+    },
+    "integrations/fourthwall/gift-purchase": {
+      "path": "Integrations · Fourthwall · Gift Purchase",
+      "status": "Fehlt"
+    },
+    "integrations/fourthwall/newsletter-subscribed": {
+      "path": "Integrations · Fourthwall · Newsletter Subscribed",
+      "status": "Fehlt"
+    },
+    "integrations/fourthwall/order-placed": {
+      "path": "Integrations · Fourthwall · Order Placed",
+      "status": "Fehlt"
+    },
+    "integrations/fourthwall/order-updated": {
+      "path": "Integrations · Fourthwall · Order Updated",
+      "status": "Fehlt"
+    },
+    "integrations/fourthwall/product-created": {
+      "path": "Integrations · Fourthwall · Product Created",
+      "status": "Fehlt"
+    },
+    "integrations/fourthwall/product-updated": {
+      "path": "Integrations · Fourthwall · Product Updated",
+      "status": "Fehlt"
+    },
+    "integrations/fourthwall/subscription-changed": {
+      "path": "Integrations · Fourthwall · Subscription Changed",
+      "status": "Fehlt"
+    },
+    "integrations/fourthwall/subscription-expired": {
+      "path": "Integrations · Fourthwall · Subscription Expired",
+      "status": "Fehlt"
+    },
+    "integrations/fourthwall/subscription-purchased": {
+      "path": "Integrations · Fourthwall · Subscription Purchased",
+      "status": "Fehlt"
+    },
+    "integrations/fourthwall/thank-you-sent": {
+      "path": "Integrations · Fourthwall · Thank You Sent",
+      "status": "Fehlt"
+    },
+    "integrations/hyperateio/connected": {
+      "path": "Integrations · Hyperateio · Connected",
+      "status": "Fehlt"
+    },
+    "integrations/hyperateio/disconnected": {
+      "path": "Integrations · Hyperateio · Disconnected",
+      "status": "Fehlt"
+    },
+    "integrations/hyperateio/heart-rate-pulse": {
+      "path": "Integrations · Hyperateio · Heart Rate Pulse",
+      "status": "Fehlt"
+    },
+    "integrations/hyperateio/twitch-clip-created": {
+      "path": "Integrations · Hyperateio · Twitch Clip Created",
+      "status": "Fehlt"
+    },
+    "integrations/ko-fi/commission": {
+      "path": "Integrations · Ko Fi · Commission",
+      "status": "Fehlt"
+    },
+    "integrations/ko-fi/donation": {
+      "path": "Integrations · Ko Fi · Donation",
+      "status": "Fehlt"
+    },
+    "integrations/ko-fi/resubscription": {
+      "path": "Integrations · Ko Fi · Resubscription",
+      "status": "Fehlt"
+    },
+    "integrations/ko-fi/shop-order": {
+      "path": "Integrations · Ko Fi · Shop Order",
+      "status": "Fehlt"
+    },
+    "integrations/ko-fi/subscription": {
+      "path": "Integrations · Ko Fi · Subscription",
+      "status": "Fehlt"
+    },
+    "integrations/obsbot/connected": {
+      "path": "Integrations · Obsbot · Connected",
+      "status": "Fehlt"
+    },
+    "integrations/obsbot/device-connected": {
+      "path": "Integrations · Obsbot · Device Connected",
+      "status": "Fehlt"
+    },
+    "integrations/obsbot/device-disconnected": {
+      "path": "Integrations · Obsbot · Device Disconnected",
+      "status": "Fehlt"
+    },
+    "integrations/obsbot/device-sleep-state-changed": {
+      "path": "Integrations · Obsbot · Device Sleep State Changed",
+      "status": "Fehlt"
+    },
+    "integrations/obsbot/disconnected": {
+      "path": "Integrations · Obsbot · Disconnected",
+      "status": "Fehlt"
+    },
+    "integrations/pallygg/campaign-tip": {
+      "path": "Integrations · Pallygg · Campaign Tip",
+      "status": "Fehlt"
+    },
+    "integrations/pallygg/connected": {
+      "path": "Integrations · Pallygg · Connected",
+      "status": "Fehlt"
+    },
+    "integrations/pallygg/disconnected": {
+      "path": "Integrations · Pallygg · Disconnected",
+      "status": "Fehlt"
+    },
+    "integrations/patreon/follow-created": {
+      "path": "Integrations · Patreon · Follow Created",
+      "status": "Fehlt"
+    },
+    "integrations/patreon/follow-deleted": {
+      "path": "Integrations · Patreon · Follow Deleted",
+      "status": "Fehlt"
+    },
+    "integrations/patreon/pledge-created": {
+      "path": "Integrations · Patreon · Pledge Created",
+      "status": "Fehlt"
+    },
+    "integrations/patreon/pledge-deleted": {
+      "path": "Integrations · Patreon · Pledge Deleted",
+      "status": "Fehlt"
+    },
+    "integrations/patreon/pledge-updated": {
+      "path": "Integrations · Patreon · Pledge Updated",
+      "status": "Fehlt"
+    },
+    "integrations/pulsoid/heart-rate-pulse": {
+      "path": "Integrations · Pulsoid · Heart Rate Pulse",
+      "status": "Fehlt"
+    },
+    "integrations/shopify/order-created": {
+      "path": "Integrations · Shopify · Order Created",
+      "status": "Fehlt"
+    },
+    "integrations/shopify/order-paid": {
+      "path": "Integrations · Shopify · Order Paid",
+      "status": "Fehlt"
+    },
+    "integrations/speakerbot/connected": {
+      "path": "Integrations · Speaker.bot · Connected",
+      "status": "Fehlt"
+    },
+    "integrations/speakerbot/disconnected": {
+      "path": "Integrations · Speaker.bot · Disconnected",
+      "status": "Fehlt"
+    },
+    "integrations/streamelements/connected": {
+      "path": "Integrations · Streamelements · Connected",
+      "status": "Fehlt"
+    },
+    "integrations/streamelements/disconnected": {
+      "path": "Integrations · Streamelements · Disconnected",
+      "status": "Fehlt"
+    },
+    "integrations/streamelements/merch": {
+      "path": "Integrations · Streamelements · Merch",
+      "status": "Fehlt"
+    },
+    "integrations/streamelements/tip": {
+      "path": "Integrations · Streamelements · Tip",
+      "status": "Fehlt"
+    },
+    "integrations/streamerbot-remote/remote-instance-connected": {
+      "path": "Integrations · Streamerbot Remote · Remote Instance Connected",
+      "status": "Fehlt"
+    },
+    "integrations/streamerbot-remote/remote-instance-disconnected": {
+      "path": "Integrations · Streamerbot Remote · Remote Instance Disconnected",
+      "status": "Fehlt"
+    },
+    "integrations/streamerbot-remote/remote-instance-trigger": {
+      "path": "Integrations · Streamerbot Remote · Remote Instance Trigger",
+      "status": "Fehlt"
+    },
+    "integrations/streamerbot/custom-webhook": {
+      "path": "Integrations · Streamer.bot · Custom Webhook",
+      "status": "Fehlt"
+    },
+    "integrations/streamlabs/charity-donation": {
+      "path": "Integrations · Streamlabs · Charity Donation",
+      "status": "Fehlt"
+    },
+    "integrations/streamlabs/connected": {
+      "path": "Integrations · Streamlabs · Connected",
+      "status": "Fehlt"
+    },
+    "integrations/streamlabs/disconnected": {
+      "path": "Integrations · Streamlabs · Disconnected",
+      "status": "Fehlt"
+    },
+    "integrations/streamlabs/donation": {
+      "path": "Integrations · Streamlabs · Donation",
+      "status": "Fehlt"
+    },
+    "integrations/streamlabs/merchandise": {
+      "path": "Integrations · Streamlabs · Merchandise",
+      "status": "Fehlt"
+    },
+    "integrations/streamloots/card-redeemed": {
+      "path": "Integrations · Streamloots · Card Redeemed",
+      "status": "Fehlt"
+    },
+    "integrations/streamloots/pack-gifted": {
+      "path": "Integrations · Streamloots · Pack Gifted",
+      "status": "Fehlt"
+    },
+    "integrations/streamloots/pack-purchased": {
+      "path": "Integrations · Streamloots · Pack Purchased",
+      "status": "Fehlt"
+    },
+    "integrations/streamloots/reaction": {
+      "path": "Integrations · Streamloots · Reaction",
+      "status": "Fehlt"
+    },
+    "integrations/throne/contribution-purchased": {
+      "path": "Integrations · Throne · Contribution Purchased",
+      "status": "Fehlt"
+    },
+    "integrations/throne/gift-crowdfunded": {
+      "path": "Integrations · Throne · Gift Crowdfunded",
+      "status": "Fehlt"
+    },
+    "integrations/throne/gift-purchased": {
+      "path": "Integrations · Throne · Gift Purchased",
+      "status": "Fehlt"
+    },
+    "integrations/tipeeestream/donation": {
+      "path": "Integrations · Tipeeestream · Donation",
+      "status": "Fehlt"
+    },
+    "integrations/tits/connections/connected": {
+      "path": "Integrations · Tits · Connections · Connected",
+      "status": "Fehlt"
+    },
+    "integrations/tits/connections/events-connected": {
+      "path": "Integrations · Tits · Connections · Events Connected",
+      "status": "Fehlt"
+    },
+    "integrations/tits/connections/events-disconnected": {
+      "path": "Integrations · Tits · Connections · Events Disconnected",
+      "status": "Fehlt"
+    },
+    "integrations/tits/connections/websocket-connected": {
+      "path": "Integrations · Tits · Connections · Websocket Connected",
+      "status": "Fehlt"
+    },
+    "integrations/tits/connections/websocket-disconnected": {
+      "path": "Integrations · Tits · Connections · Websocket Disconnected",
+      "status": "Fehlt"
+    },
+    "integrations/tits/item-hit": {
+      "path": "Integrations · Tits · Item Hit",
+      "status": "Fehlt"
+    },
+    "integrations/tits/trigger-activated": {
+      "path": "Integrations · Tits · Trigger Activated",
+      "status": "Fehlt"
+    },
+    "integrations/tits/trigger-ended": {
+      "path": "Integrations · Tits · Trigger Ended",
+      "status": "Fehlt"
+    },
+    "integrations/treatstream/treat": {
+      "path": "Integrations · Treatstream · Treat",
+      "status": "Fehlt"
+    },
+    "integrations/voicemod/connected": {
+      "path": "Integrations · Voicemod · Connected",
+      "status": "Fehlt"
+    },
+    "integrations/voicemod/disconnected": {
+      "path": "Integrations · Voicemod · Disconnected",
+      "status": "Fehlt"
+    },
+    "integrations/voicemod/soundboard-changed": {
+      "path": "Integrations · Voicemod · Soundboard Changed",
+      "status": "Fehlt"
+    },
+    "integrations/voicemod/voice-loaded": {
+      "path": "Integrations · Voicemod · Voice Loaded",
+      "status": "Fehlt"
+    },
+    "integrations/vtube-studio/background-changed": {
+      "path": "Integrations · Vtube Studio · Background Changed",
+      "status": "Fehlt"
+    },
+    "integrations/vtube-studio/connected": {
+      "path": "Integrations · Vtube Studio · Connected",
+      "status": "Fehlt"
+    },
+    "integrations/vtube-studio/disconnected": {
+      "path": "Integrations · Vtube Studio · Disconnected",
+      "status": "Fehlt"
+    },
+    "integrations/vtube-studio/hotkey-triggered": {
+      "path": "Integrations · Vtube Studio · Hotkey Triggered",
+      "status": "Fehlt"
+    },
+    "integrations/vtube-studio/item-event": {
+      "path": "Integrations · Vtube Studio · Item Event",
+      "status": "Fehlt"
+    },
+    "integrations/vtube-studio/model-animation": {
+      "path": "Integrations · Vtube Studio · Model Animations",
+      "status": "Fehlt"
+    },
+    "integrations/vtube-studio/model-clicked": {
+      "path": "Integrations · Vtube Studio · Model Clicked",
+      "status": "Fehlt"
+    },
+    "integrations/vtube-studio/model-configuration-changed": {
+      "path": "Integrations · Vtube Studio · Model Configuration Changed",
+      "status": "Fehlt"
+    },
+    "integrations/vtube-studio/model-loaded": {
+      "path": "Integrations · Vtube Studio · Model Loaded",
+      "status": "Fehlt"
+    },
+    "integrations/vtube-studio/model-unloaded": {
+      "path": "Integrations · Vtube Studio · Model Unloaded",
+      "status": "Fehlt"
+    },
+    "integrations/vtube-studio/tracking-status-changed": {
+      "path": "Integrations · Vtube Studio · Tracking Status Changed",
+      "status": "Fehlt"
+    },
+    "kick/channel-reward/reward-redemption": {
+      "path": "Kick · Channel Reward · Reward Redemption",
+      "status": "Fehlt"
+    },
+    "kick/channel/follow": {
+      "path": "Kick · Channel · Follow",
+      "status": "Fehlt"
+    },
+    "kick/channel/stream-offline": {
+      "path": "Kick · Channel · Stream Offline",
+      "status": "Fehlt"
+    },
+    "kick/channel/stream-online": {
+      "path": "Kick · Channel · Stream Online",
+      "status": "Fehlt"
+    },
+    "kick/channel/viewer-count-update": {
+      "path": "Kick · Channel · Viewer Count Update",
+      "status": "Fehlt"
+    },
+    "kick/chat/first-words": {
+      "path": "Kick · Chat · First Words",
+      "status": "Fehlt"
+    },
+    "kick/chat/message": {
+      "path": "Kick · Chat · Chat Message",
+      "status": "Fehlt"
+    },
+    "kick/emotes/seventv-emote-added": {
+      "path": "Kick · Emotes · SevenTV Emote Added",
+      "status": "Fehlt"
+    },
+    "kick/emotes/seventv-emote-removed": {
+      "path": "Kick · Emotes · SevenTV Emote Removed",
+      "status": "Fehlt"
+    },
+    "kick/general/channel-update": {
+      "path": "Kick · General · Channel Update",
+      "status": "Fehlt"
+    },
+    "kick/general/present-viewers": {
+      "path": "Kick · General · Present Viewers",
+      "status": "Fehlt"
+    },
+    "kick/kicks/gifted": {
+      "path": "Kick · Kicks · Kicks Gifted",
+      "status": "Fehlt"
+    },
+    "kick/moderation/user-banned": {
+      "path": "Kick · Moderation · User Banned",
+      "status": "Fehlt"
+    },
+    "kick/moderation/user-timed-out": {
+      "path": "Kick · Moderation · User Timed Out",
+      "status": "Fehlt"
+    },
+    "kick/subscriptions/gift-subscription": {
+      "path": "Kick · Subscriptions · Gift Subscription",
+      "status": "Fehlt"
+    },
+    "kick/subscriptions/mass-gift-subscription": {
+      "path": "Kick · Subscriptions · Mass Gift Subscription",
+      "status": "Fehlt"
+    },
+    "kick/subscriptions/resubscription": {
+      "path": "Kick · Subscriptions · Gift Resubscription",
+      "status": "Fehlt"
+    },
+    "kick/subscriptions/subscription": {
+      "path": "Kick · Subscriptions · Subscription",
+      "status": "Fehlt"
+    },
+    "meld-studio/connected": {
+      "path": "Meld Studio · Connected",
+      "status": "Fehlt"
+    },
+    "meld-studio/disconnected": {
+      "path": "Meld Studio · Disconnected",
+      "status": "Fehlt"
+    },
+    "meld-studio/event": {
+      "path": "Meld Studio · Event",
+      "status": "Fehlt"
+    },
+    "meld-studio/recording-started": {
+      "path": "Meld Studio · Recording Started",
+      "status": "Fehlt"
+    },
+    "meld-studio/recording-stopped": {
+      "path": "Meld Studio · Recording Stopped",
+      "status": "Fehlt"
+    },
+    "meld-studio/scene-changed": {
+      "path": "Meld Studio · Scene Changed",
+      "status": "Fehlt"
+    },
+    "meld-studio/streaming-started": {
+      "path": "Meld Studio · Streaming Started",
+      "status": "Fehlt"
+    },
+    "meld-studio/streaming-stopped": {
+      "path": "Meld Studio · Streaming Stopped",
+      "status": "Fehlt"
+    },
+    "streamlabs-desktop/connected": {
+      "path": "Streamlabs Desktop · Streamlabs Desktop Connected",
+      "status": "Fehlt"
+    },
+    "streamlabs-desktop/disconnected": {
+      "path": "Streamlabs Desktop · Streamlabs Desktop Disconnected",
+      "status": "Fehlt"
+    },
+    "streamlabs-desktop/recording-started": {
+      "path": "Streamlabs Desktop · Streamlabs Desktop Recording Started",
+      "status": "Fehlt"
+    },
+    "streamlabs-desktop/recording-stopped": {
+      "path": "Streamlabs Desktop · Streamlabs Desktop Recording Stopped",
+      "status": "Fehlt"
+    },
+    "streamlabs-desktop/scene-changed": {
+      "path": "Streamlabs Desktop · Streamlabs Desktop Scene Changed",
+      "status": "Fehlt"
+    },
+    "streamlabs-desktop/streaming-started": {
+      "path": "Streamlabs Desktop · Streamlabs Desktop Streaming Started",
+      "status": "Fehlt"
+    },
+    "streamlabs-desktop/streaming-stopped": {
+      "path": "Streamlabs Desktop · Streamlabs Desktop Streaming Stopped",
+      "status": "Fehlt"
+    },
+    "twitch/ads/upcoming-ad": {
+      "path": "Twitch · Ads · Upcoming Ad",
+      "status": "Fehlt"
+    },
+    "twitch/channel-goal/goal-begin": {
+      "path": "Twitch · Channel Goal · Goal Begin",
+      "status": "Fehlt"
+    },
+    "twitch/channel-goal/goal-end": {
+      "path": "Twitch · Channel Goal · Goal End",
+      "status": "Fehlt"
+    },
+    "twitch/channel-goal/goal-progress": {
+      "path": "Twitch · Channel Goal · Goal Progress",
+      "status": "Fehlt"
+    },
+    "twitch/channel-power-ups/custom-power-up-redemption": {
+      "path": "Twitch · Channel Power Ups · Custom Power Up Redemption",
+      "status": "Fehlt"
+    },
+    "twitch/channel-power-ups/power-up-redemption": {
+      "path": "Twitch · Channel Power Ups · Power Up Redemption",
+      "status": "Fehlt"
+    },
+    "twitch/channel-reward/automatic-reward-redemption": {
+      "path": "Twitch · Channel Reward · Automatic Reward Redemption",
+      "status": "Fehlt"
+    },
+    "twitch/charity/completed": {
+      "path": "Twitch · Charity · Charity Completed",
+      "status": "Fehlt"
+    },
+    "twitch/charity/donation": {
+      "path": "Twitch · Charity · Charity Donation",
+      "status": "Fehlt"
+    },
+    "twitch/charity/progress": {
+      "path": "Twitch · Charity · Charity Progress",
+      "status": "Fehlt"
+    },
+    "twitch/charity/started": {
+      "path": "Twitch · Charity · Charity Started",
+      "status": "Fehlt"
+    },
+    "twitch/chat/bits-badge-tier": {
+      "path": "Twitch · Chat · Bits Badge Tier",
+      "status": "Fehlt"
+    },
+    "twitch/chat/bot-whispers": {
+      "path": "Twitch · Chat · Bot Whispers",
+      "status": "Fehlt"
+    },
+    "twitch/chat/cheer": {
+      "path": "Twitch · Chat · Cheer",
+      "status": "Fehlt"
+    },
+    "twitch/chat/modiversary": {
+      "path": "Twitch · Chat · Modiversary",
+      "status": "Fehlt"
+    },
+    "twitch/chat/watch-streak": {
+      "path": "Twitch · Chat · Watch Streak",
+      "status": "Fehlt"
+    },
+    "twitch/chat/whispers": {
+      "path": "Twitch · Chat · Whispers",
+      "status": "Fehlt"
+    },
+    "twitch/community-goal/contribution": {
+      "path": "Twitch · Community Goal · Community Goal Contribution",
+      "status": "Fehlt"
+    },
+    "twitch/community-goal/ended": {
+      "path": "Twitch · Community Goal · Community Goal Ended",
+      "status": "Fehlt"
+    },
+    "twitch/connections/bot-chat-connected": {
+      "path": "Twitch · Connections · Bot Chat Connected",
+      "status": "Fehlt"
+    },
+    "twitch/connections/bot-chat-disconnected": {
+      "path": "Twitch · Connections · Bot Chat Disconnected",
+      "status": "Fehlt"
+    },
+    "twitch/connections/broadcaster-authenticated": {
+      "path": "Twitch · Connections · Broadcaster Authenticated",
+      "status": "Fehlt"
+    },
+    "twitch/connections/broadcaster-chat-connected": {
+      "path": "Twitch · Connections · Broadcaster Chat Connected",
+      "status": "Fehlt"
+    },
+    "twitch/connections/broadcaster-chat-disconnected": {
+      "path": "Twitch · Connections · Broadcaster Chat Disconnected",
+      "status": "Fehlt"
+    },
+    "twitch/connections/broadcaster-eventsub-connected": {
+      "path": "Twitch · Connections · Broadcaster EventSub Connected",
+      "status": "Fehlt"
+    },
+    "twitch/connections/broadcaster-eventsub-disconnected": {
+      "path": "Twitch · Connections · Broadcaster EventSub Disconnected",
+      "status": "Fehlt"
+    },
+    "twitch/emotes/betterttv-emote-added": {
+      "path": "Twitch · Emotes · BetterTTV Emote Added",
+      "status": "Fehlt"
+    },
+    "twitch/emotes/betterttv-emote-removed": {
+      "path": "Twitch · Emotes · BetterTTV Emote Removed",
+      "status": "Fehlt"
+    },
+    "twitch/emotes/seventv-emote-added": {
+      "path": "Twitch · Emotes · SevenTV Emote Added",
+      "status": "Fehlt"
+    },
+    "twitch/emotes/seventv-emote-removed": {
+      "path": "Twitch · Emotes · SevenTV Emote Removed",
+      "status": "Fehlt"
+    },
+    "twitch/general/announcement": {
+      "path": "Twitch · General · Announcement",
+      "status": "Fehlt"
+    },
+    "twitch/general/present-viewers": {
+      "path": "Twitch · General · Present Viewers",
+      "status": "Fehlt"
+    },
+    "twitch/general/shoutout-received": {
+      "path": "Twitch · General · Shoutout Received",
+      "status": "Fehlt"
+    },
+    "twitch/guest-star/guest-update": {
+      "path": "Twitch · Guest Star · Guest Star Guest Update",
+      "status": "Fehlt"
+    },
+    "twitch/guest-star/session-begin": {
+      "path": "Twitch · Guest Star · Guest Star Session Begin",
+      "status": "Fehlt"
+    },
+    "twitch/guest-star/session-end": {
+      "path": "Twitch · Guest Star · Guest Star Session End",
+      "status": "Fehlt"
+    },
+    "twitch/guest-star/settings-update": {
+      "path": "Twitch · Guest Star · Guest Star Settings Update",
+      "status": "Fehlt"
+    },
+    "twitch/moderation/automod-message-held": {
+      "path": "Twitch · Moderation · AutoMod Message Held",
+      "status": "Fehlt"
+    },
+    "twitch/moderation/automod-message-updated": {
+      "path": "Twitch · Moderation · AutoMod Message Updated",
+      "status": "Fehlt"
+    },
+    "twitch/moderation/blocked-terms-added": {
+      "path": "Twitch · Moderation · Blocked Terms Added",
+      "status": "Fehlt"
+    },
+    "twitch/moderation/blocked-terms-deleted": {
+      "path": "Twitch · Moderation · Blocked Terms Deleted",
+      "status": "Fehlt"
+    },
+    "twitch/moderation/chat-cleared": {
+      "path": "Twitch · Moderation · Chat Cleared",
+      "status": "Fehlt"
+    },
+    "twitch/moderation/chat-message-deleted": {
+      "path": "Twitch · Moderation · Chat Message Deleted",
+      "status": "Fehlt"
+    },
+    "twitch/moderation/permitted-terms-added": {
+      "path": "Twitch · Moderation · Permitted Terms Added",
+      "status": "Fehlt"
+    },
+    "twitch/moderation/permitted-terms-deleted": {
+      "path": "Twitch · Moderation · Permitted Terms Deleted",
+      "status": "Fehlt"
+    },
+    "twitch/moderation/shield-mode-begin": {
+      "path": "Twitch · Moderation · Shield Mode Begin",
+      "status": "Fehlt"
+    },
+    "twitch/moderation/shield-mode-end": {
+      "path": "Twitch · Moderation · Shield Mode End",
+      "status": "Fehlt"
+    },
+    "twitch/moderation/shoutout-created": {
+      "path": "Twitch · Moderation · Shoutout Created",
+      "status": "Fehlt"
+    },
+    "twitch/moderation/suspicious-user-message": {
+      "path": "Twitch · Moderation · Suspicious User Message",
+      "status": "Fehlt"
+    },
+    "twitch/moderation/suspicious-user-update": {
+      "path": "Twitch · Moderation · Suspicious User Update",
+      "status": "Fehlt"
+    },
+    "twitch/moderation/unban-request-approved": {
+      "path": "Twitch · Moderation · Unban Request Approved",
+      "status": "Fehlt"
+    },
+    "twitch/moderation/unban-request-created": {
+      "path": "Twitch · Moderation · Unban Request Created",
+      "status": "Fehlt"
+    },
+    "twitch/moderation/unban-request-denied": {
+      "path": "Twitch · Moderation · Unban Request Denied",
+      "status": "Fehlt"
+    },
+    "twitch/moderation/user-untimed-out": {
+      "path": "Twitch · Moderation · User Untimed Out",
+      "status": "Fehlt"
+    },
+    "twitch/moderation/warned-user": {
+      "path": "Twitch · Moderation · Warned User",
+      "status": "Fehlt"
+    },
+    "twitch/moderation/warning-acknowledged": {
+      "path": "Twitch · Moderation · Warning Acknowledged",
+      "status": "Fehlt"
+    },
+    "twitch/raid/cancelled": {
+      "path": "Twitch · Raid · Raid Cancelled",
+      "status": "Fehlt"
+    },
+    "twitch/raid/start": {
+      "path": "Twitch · Raid · Raid Start",
+      "status": "Fehlt"
+    },
+    "twitch/shared-chat/announcement": {
+      "path": "Twitch · Shared Chat · Shared Announcement",
+      "status": "Fehlt"
+    },
+    "twitch/shared-chat/community-sub-gift": {
+      "path": "Twitch · Shared Chat · Shared Community Sub Gift",
+      "status": "Fehlt"
+    },
+    "twitch/shared-chat/gift-paid-upgrade": {
+      "path": "Twitch · Shared Chat · Shared Gift Paid Upgrade",
+      "status": "Fehlt"
+    },
+    "twitch/shared-chat/message-deleted": {
+      "path": "Twitch · Shared Chat · Shared Chat Message Deleted",
+      "status": "Fehlt"
+    },
+    "twitch/shared-chat/pay-it-forward": {
+      "path": "Twitch · Shared Chat · Shared Pay It Forward",
+      "status": "Fehlt"
+    },
+    "twitch/shared-chat/prime-paid-upgrade": {
+      "path": "Twitch · Shared Chat · Shared Prime Paid Upgrade",
+      "status": "Fehlt"
+    },
+    "twitch/shared-chat/raid": {
+      "path": "Twitch · Shared Chat · Raid",
+      "status": "Fehlt"
+    },
+    "twitch/shared-chat/resub": {
+      "path": "Twitch · Shared Chat · Shared Resub",
+      "status": "Fehlt"
+    },
+    "twitch/shared-chat/session-begin": {
+      "path": "Twitch · Shared Chat · Twitch Shared Chat Session Begin",
+      "status": "Fehlt"
+    },
+    "twitch/shared-chat/session-end": {
+      "path": "Twitch · Shared Chat · Twitch Shared Chat Session End",
+      "status": "Fehlt"
+    },
+    "twitch/shared-chat/session-update": {
+      "path": "Twitch · Shared Chat · Twitch Shared Chat Session Update",
+      "status": "Fehlt"
+    },
+    "twitch/shared-chat/shared-modiversary": {
+      "path": "Twitch · Shared Chat · Shared Modiversary",
+      "status": "Fehlt"
+    },
+    "twitch/shared-chat/sub": {
+      "path": "Twitch · Shared Chat · Shared Sub",
+      "status": "Fehlt"
+    },
+    "twitch/shared-chat/sub-gift": {
+      "path": "Twitch · Shared Chat · Shared Sub Gift",
+      "status": "Fehlt"
+    },
+    "twitch/shared-chat/user-banned": {
+      "path": "Twitch · Shared Chat · Shared Chat User Banned",
+      "status": "Fehlt"
+    },
+    "twitch/shared-chat/user-timed-out": {
+      "path": "Twitch · Shared Chat · Shared Chat User Timed Out",
+      "status": "Fehlt"
+    },
+    "twitch/shared-chat/user-unbanned": {
+      "path": "Twitch · Shared Chat · Shared Chat User Unbanned",
+      "status": "Fehlt"
+    },
+    "twitch/shared-chat/user-untimed-out": {
+      "path": "Twitch · Shared Chat · Shared Chat User Untimed Out",
+      "status": "Fehlt"
+    },
+    "youtube/broadcast/added": {
+      "path": "YouTube · Broadcast · Broadcast Added",
+      "status": "Fehlt"
+    },
+    "youtube/broadcast/ended": {
+      "path": "YouTube · Broadcast · Broadcast Ended",
+      "status": "Fehlt"
+    },
+    "youtube/broadcast/monitoring-ended": {
+      "path": "YouTube · Broadcast · Broadcast Monitoring Ended",
+      "status": "Fehlt"
+    },
+    "youtube/broadcast/monitoring-started": {
+      "path": "YouTube · Broadcast · Broadcast Monitoring Started",
+      "status": "Fehlt"
+    },
+    "youtube/broadcast/removed": {
+      "path": "YouTube · Broadcast · Broadcast Removed",
+      "status": "Fehlt"
+    },
+    "youtube/broadcast/started": {
+      "path": "YouTube · Broadcast · Broadcast Started",
+      "status": "Fehlt"
+    },
+    "youtube/broadcast/statistics-updated": {
+      "path": "YouTube · Broadcast · Statistics Updated",
+      "status": "Fehlt"
+    },
+    "youtube/broadcast/updated": {
+      "path": "YouTube · Broadcast · Broadcast Updated",
+      "status": "Fehlt"
+    },
+    "youtube/chat/first-words": {
+      "path": "YouTube · Chat · First Words",
+      "status": "Fehlt"
+    },
+    "youtube/chat/jewels-gifted": {
+      "path": "YouTube · Chat · Jewels Gifted",
+      "status": "Fehlt"
+    },
+    "youtube/chat/message": {
+      "path": "YouTube · Chat · Message",
+      "status": "Fehlt"
+    },
+    "youtube/chat/super-chat": {
+      "path": "YouTube · Chat · Super Chat",
+      "status": "Fehlt"
+    },
+    "youtube/chat/super-sticker": {
+      "path": "YouTube · Chat · Super Sticker",
+      "status": "Fehlt"
+    },
+    "youtube/general/new-sponsor": {
+      "path": "YouTube · General · New Sponsor",
+      "status": "Fehlt"
+    },
+    "youtube/general/new-subscriber": {
+      "path": "YouTube · General · New Subscriber",
+      "status": "Fehlt"
+    },
+    "youtube/general/present-viewers": {
+      "path": "YouTube · General · Present Viewers",
+      "status": "Fehlt"
+    },
+    "youtube/general/sponsor-only-ended": {
+      "path": "YouTube · General · Sponsor Only Ended",
+      "status": "Fehlt"
+    },
+    "youtube/general/sponsor-only-started": {
+      "path": "YouTube · General · Sponsor Only Started",
+      "status": "Fehlt"
+    },
+    "youtube/general/user-banned": {
+      "path": "YouTube · General · User Banned",
+      "status": "Fehlt"
+    },
+    "youtube/general/user-timed-out": {
+      "path": "YouTube · General · User Timed Out",
+      "status": "Fehlt"
+    },
+    "youtube/membership/gift": {
+      "path": "YouTube · Membership · Membership Gift",
+      "status": "Fehlt"
+    },
+    "youtube/membership/gift-membership-received": {
+      "path": "YouTube · Membership · Gift Membership Received",
+      "status": "Fehlt"
+    },
+    "youtube/membership/member-milestone": {
+      "path": "YouTube · Membership · Member Milestone",
+      "status": "Fehlt"
+    },
+    "youtube/polls/poll-closed": {
+      "path": "YouTube · Polls · Poll Closed",
+      "status": "Fehlt"
+    },
+    "youtube/polls/poll-started": {
+      "path": "YouTube · Polls · Poll Started",
+      "status": "Fehlt"
+    },
+    "youtube/polls/poll-updated": {
+      "path": "YouTube · Polls · Poll Updated",
+      "status": "Fehlt"
+    }
+  }
+}

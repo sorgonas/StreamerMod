@@ -1,0 +1,35 @@
+<!doctype html><html lang="de"><meta charset="utf-8"><title>StreamerMod</title>
+<style>body{background:#29272d;color:#eee;font:13px sans-serif;margin:12px}label{display:block;margin:12px 0 4px}input,select,textarea,button{box-sizing:border-box;width:100%;background:#403b46;color:#fff;padding:7px;border:1px solid #655b6b;border-radius:4px}textarea{min-height:85px}p{line-height:1.5}</style>
+<h3>StreamerMod</h3><p id="status">Studio-Verbindung wird geprüft…</p><label>Button-ID (leer = eigener Kontext)</label><input id="buttonId"><p id="context"></p>
+<div id="actions"></div><label>Zusätzliche Argumente (JSON-Objekt)</label><textarea id="arguments">{}</textarea><button id="refresh">Actions aktualisieren</button>
+<script>
+let socket,context,actionUuid,isDial=false,settings={},actionList=[];
+const fields=[['actionId','Tastendruck / Reglerdruck'],['upActionId','Loslassen'],['clockwiseActionId','Drehen nach rechts'],['counterclockwiseActionId','Drehen nach links'],['touchActionId','Touch']];
+function send(event,payload){socket.send(JSON.stringify({event,action:actionUuid,context,payload}));}
+function render(){
+ document.getElementById('actions').replaceChildren();
+ for(const [key,title] of fields.filter(([key])=>isDial||['actionId','upActionId'].includes(key))){
+  const label=document.createElement('label');label.textContent=title;const select=document.createElement('select');select.id=key;
+  select.add(new Option('Keine Action',''));
+  for(const action of actionList)select.add(new Option(action.name,action.id));
+  if(settings[key]&&!actionList.some(a=>a.id===settings[key]))select.add(new Option('Gespeicherte Action (nicht verfügbar)',settings[key]));
+  select.value=settings[key]||'';select.onchange=()=>save();document.getElementById('actions').append(label,select);
+ }
+}
+function save(){
+ let values;try{values=JSON.parse(document.getElementById('arguments').value);if(!values||Array.isArray(values)||typeof values!=='object')throw Error();}catch(e){document.getElementById('status').textContent='Argumente müssen ein JSON-Objekt sein.';return;}
+ settings={...settings,buttonId:document.getElementById('buttonId').value,arguments:values};
+ for(const [key]of fields){const input=document.getElementById(key);if(input)settings[key]=input.value||'';}
+ send('setSettings',settings);
+}
+window.connectElgatoStreamDeckSocket=function(port,uuid,registerEvent,info,actionInfo){
+ const action=JSON.parse(actionInfo);context=action.context||uuid;actionUuid=action.action;isDial=action.payload?.controller==='Encoder'||actionUuid==='org.sorgobot.studio.dial';settings=action.payload?.settings||{};
+ document.getElementById('buttonId').value=settings.buttonId||'';document.getElementById('arguments').value=JSON.stringify(settings.arguments||{},null,2);document.getElementById('context').textContent='Eigener Kontext: '+context;render();
+ socket=new WebSocket('ws://127.0.0.1:'+port);
+ socket.onopen=()=>{socket.send(JSON.stringify({event:registerEvent,uuid}));send('sendToPlugin',{op:'actions'});};
+ socket.onmessage=({data})=>{const m=JSON.parse(data);if(m.event==='sendToPropertyInspector'&&m.payload?.op==='actions'){
+  actionList=m.payload.actions||[];render();document.getElementById('status').textContent=m.payload.connected===false?'Studio noch nicht verbunden. Studio starten und aktualisieren.':'Actions aus StreamerMod geladen.';
+ }};
+};
+document.getElementById('buttonId').onchange=save;document.getElementById('arguments').onchange=save;document.getElementById('refresh').onclick=()=>send('sendToPlugin',{op:'actions'});
+</script></html>

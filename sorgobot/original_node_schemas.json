@@ -1,0 +1,4194 @@
+{
+  "1005": {
+    "name": "ClearActionQueue",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "actionQueueId"
+    ]
+  },
+  "4": {
+    "name": "Action",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "actionId",
+      "runImmedately"
+    ]
+  },
+  "1017": {
+    "name": "GetActionGroupState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "groupName"
+    ]
+  },
+  "1016": {
+    "name": "GetActionState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "actionId"
+    ]
+  },
+  "1011": {
+    "name": "SetActionGroupState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "groupName",
+      "state"
+    ]
+  },
+  "1022": {
+    "name": "SetActionQueueBlockingState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "actionQueueId",
+      "state"
+    ]
+  },
+  "1001": {
+    "name": "SetActionQueuePauseState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "actionQueueId",
+      "state",
+      "clear"
+    ]
+  },
+  "1004": {
+    "name": "SetActionState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "actionId",
+      "state"
+    ]
+  },
+  "1028": {
+    "name": "SetSubActionState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "actionId",
+      "subActionId",
+      "state"
+    ]
+  },
+  "1038": {
+    "name": "SetSubActionWeight",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "actionId",
+      "subActionId"
+    ]
+  },
+  "99999": {
+    "name": "ExecuteCode",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "name",
+      "description",
+      "references",
+      "byteCode",
+      "precompile",
+      "delayStart",
+      "saveResultToVariable",
+      "saveToVariable"
+    ]
+  },
+  "99998": {
+    "name": "ExecuteMethod",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "executeCodeId",
+      "method",
+      "runOnUiThread",
+      "saveResultToVariable",
+      "saveToVariable"
+    ]
+  },
+  "1015": {
+    "name": "GetCommandGroupState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "groupName"
+    ]
+  },
+  "1013": {
+    "name": "GetCommands",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "groupName",
+      "variableName",
+      "includeAll",
+      "ignoreAliases",
+      "hasPermission"
+    ]
+  },
+  "1014": {
+    "name": "GetCommandState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "commandId"
+    ]
+  },
+  "1010": {
+    "name": "SetCommandGroupState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "groupName",
+      "state"
+    ]
+  },
+  "9": {
+    "name": "SetCommandState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "commandId",
+      "state"
+    ]
+  },
+  "99900": {
+    "name": "Group",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "subActions",
+      "random",
+      "name",
+      "color"
+    ]
+  },
+  "1009": {
+    "name": "Comment",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "value",
+      "color"
+    ]
+  },
+  "1002": {
+    "name": "DelayAction",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "value",
+      "maxValue",
+      "random"
+    ]
+  },
+  "1007": {
+    "name": "FetchUrl",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "url",
+      "variableName",
+      "headers",
+      "parseAsJson",
+      "autoType"
+    ]
+  },
+  "1023": {
+    "name": "GetInput",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "title",
+      "prompt",
+      "originalText",
+      "outputVariable",
+      "autoTypeOutput"
+    ]
+  },
+  "1003": {
+    "name": "GetRandomNumber",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "randomType",
+      "min",
+      "max"
+    ]
+  },
+  "1020": {
+    "name": "LogEntry",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "logLevel",
+      "message"
+    ]
+  },
+  "6": {
+    "name": "RunExecutable",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "command",
+      "arguments",
+      "workingDir",
+      "envVars",
+      "waitForExit"
+    ]
+  },
+  "1008": {
+    "name": "PickColor",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "alpha",
+      "red",
+      "green",
+      "blue",
+      "random",
+      "variableName"
+    ]
+  },
+  "1031": {
+    "name": "SendLocalSignal",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "signalName",
+      "useArge",
+      "customArgs",
+      "queueSignal"
+    ]
+  },
+  "1025": {
+    "name": "SetVoiceControlInput",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "audioDeviceId",
+      "audioDeviceName"
+    ]
+  },
+  "8": {
+    "name": "SetTimerState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "timerId",
+      "state"
+    ]
+  },
+  "1024": {
+    "name": "ToastNotification",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "toastId",
+      "title",
+      "text",
+      "attribution",
+      "iconPath"
+    ]
+  },
+  "2": {
+    "name": "UdpBroadcast",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "port",
+      "payload"
+    ]
+  },
+  "1032": {
+    "name": "WaitForLocalSignal",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "signalName",
+      "overwrite",
+      "timeout"
+    ]
+  },
+  "7001": {
+    "name": "DiscordBasicWebhook",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "name",
+      "username",
+      "webhookUrl",
+      "content",
+      "image",
+      "avatar",
+      "textToSpeech"
+    ]
+  },
+  "14611": {
+    "name": "ElgatoCameraHubPrompterSetAutoScrollState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "state"
+    ]
+  },
+  "14610": {
+    "name": "ElgatoCameraHubPrompterSetBrightness",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "adjustment",
+      "brightness"
+    ]
+  },
+  "14603": {
+    "name": "ElgatoCameraHubPrompterSetChapter",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "adjustment",
+      "chapter"
+    ]
+  },
+  "14615": {
+    "name": "ElgatoCameraHubPrompterSetCrosshairImage",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "image"
+    ]
+  },
+  "14614": {
+    "name": "ElgatoCameraHubPrompterSetCrosshairState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "state"
+    ]
+  },
+  "14604": {
+    "name": "ElgatoCameraHubPrompterSetFont",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "font"
+    ]
+  },
+  "14605": {
+    "name": "ElgatoCameraHubPrompterSetFontSize",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "adjustment",
+      "fontSize"
+    ]
+  },
+  "14608": {
+    "name": "ElgatoCameraHubPrompterSetHorizontalMargin",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "adjustment",
+      "margin"
+    ]
+  },
+  "14607": {
+    "name": "ElgatoCameraHubPrompterSetLineSpacing",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "adjustment",
+      "lineSpacing"
+    ]
+  },
+  "14612": {
+    "name": "ElgatoCameraHubPrompterSetMode",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "mode"
+    ]
+  },
+  "14606": {
+    "name": "ElgatoCameraHubPrompterSetOpacity",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "adjustment",
+      "opacity"
+    ]
+  },
+  "14617": {
+    "name": "ElgatoCameraHubPrompterSetScript",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "uniqueId",
+      "scriptName"
+    ]
+  },
+  "14609": {
+    "name": "ElgatoCameraHubPrompterSetVerticalMargin",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "adjustment",
+      "margin"
+    ]
+  },
+  "14401": {
+    "name": "ElgatoCameraHubEpocCamSetARLens",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "arLens"
+    ]
+  },
+  "14403": {
+    "name": "ElgatoCameraHubEpocCamSetBitrate",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "bitrate"
+    ]
+  },
+  "14402": {
+    "name": "ElgatoCameraHubEpocCamSetCamera",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "camera"
+    ]
+  },
+  "14404": {
+    "name": "ElgatoCameraHubEpocCamSetTorchMode",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "state"
+    ]
+  },
+  "14312": {
+    "name": "ElgatoCameraHubWebcamSetAntiFlicker",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "antiFlicker"
+    ]
+  },
+  "14308": {
+    "name": "ElgatoCameraHubWebcamSetAutoWhiteBalance",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "state"
+    ]
+  },
+  "14302": {
+    "name": "ElgatoCameraHubWebcamSetBrightness",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "adjustment",
+      "brightness"
+    ]
+  },
+  "14301": {
+    "name": "ElgatoCameraHubWebcamSetContrast",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "adjustment",
+      "contrast"
+    ]
+  },
+  "14314": {
+    "name": "ElgatoCameraHubWebcamSetDynamicRange",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "dynamicRange"
+    ]
+  },
+  "14307": {
+    "name": "ElgatoCameraHubWebcamSetFocus",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "adjustment",
+      "focus"
+    ]
+  },
+  "14311": {
+    "name": "ElgatoCameraHubWebcamSetNoiseReduction",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "state"
+    ]
+  },
+  "14305": {
+    "name": "ElgatoCameraHubWebcamSetPan",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "adjustment",
+      "pan"
+    ]
+  },
+  "14303": {
+    "name": "ElgatoCameraHubWebcamSetSaturation",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "adjustment",
+      "saturation"
+    ]
+  },
+  "14313": {
+    "name": "ElgatoCameraHubWebcamSetSharpness",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "adjustment",
+      "sharpness"
+    ]
+  },
+  "14306": {
+    "name": "ElgatoCameraHubWebcamSetTilt",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "adjustment",
+      "tilt"
+    ]
+  },
+  "14309": {
+    "name": "ElgatoCameraHubWebcamSetWhiteBalance",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "adjustment",
+      "whiteBalance"
+    ]
+  },
+  "14310": {
+    "name": "ElgatoCameraHubWebcamSetWhiteBalanceTint",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "adjustment",
+      "whiteBalanceTint"
+    ]
+  },
+  "14304": {
+    "name": "ElgatoCameraHubWebcamSetZoom",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "adjustment",
+      "zoom"
+    ]
+  },
+  "14701": {
+    "name": "ElgatoStreamDeckMcpExecuteAction",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "actionId",
+      "actionName"
+    ]
+  },
+  "14016": {
+    "name": "ElgatoWaveLinkGetFilterState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "identifier",
+      "inputName",
+      "filterId",
+      "filterName"
+    ]
+  },
+  "14011": {
+    "name": "ElgatoWaveLinkGetInputInformation",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "identifier",
+      "inputName"
+    ]
+  },
+  "14012": {
+    "name": "ElgatoWaveLinkGetMicrophoneInformation",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "identifier",
+      "microphoneName"
+    ]
+  },
+  "14003": {
+    "name": "ElgatoWaveLinkMuteInput",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "identifier",
+      "inputName",
+      "mixerType",
+      "state"
+    ]
+  },
+  "14001": {
+    "name": "ElgatoWaveLinkMuteMicrophone",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "identifier",
+      "microphoneName",
+      "state"
+    ]
+  },
+  "14002": {
+    "name": "ElgatoWaveLinkMuteOutput",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "mixerType",
+      "state"
+    ]
+  },
+  "14004": {
+    "name": "ElgatoWaveLinkSetBypassFilterState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "identifier",
+      "inputName",
+      "mixerType",
+      "state"
+    ]
+  },
+  "14005": {
+    "name": "ElgatoWaveLinkSetFilterState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "identifier",
+      "inputName",
+      "filterId",
+      "filterName",
+      "state"
+    ]
+  },
+  "14010": {
+    "name": "ElgatoWaveLinkSetInputVolume",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "identifier",
+      "inputName",
+      "mixerType",
+      "volume",
+      "adjustment"
+    ]
+  },
+  "14015": {
+    "name": "ElgatoWaveLinkSetMicrophoneBalance",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "identifier",
+      "microphoneName",
+      "balance"
+    ]
+  },
+  "14013": {
+    "name": "ElgatoWaveLinkSetMicrophoneGain",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "identifier",
+      "microphoneName",
+      "gain"
+    ]
+  },
+  "14014": {
+    "name": "ElgatoWaveLinkSetMicrophoneOutputVolume",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "identifier",
+      "microphoneName",
+      "volume",
+      "adjustment"
+    ]
+  },
+  "14006": {
+    "name": "ElgatoWaveLinkSetOutputMonitorDevice",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "identifier",
+      "deviceName"
+    ]
+  },
+  "14008": {
+    "name": "ElgatoWaveLinkSetOutputVolume",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "mixerType",
+      "volume",
+      "adjustment"
+    ]
+  },
+  "1030": {
+    "name": "SetFileTailState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "fileTailId",
+      "state"
+    ]
+  },
+  "1039": {
+    "name": "FileExists",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "file",
+      "variableName"
+    ]
+  },
+  "1040": {
+    "name": "FolderExists",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "folder",
+      "variableName"
+    ]
+  },
+  "1006": {
+    "name": "ReadLinesFromFile",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "file",
+      "parseVariables",
+      "autoType",
+      "variableName"
+    ]
+  },
+  "5": {
+    "name": "ReadRandomLineFromFile",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "file",
+      "parseVariables",
+      "autoType",
+      "overwrite",
+      "count",
+      "variableName"
+    ]
+  },
+  "1021": {
+    "name": "ReadSpecificLineFromFile",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "file",
+      "parseVariables",
+      "autoType",
+      "count",
+      "variableName"
+    ]
+  },
+  "3": {
+    "name": "WriteToFile",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "file",
+      "text",
+      "append"
+    ]
+  },
+  "8001": {
+    "name": "IFTTTNotificationBasic",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "eventName",
+      "text"
+    ]
+  },
+  "8002": {
+    "name": "IFTTTNotificationAdvanced",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "eventName",
+      "args"
+    ]
+  },
+  "1012": {
+    "name": "KeyboardPress",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "key",
+      "modifiers"
+    ]
+  },
+  "35104": {
+    "name": "KickChannelRewardConfigure",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "disableNotConfigured"
+    ]
+  },
+  "35108": {
+    "name": "KickChannelRewardGetInfo",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "rewardId"
+    ]
+  },
+  "35109": {
+    "name": "KickChannelRewardResetCounter",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "rewardId"
+    ]
+  },
+  "35110": {
+    "name": "KickChannelRewardResetUserCounters",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "rewardId"
+    ]
+  },
+  "35113": {
+    "name": "KickChannelRewardSetBackgroundColor",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "rewardId",
+      "backgroundColor",
+      "random"
+    ]
+  },
+  "35103": {
+    "name": "KickChannelRewardSetCost",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "rewardId",
+      "cost",
+      "operator"
+    ]
+  },
+  "35106": {
+    "name": "KickChannelRewardSetDescription",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "rewardId",
+      "description"
+    ]
+  },
+  "35101": {
+    "name": "KickChannelRewardSetEnabledState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "rewardId",
+      "state"
+    ]
+  },
+  "35111": {
+    "name": "KickChannelRewardSetGroupEnabledState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "groupName",
+      "state"
+    ]
+  },
+  "35112": {
+    "name": "KickChannelRewardSetGroupPausedState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "groupName",
+      "state"
+    ]
+  },
+  "35102": {
+    "name": "KickChannelRewardSetPausedState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "rewardId",
+      "state"
+    ]
+  },
+  "35105": {
+    "name": "KickChannelRewardSetTitle",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "rewardId",
+      "title"
+    ]
+  },
+  "35107": {
+    "name": "KickChannelRewardUpdate",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "rewardId",
+      "title",
+      "description",
+      "cost",
+      "operator"
+    ]
+  },
+  "35012": {
+    "name": "KickAddRandomUsers",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "present",
+      "count",
+      "includeFrom",
+      "groups"
+    ]
+  },
+  "35011": {
+    "name": "KickAddTargetInfo",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "userLogin"
+    ]
+  },
+  "35020": {
+    "name": "KickAddUserToGroup",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "userLogin",
+      "groupName"
+    ]
+  },
+  "35040": {
+    "name": "KickBanUser",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "userLogin",
+      "reason"
+    ]
+  },
+  "35021": {
+    "name": "KickRemoveUserFromGroup",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "userLogin",
+      "groupName"
+    ]
+  },
+  "35002": {
+    "name": "KickReplyToMessage",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "text",
+      "useBot",
+      "fallback",
+      "replyId"
+    ]
+  },
+  "35001": {
+    "name": "KickSendMessage",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "text",
+      "useBot",
+      "fallback"
+    ]
+  },
+  "35031": {
+    "name": "KickSetChannelCategory",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "source",
+      "categoryName",
+      "categoryId"
+    ]
+  },
+  "35030": {
+    "name": "KickSetChannelTitle",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "title"
+    ]
+  },
+  "35042": {
+    "name": "KickTimeoutUser",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "userLogin",
+      "duration",
+      "reason"
+    ]
+  },
+  "35041": {
+    "name": "KickUnbanUser",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "userLogin"
+    ]
+  },
+  "35043": {
+    "name": "KickUnTimeoutUser",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "userLogin"
+    ]
+  },
+  "35022": {
+    "name": "KickUserInGroup",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "userLogin",
+      "groupName"
+    ]
+  },
+  "121": {
+    "name": "GlobalGet",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "source",
+      "variableName",
+      "persisted",
+      "destinationVariable",
+      "defaultValue"
+    ]
+  },
+  "122": {
+    "name": "GlobalSet",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "destination",
+      "variableName",
+      "persisted",
+      "source",
+      "value",
+      "autoType"
+    ]
+  },
+  "120": {
+    "name": "LogicIf",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "subActions",
+      "input",
+      "operation",
+      "value",
+      "autoType"
+    ]
+  },
+  "127": {
+    "name": "LogicSwitch",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "subActions",
+      "input",
+      "autoType"
+    ]
+  },
+  "99903": {
+    "name": "SwitchCaseGroup",
+    "fields": [
+      "caseSensitive",
+      "values"
+    ]
+  },
+  "128": {
+    "name": "LogicWhile",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "subActions",
+      "input",
+      "operation",
+      "value",
+      "autoType",
+      "ignoreCase"
+    ]
+  },
+  "123": {
+    "name": "SetArgument",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "variableName",
+      "value",
+      "autoType"
+    ]
+  },
+  "6001": {
+    "name": "LumiaStreamSendCommand",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "command"
+    ]
+  },
+  "6002": {
+    "name": "LumiaStreamSetColor",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "color",
+      "brightness",
+      "duration",
+      "transition",
+      "default",
+      "skipQueue",
+      "lights"
+    ]
+  },
+  "41004": {
+    "name": "MeldStudioRecording",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "state"
+    ]
+  },
+  "41016": {
+    "name": "MeldStudioSetBrowserLayerUrl",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "sceneName",
+      "layerName",
+      "url"
+    ]
+  },
+  "41007": {
+    "name": "MeldStudioSetEffectEnabledState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "sceneName",
+      "layerName",
+      "effectName",
+      "state"
+    ]
+  },
+  "41012": {
+    "name": "MeldStudioSetLayerText",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "sceneName",
+      "layerName",
+      "text"
+    ]
+  },
+  "41008": {
+    "name": "MeldStudioSetLayerTrackMutedState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "sceneName",
+      "layerName",
+      "trackName",
+      "state"
+    ]
+  },
+  "41006": {
+    "name": "MeldStudioSetLayerVisibilityState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "sceneName",
+      "layerName",
+      "state"
+    ]
+  },
+  "41014": {
+    "name": "MeldStudioSetMediaLayerSource",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "sceneName",
+      "layerName",
+      "url"
+    ]
+  },
+  "41009": {
+    "name": "MeldStudioSetTrackMutedState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "state"
+    ]
+  },
+  "41005": {
+    "name": "MeldStudioShowScene",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "sceneName"
+    ]
+  },
+  "41003": {
+    "name": "MeldStudioStreaming",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "state"
+    ]
+  },
+  "9002": {
+    "name": "MidiOutControlChange",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "device",
+      "name",
+      "channel",
+      "controller",
+      "value"
+    ]
+  },
+  "9003": {
+    "name": "MidiOutGeneric",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "device",
+      "name",
+      "command",
+      "channel",
+      "data1",
+      "data2"
+    ]
+  },
+  "9001": {
+    "name": "MidiOutNoteOn",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "device",
+      "name",
+      "sendNoteOff",
+      "channel",
+      "note",
+      "velocity",
+      "duration"
+    ]
+  },
+  "40001": {
+    "name": "MtionSendTrigger",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "triggerId",
+      "triggerName",
+      "parameters"
+    ]
+  },
+  "329": {
+    "name": "ObsCreateRecordChapter",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "chapterName"
+    ]
+  },
+  "36": {
+    "name": "ObsFlipSource",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "flipMode",
+      "sceneName",
+      "sourceName"
+    ]
+  },
+  "324": {
+    "name": "ObsGetSceneItemProperties",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "sceneName",
+      "sourceName"
+    ]
+  },
+  "32": {
+    "name": "ObsHideGroupSources",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "sceneName",
+      "groupName"
+    ]
+  },
+  "325": {
+    "name": "ObsHideSceneSources",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "sceneName"
+    ]
+  },
+  "41": {
+    "name": "ObsHideSourceFilters",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "sceneName",
+      "sourceName"
+    ]
+  },
+  "46": {
+    "name": "ObsRaw",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "name",
+      "prefix",
+      "raw",
+      "resultsToArgs"
+    ]
+  },
+  "45": {
+    "name": "ObsRecording",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "state"
+    ]
+  },
+  "37": {
+    "name": "ObsRotateSource",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "degrees",
+      "additive",
+      "sceneName",
+      "sourceName"
+    ]
+  },
+  "34": {
+    "name": "ObsSetActiveScene",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "sceneName"
+    ]
+  },
+  "44": {
+    "name": "ObsSetAudioTrackState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "sceneName",
+      "sourceName",
+      "track",
+      "state"
+    ]
+  },
+  "38": {
+    "name": "ObsSetBrowserSourceUrl",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "sceneName",
+      "sourceName",
+      "url"
+    ]
+  },
+  "327": {
+    "name": "ObsSetColorSourceColor",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "sceneName",
+      "sourceName",
+      "color",
+      "random"
+    ]
+  },
+  "39": {
+    "name": "ObsSetGdiText",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "sceneName",
+      "sourceName",
+      "text"
+    ]
+  },
+  "323": {
+    "name": "ObsSetImageSourceFile",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "sceneName",
+      "sourceName",
+      "fileName"
+    ]
+  },
+  "322": {
+    "name": "ObsSetMediaSourceFile",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "sceneName",
+      "sourceName",
+      "fileName"
+    ]
+  },
+  "49": {
+    "name": "ObsSetMediaState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "sceneName",
+      "sourceName",
+      "state"
+    ]
+  },
+  "40": {
+    "name": "ObsSetRandomFilterState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "sceneName",
+      "sourceName",
+      "state"
+    ]
+  },
+  "31": {
+    "name": "ObsRandomGroupSourceVisible",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "sceneName",
+      "groupName"
+    ]
+  },
+  "326": {
+    "name": "ObsSetRandomSceneSourceVisible",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "sceneName"
+    ]
+  },
+  "321": {
+    "name": "ObsSetReplayBufferState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "state"
+    ]
+  },
+  "47": {
+    "name": "ObsSceneFilterState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "sceneName",
+      "filterName",
+      "state"
+    ]
+  },
+  "35": {
+    "name": "ObsSourceFilterState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "sceneName",
+      "sourceName",
+      "filterName",
+      "state"
+    ]
+  },
+  "42": {
+    "name": "ObsSourceMuteState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "sceneName",
+      "sourceName",
+      "state"
+    ]
+  },
+  "30": {
+    "name": "ObsSourceVisbility",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "sceneName",
+      "sourceName",
+      "state"
+    ]
+  },
+  "33": {
+    "name": "ObsStreaming",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "state"
+    ]
+  },
+  "48": {
+    "name": "ObsTakeScreenshot",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "sceneName",
+      "sourceName",
+      "path",
+      "quality"
+    ]
+  },
+  "701": {
+    "name": "PolyPopTriggerAlert",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "alertName",
+      "variables"
+    ]
+  },
+  "15001": {
+    "name": "PronounsAddForUser",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "userLogin",
+      "prefix"
+    ]
+  },
+  "1037": {
+    "name": "AddQuote",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "quoteVariable"
+    ]
+  },
+  "1036": {
+    "name": "DeleteQuote",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "quoteId"
+    ]
+  },
+  "1000": {
+    "name": "GetQuote",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "quoteType",
+      "quoteId"
+    ]
+  },
+  "11": {
+    "name": "RedemptionStatus",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "status"
+    ]
+  },
+  "203": {
+    "name": "RewardConfigure",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "disableNotConfigured",
+      "states"
+    ]
+  },
+  "208": {
+    "name": "RewardGetInfo",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "rewardId"
+    ]
+  },
+  "209": {
+    "name": "RewardResetCounter",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "rewardId"
+    ]
+  },
+  "210": {
+    "name": "RewardResetUserCounters",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "rewardId"
+    ]
+  },
+  "213": {
+    "name": "RewardSetBackgroundColor",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "rewardId",
+      "backgroundColor",
+      "random"
+    ]
+  },
+  "204": {
+    "name": "RewardSetCooldown",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "rewardId",
+      "cooldown",
+      "additive"
+    ]
+  },
+  "202": {
+    "name": "RewardSetCost",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "rewardId",
+      "cost",
+      "operator"
+    ]
+  },
+  "200": {
+    "name": "RewardSetEnabledState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "rewardId",
+      "state"
+    ]
+  },
+  "211": {
+    "name": "RewardSetGroupEnabledState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "groupName",
+      "state"
+    ]
+  },
+  "212": {
+    "name": "RewardSetGroupPausedState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "groupName",
+      "state"
+    ]
+  },
+  "215": {
+    "name": "RewardSetMaxPerStream",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "rewardId",
+      "redeems",
+      "additive"
+    ]
+  },
+  "214": {
+    "name": "RewardSetMaxPerUserPerStream",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "rewardId",
+      "redeems",
+      "additive"
+    ]
+  },
+  "201": {
+    "name": "RewardSetPausedState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "rewardId",
+      "state"
+    ]
+  },
+  "206": {
+    "name": "RewardSetPrompt",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "rewardId",
+      "prompt"
+    ]
+  },
+  "205": {
+    "name": "RewardSetTitle",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "rewardId",
+      "title"
+    ]
+  },
+  "207": {
+    "name": "RewardUpdate",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "rewardId",
+      "title",
+      "prompt",
+      "cost",
+      "operator"
+    ]
+  },
+  "407": {
+    "name": "SlobsFlipSource",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "flipMode",
+      "sceneName",
+      "sourceName",
+      "display"
+    ]
+  },
+  "403": {
+    "name": "SlobsHideGroupSources",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "sceneName",
+      "groupName",
+      "display"
+    ]
+  },
+  "412": {
+    "name": "SlobsHideSourceFilters",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "sceneName",
+      "sourceName"
+    ]
+  },
+  "415": {
+    "name": "SlobsRecording",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "state"
+    ]
+  },
+  "408": {
+    "name": "SlobsRotateSource",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "degrees",
+      "additive",
+      "sceneName",
+      "sourceName",
+      "display"
+    ]
+  },
+  "405": {
+    "name": "SlobsSetActiveScene",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "sceneName"
+    ]
+  },
+  "409": {
+    "name": "SlobsSetBrowserSourceUrl",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "sceneName",
+      "sourceName",
+      "url"
+    ]
+  },
+  "410": {
+    "name": "SlobsSetGdiText",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "sceneName",
+      "sourceName",
+      "text"
+    ]
+  },
+  "411": {
+    "name": "SlobsSetRandomFilterState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "sceneName",
+      "sourceName",
+      "state"
+    ]
+  },
+  "402": {
+    "name": "SlobsRandomGroupSourceVisible",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "sceneName",
+      "groupName",
+      "display"
+    ]
+  },
+  "417": {
+    "name": "SlobsSceneFilterState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "sceneName",
+      "filterName",
+      "state"
+    ]
+  },
+  "406": {
+    "name": "SlobsSourceFilterState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "sceneName",
+      "sourceName",
+      "filterName",
+      "state"
+    ]
+  },
+  "413": {
+    "name": "SlobsSourceMuteState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "sceneName",
+      "sourceName",
+      "state"
+    ]
+  },
+  "401": {
+    "name": "SlobsSourceVisibility",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "sceneName",
+      "sourceName",
+      "state",
+      "display"
+    ]
+  },
+  "404": {
+    "name": "SlobsStreaming",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "connectionId",
+      "state"
+    ]
+  },
+  "1": {
+    "name": "PlaySound",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "device",
+      "soundFile",
+      "finishBeforeContinuing",
+      "volume",
+      "soundName",
+      "useFileNameAsName"
+    ]
+  },
+  "7": {
+    "name": "PlaySoundFromFolder",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "device",
+      "folder",
+      "finishBeforeContinuing",
+      "volume",
+      "recursive",
+      "soundName",
+      "useFileNameAsName"
+    ]
+  },
+  "30002": {
+    "name": "StopSoundPlayback",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "soundName"
+    ]
+  },
+  "607": {
+    "name": "SpeakerBotActivateVoiceGateProfile",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "profileId",
+      "profileName"
+    ]
+  },
+  "603": {
+    "name": "SpeakerBotSetEnabledState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "state"
+    ]
+  },
+  "604": {
+    "name": "SpeakerBotSetPausedState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "state"
+    ]
+  },
+  "602": {
+    "name": "SpeakerBotSpeak",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "alias",
+      "message",
+      "badWordFilter",
+      "delay",
+      "silent"
+    ]
+  },
+  "601": {
+    "name": "SpeakerBotSpeakUdp",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "alias",
+      "message",
+      "badWordFilter"
+    ]
+  },
+  "11002": {
+    "name": "StreamDeckSetBackground",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "buttonId",
+      "image",
+      "color",
+      "state"
+    ]
+  },
+  "11004": {
+    "name": "StreamDeckSetState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "buttonId",
+      "state"
+    ]
+  },
+  "11001": {
+    "name": "StreamDeckSetTitle",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "buttonId",
+      "title",
+      "state"
+    ]
+  },
+  "11008": {
+    "name": "StreamDeckSetStatus",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "buttonId",
+      "value"
+    ]
+  },
+  "11005": {
+    "name": "StreamDeckShowAlert",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "buttonId"
+    ]
+  },
+  "11006": {
+    "name": "StreamDeckShowOk",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "buttonId"
+    ]
+  },
+  "11007": {
+    "name": "StreamDeckToggleState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "buttonId"
+    ]
+  },
+  "21004": {
+    "name": "StreamerBotDeckItemSetBackground",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "deckId",
+      "deckName",
+      "itemId",
+      "itemName",
+      "color",
+      "url",
+      "fileId",
+      "state"
+    ]
+  },
+  "21005": {
+    "name": "StreamerBotDeckItemSetIcon",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "deckId",
+      "deckName",
+      "itemId",
+      "itemName",
+      "color",
+      "name",
+      "url",
+      "fileId",
+      "state"
+    ]
+  },
+  "21001": {
+    "name": "StreamerBotDeckItemSetState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "deckId",
+      "deckName",
+      "itemId",
+      "itemName",
+      "state"
+    ]
+  },
+  "21003": {
+    "name": "StreamerBotDeckItemSetTitle",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "deckId",
+      "deckName",
+      "itemId",
+      "itemName",
+      "color",
+      "title",
+      "state"
+    ]
+  },
+  "21006": {
+    "name": "StreamerBotDeckItemSetValue",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "deckId",
+      "deckName",
+      "itemId",
+      "itemName",
+      "value",
+      "state"
+    ]
+  },
+  "21002": {
+    "name": "StreamerBotDeckItemToggleState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "deckId",
+      "deckName",
+      "itemId",
+      "itemName"
+    ]
+  },
+  "21007": {
+    "name": "StreamerBotDeckNotify",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "deckId",
+      "deckName",
+      "title",
+      "description",
+      "color",
+      "soundId"
+    ]
+  },
+  "21009": {
+    "name": "StreamerBotDeckPageNext",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "deckId",
+      "deckName"
+    ]
+  },
+  "21010": {
+    "name": "StreamerBotDeckPagePrev",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "deckId",
+      "deckName"
+    ]
+  },
+  "21008": {
+    "name": "StreamerBotDeckPageSet",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "deckId",
+      "deckName",
+      "page"
+    ]
+  },
+  "20002": {
+    "name": "StreamerBotRemoteInstanceSendSignal",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "instanceId",
+      "signalName",
+      "useArge",
+      "customArgs"
+    ]
+  },
+  "20001": {
+    "name": "StreamerBotRemoteInstanceSendTrigger",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "instanceId",
+      "eventName",
+      "useArge",
+      "customArgs"
+    ]
+  },
+  "20003": {
+    "name": "StreamerBotRemoteInstanceWaitForSignal",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "instanceId",
+      "signalName",
+      "overwrite",
+      "timeout"
+    ]
+  },
+  "37001": {
+    "name": "StreamfogActivateLens",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "lensId",
+      "lensName",
+      "duration"
+    ]
+  },
+  "37004": {
+    "name": "StreamfogActivateLensByName",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "lensName",
+      "duration"
+    ]
+  },
+  "37011": {
+    "name": "StreamfogActivateOutfit",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "outfitId",
+      "outfitName"
+    ]
+  },
+  "37013": {
+    "name": "StreamfogActivateOutfitByName",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "outfitName"
+    ]
+  },
+  "37014": {
+    "name": "StreamfogPlayVideoBackground",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "videoId",
+      "videoName"
+    ]
+  },
+  "37015": {
+    "name": "StreamfogPlayVideoBackgroundByName",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "videoName"
+    ]
+  },
+  "19001": {
+    "name": "ThrowingSystemActivateTrigger",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "triggerId",
+      "triggerName"
+    ]
+  },
+  "19002": {
+    "name": "ThrowingSystemActivateTriggerByName",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "triggerName"
+    ]
+  },
+  "19003": {
+    "name": "ThrowingSystemThrowItem",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "itemId",
+      "itemName",
+      "delay",
+      "amount"
+    ]
+  },
+  "19004": {
+    "name": "ThrowingSystemThrowItemByName",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "itemName",
+      "delay",
+      "amount"
+    ]
+  },
+  "19005": {
+    "name": "ThrowingSystemThrowItems",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "items",
+      "delay",
+      "amount"
+    ]
+  },
+  "19006": {
+    "name": "ThrowingSystemThrowItemsByName",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "items",
+      "delay",
+      "amount"
+    ]
+  },
+  "1034": {
+    "name": "CustomEventTrigger",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "eventName",
+      "useArgs"
+    ]
+  },
+  "1033": {
+    "name": "SetTriggerState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "actionId",
+      "triggerId",
+      "state"
+    ]
+  },
+  "253": {
+    "name": "AddChannelTag",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "tag"
+    ]
+  },
+  "51": {
+    "name": "AddFollowAgeInfo",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "userLogin"
+    ]
+  },
+  "504": {
+    "name": "TwitchAddModerator",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "userLogin"
+    ]
+  },
+  "50": {
+    "name": "AddTargetInfo",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "userLogin"
+    ]
+  },
+  "52": {
+    "name": "AddTeamInfo",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "userLogin"
+    ]
+  },
+  "502": {
+    "name": "TwitchAddVip",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "userLogin"
+    ]
+  },
+  "18": {
+    "name": "CreateClip",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "title",
+      "duration"
+    ]
+  },
+  "17": {
+    "name": "CreateStreamMarker",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "description"
+    ]
+  },
+  "13": {
+    "name": "EmoteOnly",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "status"
+    ]
+  },
+  "28": {
+    "name": "TwitchFollowMode",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "status",
+      "duration"
+    ]
+  },
+  "528": {
+    "name": "TwitchAssignGuestStarSlot",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "userLogin",
+      "slot"
+    ]
+  },
+  "527": {
+    "name": "TwitchDeleteGuestStarInvite",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "userLogin"
+    ]
+  },
+  "530": {
+    "name": "TwitchDeleteGuestStarSlot",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "userLogin",
+      "slot"
+    ]
+  },
+  "526": {
+    "name": "TwitchSendGuestStarInvite",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "userLogin"
+    ]
+  },
+  "521": {
+    "name": "TwitchUpdateChannelGuestStarSettings",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "moderatorSendLiveEnabled",
+      "slotCount",
+      "browserSourceAudioEnabled",
+      "groupLayout",
+      "regenerateBrowserSources"
+    ]
+  },
+  "529": {
+    "name": "TwitchUpdateGuestStarSlot",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "sourceSlot",
+      "destinationSlot"
+    ]
+  },
+  "531": {
+    "name": "TwitchUpdateGuestStarSlotSettings",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "slot",
+      "audioEnabled",
+      "videoEnabled",
+      "live",
+      "volume"
+    ]
+  },
+  "576": {
+    "name": "TwitchPinChatMessage",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "messageId",
+      "duration"
+    ]
+  },
+  "577": {
+    "name": "TwitchUpdatePinnedChatMessageDuration",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "duration"
+    ]
+  },
+  "561": {
+    "name": "TwitchCreatePoll",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "title",
+      "duration",
+      "channelPointsPerVote",
+      "choices"
+    ]
+  },
+  "568": {
+    "name": "TwitchCreatePrediction",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "title",
+      "predictionWindow",
+      "outcomes"
+    ]
+  },
+  "571": {
+    "name": "TwitchResolveLastPrediction",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "winningIndex"
+    ]
+  },
+  "572": {
+    "name": "TwitchResolveLastPredictionByTitle",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "outcomeTitle"
+    ]
+  },
+  "254": {
+    "name": "RemoveChannelTag",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "tag"
+    ]
+  },
+  "505": {
+    "name": "TwitchRemoveModerator",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "userLogin"
+    ]
+  },
+  "503": {
+    "name": "TwitchRemoveVip",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "userLogin"
+    ]
+  },
+  "19": {
+    "name": "RunCommercial",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "duration"
+    ]
+  },
+  "29": {
+    "name": "TwitchSendShoutout",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "userLogin"
+    ]
+  },
+  "564": {
+    "name": "SetChannelBrandedContent",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "status"
+    ]
+  },
+  "16": {
+    "name": "SetChannelGame",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "source",
+      "game",
+      "gameId"
+    ]
+  },
+  "252": {
+    "name": "SetChannelTags",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "tags"
+    ]
+  },
+  "15": {
+    "name": "SetChannelTitle",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "title"
+    ]
+  },
+  "14": {
+    "name": "SlowMode",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "status",
+      "duration"
+    ]
+  },
+  "500": {
+    "name": "TwitchStartRaid",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "userLogin"
+    ]
+  },
+  "12": {
+    "name": "SubscriberOnly",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "status"
+    ]
+  },
+  "550": {
+    "name": "TwitchAddPresentUser",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "userIndex"
+    ]
+  },
+  "22": {
+    "name": "TwitchAddRandomUsers",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "present",
+      "count",
+      "includeFrom",
+      "groups"
+    ]
+  },
+  "579": {
+    "name": "TwitchAddSuspiciousStatus",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "userLogin",
+      "status"
+    ]
+  },
+  "553": {
+    "name": "TwitchAddUserToGroup",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "userLogin",
+      "groupName"
+    ]
+  },
+  "23": {
+    "name": "TwitchAnnounce",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "text",
+      "color",
+      "useBot",
+      "fallback"
+    ]
+  },
+  "511": {
+    "name": "TwitchBanUser",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "userLogin",
+      "reason"
+    ]
+  },
+  "25": {
+    "name": "TwitchGetCharityCampaign",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "text",
+      "preferredAccount",
+      "color"
+    ]
+  },
+  "573": {
+    "name": "TwitchGetClipDownloadUrls",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "clipId"
+    ]
+  },
+  "580": {
+    "name": "TwitchRemoveSuspiciousStatus",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "userLogin"
+    ]
+  },
+  "554": {
+    "name": "TwitchRemoveUserFromGroup",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "userLogin",
+      "groupName"
+    ]
+  },
+  "560": {
+    "name": "ReplyToMessage",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "text",
+      "useBot",
+      "fallback",
+      "replyId"
+    ]
+  },
+  "10": {
+    "name": "Message",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "text",
+      "pin",
+      "pinToStreamEnd",
+      "useBot",
+      "fallback"
+    ]
+  },
+  "552": {
+    "name": "TwitchSetSubCounterCount",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "value"
+    ]
+  },
+  "20": {
+    "name": "TwitchTimeoutUser",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "userLogin",
+      "duration",
+      "reason"
+    ]
+  },
+  "512": {
+    "name": "TwitchUnbanUser",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "userLogin"
+    ]
+  },
+  "513": {
+    "name": "TwitchUnTimeoutUser",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "userLogin"
+    ]
+  },
+  "558": {
+    "name": "TwitchUserInGroup",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "userLogin",
+      "groupName"
+    ]
+  },
+  "565": {
+    "name": "TwitchWarnUser",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "userLogin",
+      "reason"
+    ]
+  },
+  "27": {
+    "name": "TwitchUpdateShieldModeStatus",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "status"
+    ]
+  },
+  "10001": {
+    "name": "ClearUsersFromGroup",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "groupId"
+    ]
+  },
+  "1018": {
+    "name": "SetVoiceControlCommand",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "commandId",
+      "command"
+    ]
+  },
+  "1019": {
+    "name": "SetVoiceControlCommandState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "commandId",
+      "state"
+    ]
+  },
+  "5010": {
+    "name": "VoiceModPlaySound",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "soundId",
+      "soundboardName",
+      "soundName"
+    ]
+  },
+  "5003": {
+    "name": "VoiceModSelectRandomVoice",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "mode"
+    ]
+  },
+  "5002": {
+    "name": "VoiceModSelectVoice",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "voiceId",
+      "voiceName"
+    ]
+  },
+  "5009": {
+    "name": "VoiceModSelectVoiceById",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "voiceId"
+    ]
+  },
+  "5012": {
+    "name": "VoiceModSelectVoiceByName",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "voiceName"
+    ]
+  },
+  "5008": {
+    "name": "VoiceModSetBackgroundEffectState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "state"
+    ]
+  },
+  "5007": {
+    "name": "VoiceModSetCensorState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "state"
+    ]
+  },
+  "5006": {
+    "name": "VoiceModSetHearMyVoiceState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "state"
+    ]
+  },
+  "5005": {
+    "name": "VoiceModSetMuteState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "state"
+    ]
+  },
+  "5004": {
+    "name": "VoiceModSetVoiceChangerState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "state"
+    ]
+  },
+  "12007": {
+    "name": "VTubeStudioColorTint",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "color",
+      "random",
+      "mixWithSceneLighting",
+      "tintAll",
+      "filterType",
+      "filterValues"
+    ]
+  },
+  "12001": {
+    "name": "VTubeStudioLoadModel",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "modelId",
+      "modelName"
+    ]
+  },
+  "12002": {
+    "name": "VTubeStudioLoadModelByName",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "modelName"
+    ]
+  },
+  "12005": {
+    "name": "VTubeStudioMoveModel",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "seconds",
+      "relative",
+      "posX",
+      "posY",
+      "rotation",
+      "size"
+    ]
+  },
+  "12010": {
+    "name": "VTubeStudioSendRawRequest",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "name",
+      "prefix",
+      "request",
+      "raw",
+      "resultsToArgs"
+    ]
+  },
+  "12009": {
+    "name": "VTubeStudioSetExpressionState",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "expressionFile",
+      "expressionName",
+      "state",
+      "fadeTime"
+    ]
+  },
+  "12003": {
+    "name": "VTubeStudioTriggerHotkey",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "modelId",
+      "modelName",
+      "hotkeyId",
+      "hotkeyName"
+    ]
+  },
+  "12004": {
+    "name": "VTubeStudioTriggerHotkeyByName",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "hotkeyName"
+    ]
+  },
+  "4005": {
+    "name": "YouTubeAddUserToGroup",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "userLogin",
+      "groupName"
+    ]
+  },
+  "4006": {
+    "name": "YouTubeRemoveUserFromGroup",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "userLogin",
+      "groupName"
+    ]
+  },
+  "4007": {
+    "name": "YouTubeUserInGroup",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "userLogin",
+      "groupName"
+    ]
+  },
+  "4008": {
+    "name": "YouTubeBanUser",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "broadcast",
+      "userId"
+    ]
+  },
+  "4011": {
+    "name": "YouTubeCreatePoll",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "broadcast",
+      "question",
+      "options"
+    ]
+  },
+  "4001": {
+    "name": "YouTubeMessage",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "broadcast",
+      "text",
+      "useBot",
+      "fallback"
+    ]
+  },
+  "4003": {
+    "name": "YouTubeSetDescription",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "broadcast",
+      "description"
+    ]
+  },
+  "4002": {
+    "name": "YouTubeSetTitle",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "broadcast",
+      "title"
+    ]
+  },
+  "4004": {
+    "name": "YouTubeSetTitleAndDescription",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "broadcast",
+      "title",
+      "description"
+    ]
+  },
+  "4009": {
+    "name": "YoUTubeTimeoutUser",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "broadcast",
+      "userId",
+      "duration"
+    ]
+  },
+  "4010": {
+    "name": "YouTubeAddBroadcasterInformation",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled"
+    ]
+  },
+  "4012": {
+    "name": "YouTubeEndPoll",
+    "fields": [
+      "id",
+      "weight",
+      "type",
+      "parentId",
+      "enabled",
+      "broadcast"
+    ]
+  }
+}

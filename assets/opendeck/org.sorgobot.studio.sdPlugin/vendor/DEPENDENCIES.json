@@ -1,0 +1,8 @@
+{
+  "ws": {
+    "version": "8.22.0",
+    "source": "https://registry.npmjs.org/ws/-/ws-8.22.0.tgz",
+    "integrity": "sha512-Ydggc987+RO0AnWtZ/7Wq9FtNvcrL1b/RO0ud9mWjUPgDrsAAwQSF51sm2hm1XofbU/4jkpGEsLFsZZxU+1DOg==",
+    "license": "MIT"
+  }
+}

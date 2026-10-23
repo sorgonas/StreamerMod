@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sorgobot-linux"
+version = "0.1.0"
+description = "Native Linux automation for streaming, chat, OBS and AI"
+requires-python = ">=3.11"
+license = {file = "LICENSE"}
+dependencies = ["aiohttp>=3.11,<4", "dbus-next>=0.2.3,<1", "croniter>=6,<7", "python-dateutil>=2.9,<3"]
+
+[project.optional-dependencies]
+voice = ["sounddevice", "numpy", "scipy", "webrtcvad-wheels", "faster-whisper", "websocket-client>=1.8"]
+keyboard = ["evdev>=2.0; sys_platform == 'linux'"]
+youtube = ["grpcio>=1.84,<2", "protobuf>=7.35.1,<8"]
+camera = ["opencv-python-headless>=4.10,<5", "numpy>=1.26"]
+desktop = ["PySide6-Essentials>=6.8,<7", "vosk==0.3.45", "faster-whisper>=1.2,<2", "webrtcvad-wheels>=2.0,<3"]
+
+[project.scripts]
+streamermod = "sorgobot.next_desktop:main"
+sorgobot = "sorgobot.app:main"
+sorgobot-studio = "sorgobot.desktop:main"
+
+[tool.setuptools.packages.find]
+include = ["sorgobot*"]
+
+[tool.setuptools.package-data]
+sorgobot = ["web/*", "csharp_host/*.cs", "menu_reference.json", "menu_full_reference.json", "original_trigger_map.json", "original_trigger_schemas.json", "original_node_schemas.json", "resources/*", "vendor/mxparser-6.1.0/*", "youtube_proto/*", "value_host/*.cs"]

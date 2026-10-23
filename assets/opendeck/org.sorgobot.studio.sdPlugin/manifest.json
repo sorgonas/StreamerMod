@@ -1,0 +1,119 @@
+{
+  "Name": "StreamerMod",
+  "Description": "StreamerMod Actions, Deck-R\u00fcckmeldungen und Regler unter Linux.",
+  "Author": "StreamerMod project",
+  "Version": "1.1.0",
+  "Icon": "icon",
+  "Category": "StreamerMod",
+  "CategoryIcon": "icon",
+  "CodePath": "plugin.js",
+  "SDKVersion": 2,
+  "Nodejs": {
+    "Version": "20"
+  },
+  "Software": {
+    "MinimumVersion": "7.1"
+  },
+  "OS": [
+    {
+      "Platform": "linux"
+    }
+  ],
+  "Actions": [
+    {
+      "Name": "Action Button",
+      "UUID": "org.sorgobot.studio.button",
+      "Icon": "icon",
+      "Tooltip": "StreamerMod Actions, Eingaben und Deck-R\u00fcckmeldungen",
+      "PropertyInspectorPath": "inspector.html",
+      "Controllers": [
+        "Keypad"
+      ],
+      "States": [
+        {
+          "Image": "icon",
+          "TitleAlignment": "bottom",
+          "FontSize": "14"
+        },
+        {
+          "Image": "icon",
+          "TitleAlignment": "bottom",
+          "FontSize": "14"
+        }
+      ]
+    },
+    {
+      "Name": "Action Switch",
+      "UUID": "org.sorgobot.studio.switch",
+      "Icon": "icon",
+      "Tooltip": "StreamerMod Actions, Eingaben und Deck-R\u00fcckmeldungen",
+      "PropertyInspectorPath": "inspector.html",
+      "Controllers": [
+        "Keypad"
+      ],
+      "States": [
+        {
+          "Image": "icon",
+          "TitleAlignment": "bottom",
+          "FontSize": "14"
+        },
+        {
+          "Image": "icon",
+          "TitleAlignment": "bottom",
+          "FontSize": "14"
+        }
+      ]
+    },
+    {
+      "Name": "Status Indicator",
+      "UUID": "org.sorgobot.studio.status",
+      "Icon": "icon",
+      "Tooltip": "StreamerMod Actions, Eingaben und Deck-R\u00fcckmeldungen",
+      "PropertyInspectorPath": "inspector.html",
+      "Controllers": [
+        "Keypad"
+      ],
+      "States": [
+        {
+          "Image": "icon",
+          "TitleAlignment": "bottom",
+          "FontSize": "14"
+        },
+        {
+          "Image": "icon",
+          "TitleAlignment": "bottom",
+          "FontSize": "14"
+        }
+      ]
+    },
+    {
+      "Name": "Action Dial",
+      "UUID": "org.sorgobot.studio.dial",
+      "Icon": "icon",
+      "Tooltip": "StreamerMod Actions, Eingaben und Deck-R\u00fcckmeldungen",
+      "PropertyInspectorPath": "inspector.html",
+      "Controllers": [
+        "Encoder"
+      ],
+      "States": [
+        {
+          "Image": "icon",
+          "TitleAlignment": "bottom",
+          "FontSize": "14"
+        },
+        {
+          "Image": "icon",
+          "TitleAlignment": "bottom",
+          "FontSize": "14"
+        }
+      ],
+      "Encoder": {
+        "layout": "$A0",
+        "TriggerDescription": {
+          "Rotate": "Studio Action",
+          "Push": "Studio Action"
+        }
+      }
+    }
+  ]
+}

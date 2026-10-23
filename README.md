@@ -170,4 +170,3 @@ Dieses Projekt befindet sich in aktiver Entwicklung. Vollständige Originalkompa
 ---
 
 **English:** StreamerMod is a native Linux streaming-automation desktop app for actions, Twitch, optional YouTube, OBS, AI responses, local speech recognition, Linux audio and OpenDeck integration. Run `bash install.sh --help` for installation options. Contributions through issues and pull requests are welcome. Original project code is GPL-3.0; bundled third-party components retain their own license terms.
-

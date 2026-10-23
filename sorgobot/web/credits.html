@@ -1,0 +1,27 @@
+<!doctype html><html lang="de"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Studio Credits</title>
+<style>html,body{margin:0;width:100%;height:100%;overflow:hidden;background:transparent;color:white;font-family:sans-serif;text-align:center}#roll{position:absolute;top:100%;width:100%;animation:roll 60s linear infinite;text-shadow:0 2px 5px black}h1{font-size:56px}h2{font-size:38px;margin-top:70px}p{font-size:30px;margin:14px}@keyframes roll{from{transform:translateY(0)}to{transform:translateY(calc(-100% - 100vh))}}</style>
+<div id="roll"><h1>Danke fürs Zuschauen!</h1><div id="sections"></div></div>
+<script>
+'use strict';
+const labels={Follows:'Neue Follower',Cheers:'Cheers',Subs:'Abonnements',ReSubs:'Erneute Abonnements',GiftSubs:'Verschenkte Abonnements',GiftBombs:'Geschenkpakete',Raided:'Raids',RewardRedemptions:'Kanalpunkte',GoalContributions:'Kanalziele',GameUpdates:'Spiele',Pyramids:'Chat-Pyramiden'};
+function creditName(row){
+ if(typeof row==='string')return row;
+ if(!row||typeof row!=='object')return '';
+ for(const key of ['displayName','user','userName','name'])if(typeof row[key]==='string'&&row[key])return row[key];
+ return '';
+}
+function renderCredits(value){
+ const output=document.getElementById('sections');output.replaceChildren();
+ for(const area of ['Custom','Events','User'])for(const [section,rows]of Object.entries(value[area]||{})){
+  if(!Array.isArray(rows))continue;
+  const unique=new Map();for(const row of rows){const text=(section==='GameUpdates'&&row&&typeof row==='object'?(row.gameName||row.game||''):creditName(row));if(typeof text==='string'&&text.trim()){const name=text.trim();if(!unique.has(name.toLocaleLowerCase()))unique.set(name.toLocaleLowerCase(),name);}}const names=[...unique.values()];if(!names.length)continue;
+  const heading=document.createElement('h2');heading.textContent=area==='Events'?(labels[section]||section):section;output.append(heading);
+  for(const name of names.slice(0,2000)){const entry=document.createElement('p');entry.textContent=name;output.append(entry);}
+  if(names.length>2000){const extra=document.createElement('p');extra.textContent='… und '+(names.length-2000)+' weitere';output.append(extra);}
+ }
+}
+async function refresh(){try{const response=await fetch('/GetCredits',{cache:'no-store'});if(response.ok)renderCredits(await response.json());}catch(error){}}
+const speed=Number(new URLSearchParams(location.search).get('seconds')||60);
+if(Number.isFinite(speed))document.getElementById('roll').style.animationDuration=Math.max(10,Math.min(600,speed))+'s';
+refresh();setInterval(refresh,5000);
+</script></html>

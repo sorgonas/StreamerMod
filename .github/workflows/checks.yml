@@ -1,0 +1,20 @@
+name: Source checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  syntax-and-installer:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Python syntax
+        run: python -m compileall -q sorgobot scripts tools tests
+      - name: Installer shell syntax
+        run: bash -n install.sh install-debian.sh scripts/install-opendeck-system.sh scripts/install-streamermod-keyguard.sh
+      - name: Non-mutating installation plan
+        run: bash install.sh --dry-run --prefix '/tmp/StreamerMod CI'
+      - name: Installer tests (no administrator privileges)
+        run: python -m unittest discover -s tests -p test_installer.py -v

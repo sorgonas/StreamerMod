@@ -1,0 +1,6 @@
+YouTube streaming chat protocol from Google Developers.
+Source: https://developers.google.com/youtube/data/live/streaming-live-chat
+Retrieved 2026-10-20. Code samples licensed under Apache License 2.0.
+Generated Python bindings use this schema; generator output is included for reproducible installations.
+Schema modification: added the missing import for google/protobuf/duration.proto.
+Generated using grpcio-tools 1.84.0.

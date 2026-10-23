@@ -1,0 +1,1040 @@
+[
+  {
+    "name": "Streamer.bot.Plugin.Interface.Model.TwitchUserInfo",
+    "isEnum": false,
+    "baseType": "Streamer.bot.Plugin.Interface.Model.BaseUserInfo",
+    "properties": [
+      {
+        "name": "IsSubscribed",
+        "type": "System.Boolean",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "SubscriptionTier",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "IsModerator",
+        "type": "System.Boolean",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "IsVip",
+        "type": "System.Boolean",
+        "getPublic": true,
+        "setPublic": true
+      }
+    ],
+    "fields": []
+  },
+  {
+    "name": "Streamer.bot.Plugin.Interface.Model.TwitchUserInfoEx",
+    "isEnum": false,
+    "baseType": "Streamer.bot.Plugin.Interface.Model.TwitchUserInfo",
+    "properties": [
+      {
+        "name": "Description",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "ProfileImageUrl",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "UserType",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "IsPartner",
+        "type": "System.Boolean",
+        "getPublic": true,
+        "setPublic": false
+      },
+      {
+        "name": "IsAffiliate",
+        "type": "System.Boolean",
+        "getPublic": true,
+        "setPublic": false
+      },
+      {
+        "name": "IsFollowing",
+        "type": "System.Boolean",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "CreatedAt",
+        "type": "System.DateTime",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "AccountAge",
+        "type": "System.Double",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "Game",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "GameId",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "ChannelTitle",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "Tags",
+        "type": "System.Collections.Generic.List`1<System.String>",
+        "getPublic": true,
+        "setPublic": true
+      }
+    ],
+    "fields": []
+  },
+  {
+    "name": "Streamer.bot.Plugin.Interface.Model.PinnedMessageData",
+    "isEnum": false,
+    "baseType": "System.Object",
+    "properties": [
+      {
+        "name": "Sender",
+        "type": "Streamer.bot.Plugin.Interface.Model.TwitchUserInfo",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "PinnedBy",
+        "type": "Streamer.bot.Plugin.Interface.Model.TwitchUserInfo",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "MessageId",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "Fragments",
+        "type": "System.Collections.Generic.List`1<Streamer.bot.Plugin.Interface.Model.Twitch.TwitchMessagePartBase>",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "StartsAt",
+        "type": "System.Nullable`1<System.DateTime>",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "EndsAt",
+        "type": "System.Nullable`1<System.DateTime>",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "UpdatedAt",
+        "type": "System.Nullable`1<System.DateTime>",
+        "getPublic": true,
+        "setPublic": true
+      }
+    ],
+    "fields": []
+  },
+  {
+    "name": "Twitch.Common.Models.Api.ClipData",
+    "isEnum": false,
+    "baseType": "System.Object",
+    "properties": [
+      {
+        "name": "Id",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "Url",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "EmbedUrl",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "BroadcasterId",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "BroadcasterName",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "CreatorId",
+        "type": "System.Int32",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "CreatorName",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "VideoId",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "GameId",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "Language",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "Title",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "ViewCount",
+        "type": "System.Int32",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "CreatedAt",
+        "type": "System.DateTime",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "ThumbnailUrl",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "Duration",
+        "type": "System.Single",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "IsFeatured",
+        "type": "System.Boolean",
+        "getPublic": true,
+        "setPublic": true
+      }
+    ],
+    "fields": []
+  },
+  {
+    "name": "Twitch.Common.Models.Api.TeamInfo",
+    "isEnum": false,
+    "baseType": "System.Object",
+    "properties": [
+      {
+        "name": "Id",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "Login",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "Name",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "BackgroundImageUrl",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "Banner",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "CreatedAt",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "UpdatedAt",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "Info",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "ThumbnailUrl",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "TeamName",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "TeamDisplayName",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "TeamId",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      }
+    ],
+    "fields": []
+  },
+  {
+    "name": "Twitch.Common.Models.Api.Cheermote",
+    "isEnum": false,
+    "baseType": "System.Object",
+    "properties": [
+      {
+        "name": "Prefix",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "Tiers",
+        "type": "System.Collections.Generic.List`1<Twitch.Common.Models.Api.CheermoteTier>",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "Type",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "Order",
+        "type": "System.Int32",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "LastUpdated",
+        "type": "System.DateTime",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "IsCharitable",
+        "type": "System.Boolean",
+        "getPublic": true,
+        "setPublic": true
+      }
+    ],
+    "fields": []
+  },
+  {
+    "name": "Streamer.bot.Plugin.Interface.GameInfo",
+    "isEnum": false,
+    "baseType": "System.Object",
+    "properties": [
+      {
+        "name": "Id",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "Name",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "BoxArtUrl",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      }
+    ],
+    "fields": []
+  },
+  {
+    "name": "Twitch.Common.Models.Api.ClipDownloadData",
+    "isEnum": false,
+    "baseType": "System.Object",
+    "properties": [
+      {
+        "name": "ClipId",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "LandscapeDownloadUrl",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "PortraitDownloadUrl",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      }
+    ],
+    "fields": []
+  },
+  {
+    "name": "Twitch.Common.Models.Api.StreamMarker",
+    "isEnum": false,
+    "baseType": "System.Object",
+    "properties": [
+      {
+        "name": "Id",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "CreatedAt",
+        "type": "System.DateTime",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "Description",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "Position",
+        "type": "System.Int32",
+        "getPublic": true,
+        "setPublic": true
+      }
+    ],
+    "fields": []
+  },
+  {
+    "name": "Streamer.bot.Plugin.Interface.Enums.TwitchBlockContext",
+    "isEnum": true,
+    "baseType": "System.Enum",
+    "properties": [],
+    "fields": [
+      {
+        "name": "value__",
+        "type": "System.Int32",
+        "constant": null
+      },
+      {
+        "name": "None",
+        "type": "Streamer.bot.Plugin.Interface.Enums.TwitchBlockContext",
+        "constant": 0
+      },
+      {
+        "name": "Chat",
+        "type": "Streamer.bot.Plugin.Interface.Enums.TwitchBlockContext",
+        "constant": 1
+      },
+      {
+        "name": "Whisper",
+        "type": "Streamer.bot.Plugin.Interface.Enums.TwitchBlockContext",
+        "constant": 2
+      }
+    ]
+  },
+  {
+    "name": "Streamer.bot.Plugin.Interface.Enums.TwitchBlockReason",
+    "isEnum": true,
+    "baseType": "System.Enum",
+    "properties": [],
+    "fields": [
+      {
+        "name": "value__",
+        "type": "System.Int32",
+        "constant": null
+      },
+      {
+        "name": "None",
+        "type": "Streamer.bot.Plugin.Interface.Enums.TwitchBlockReason",
+        "constant": 0
+      },
+      {
+        "name": "Harassment",
+        "type": "Streamer.bot.Plugin.Interface.Enums.TwitchBlockReason",
+        "constant": 1
+      },
+      {
+        "name": "Spam",
+        "type": "Streamer.bot.Plugin.Interface.Enums.TwitchBlockReason",
+        "constant": 2
+      },
+      {
+        "name": "Other",
+        "type": "Streamer.bot.Plugin.Interface.Enums.TwitchBlockReason",
+        "constant": 3
+      }
+    ]
+  },
+  {
+    "name": "Streamer.bot.Plugin.Interface.Model.TwitchRewardCounter",
+    "isEnum": false,
+    "baseType": "System.Object",
+    "properties": [
+      {
+        "name": "UserId",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "UserLogin",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "UserName",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "Count",
+        "type": "System.Int32",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "LastRedeemed",
+        "type": "System.DateTime",
+        "getPublic": true,
+        "setPublic": true
+      }
+    ],
+    "fields": []
+  },
+  {
+    "name": "Streamer.bot.Plugin.Interface.TwitchReward",
+    "isEnum": false,
+    "baseType": "System.Object",
+    "properties": [
+      {
+        "name": "Id",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "Title",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "Group",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "Prompt",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "Cost",
+        "type": "System.Int32",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "InputRequired",
+        "type": "System.Boolean",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "BackgroundColor",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "Paused",
+        "type": "System.Boolean",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "Enabled",
+        "type": "System.Boolean",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "IsOurs",
+        "type": "System.Boolean",
+        "getPublic": true,
+        "setPublic": true
+      }
+    ],
+    "fields": []
+  },
+  {
+    "name": "Twitch.Common.Models.Api.GuestStarSettings",
+    "isEnum": false,
+    "baseType": "System.Object",
+    "properties": [
+      {
+        "name": "IsModeratorSendLiveEnabled",
+        "type": "System.Boolean",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "SlotCount",
+        "type": "System.Int32",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "IsBrowserSourceAudioEnabled",
+        "type": "System.Boolean",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "GroupLayout",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "BrowserSourceToken",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      }
+    ],
+    "fields": []
+  },
+  {
+    "name": "Twitch.Common.Models.Api.GuestSession",
+    "isEnum": false,
+    "baseType": "System.Object",
+    "properties": [
+      {
+        "name": "Id",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "Guests",
+        "type": "System.Collections.Generic.List`1<Twitch.Common.Models.Api.GuestStar>",
+        "getPublic": true,
+        "setPublic": true
+      }
+    ],
+    "fields": []
+  },
+  {
+    "name": "Twitch.Common.Models.Api.GuestStarInvite",
+    "isEnum": false,
+    "baseType": "System.Object",
+    "properties": [
+      {
+        "name": "UserId",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "InvitedAt",
+        "type": "System.DateTime",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "Status",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "IsVideoEnabled",
+        "type": "System.Boolean",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "IsAudioEnabled",
+        "type": "System.Boolean",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "IsVideoAvailable",
+        "type": "System.Boolean",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "IsAudioAvailable",
+        "type": "System.Boolean",
+        "getPublic": true,
+        "setPublic": true
+      }
+    ],
+    "fields": []
+  },
+  {
+    "name": "Streamer.bot.Plugin.Interface.Model.Twitch.TwitchMessagePartEmote",
+    "isEnum": false,
+    "baseType": "Streamer.bot.Plugin.Interface.Model.Twitch.TwitchMessagePartBase",
+    "properties": [
+      {
+        "name": "Source",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "ImageUrl",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "ZeroWidth",
+        "type": "System.Boolean",
+        "getPublic": true,
+        "setPublic": true
+      }
+    ],
+    "fields": []
+  },
+  {
+    "name": "Streamer.bot.Plugin.Interface.Model.Twitch.TwitchMessagePartMention",
+    "isEnum": false,
+    "baseType": "Streamer.bot.Plugin.Interface.Model.Twitch.TwitchMessagePartBase",
+    "properties": [
+      {
+        "name": "UserId",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "UserLogin",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "UserName",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      }
+    ],
+    "fields": []
+  },
+  {
+    "name": "Streamer.bot.Plugin.Interface.Model.Twitch.TwitchMessagePartText",
+    "isEnum": false,
+    "baseType": "Streamer.bot.Plugin.Interface.Model.Twitch.TwitchMessagePartBase",
+    "properties": [],
+    "fields": []
+  },
+  {
+    "name": "Streamer.bot.Plugin.Interface.Model.BaseUserInfo",
+    "isEnum": false,
+    "baseType": "System.Object",
+    "properties": [
+      {
+        "name": "UserName",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "UserLogin",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "UserId",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "LastActive",
+        "type": "System.DateTime",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "PreviousActive",
+        "type": "System.DateTime",
+        "getPublic": true,
+        "setPublic": true
+      }
+    ],
+    "fields": []
+  },
+  {
+    "name": "Streamer.bot.Plugin.Interface.Model.Twitch.TwitchMessagePartBase",
+    "isEnum": false,
+    "baseType": "System.Object",
+    "properties": [
+      {
+        "name": "Type",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "Text",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      }
+    ],
+    "fields": []
+  },
+  {
+    "name": "Twitch.Common.Models.Api.CheermoteTier",
+    "isEnum": false,
+    "baseType": "System.Object",
+    "properties": [
+      {
+        "name": "MinBits",
+        "type": "System.Int32",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "Id",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "Color",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "Images",
+        "type": "Twitch.Common.Models.Api.CheermoteImages",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "CanCheer",
+        "type": "System.Boolean",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "ShowInBitsCard",
+        "type": "System.Boolean",
+        "getPublic": true,
+        "setPublic": true
+      }
+    ],
+    "fields": []
+  },
+  {
+    "name": "Twitch.Common.Models.Api.GuestStar",
+    "isEnum": false,
+    "baseType": "System.Object",
+    "properties": [
+      {
+        "name": "SlotId",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "IsLive",
+        "type": "System.Boolean",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "UserId",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "UserName",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "UserLogin",
+        "type": "System.String",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "Volume",
+        "type": "System.Int32",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "AssignedAt",
+        "type": "System.DateTime",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "AudioSettings",
+        "type": "Twitch.Common.Models.Api.MediaSettings",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "VideoSettings",
+        "type": "Twitch.Common.Models.Api.MediaSettings",
+        "getPublic": true,
+        "setPublic": true
+      }
+    ],
+    "fields": []
+  },
+  {
+    "name": "Twitch.Common.Models.Api.CheermoteImages",
+    "isEnum": false,
+    "baseType": "System.Object",
+    "properties": [
+      {
+        "name": "Dark",
+        "type": "Twitch.Common.Models.Api.CheermoteImage",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "Light",
+        "type": "Twitch.Common.Models.Api.CheermoteImage",
+        "getPublic": true,
+        "setPublic": true
+      }
+    ],
+    "fields": []
+  },
+  {
+    "name": "Twitch.Common.Models.Api.MediaSettings",
+    "isEnum": false,
+    "baseType": "System.Object",
+    "properties": [
+      {
+        "name": "IsHostEnabled",
+        "type": "System.Boolean",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "IsGuestEnabled",
+        "type": "System.Boolean",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "IsAvailable",
+        "type": "System.Boolean",
+        "getPublic": true,
+        "setPublic": true
+      }
+    ],
+    "fields": []
+  },
+  {
+    "name": "Twitch.Common.Models.Api.CheermoteImage",
+    "isEnum": false,
+    "baseType": "System.Object",
+    "properties": [
+      {
+        "name": "Animated",
+        "type": "System.Collections.Generic.Dictionary`2<System.String,System.String>",
+        "getPublic": true,
+        "setPublic": true
+      },
+      {
+        "name": "Static",
+        "type": "System.Collections.Generic.Dictionary`2<System.String,System.String>",
+        "getPublic": true,
+        "setPublic": true
+      }
+    ],
+    "fields": []
+  }
+]

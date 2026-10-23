@@ -1,0 +1,5 @@
+#!/bin/sh
+# Normaler StreamerMod-Start im Live-Modus.
+set -eu
+cd "$(dirname "$(readlink -f "$0")")"
+exec ./start-next-studio.sh "$@"

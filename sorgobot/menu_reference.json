@@ -1,0 +1,2076 @@
+{
+  "checkedAt": "2026-10-14",
+  "sources": [
+    "https://docs.streamer.bot/api/sub-actions",
+    "https://docs.streamer.bot/api/triggers",
+    "https://docs.streamer.bot/guide/core/actions"
+  ],
+  "steps": {
+    "90050": {
+      "path": "Core · Action Queues · Clear Action Queue",
+      "originalPath": "core/action-queues/clear-action-queue",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90052": {
+      "path": "Core · Action Queues · Set Action Queue Blocking State",
+      "originalPath": "core/action-queues/set-action-queue-blocking-state",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90051": {
+      "path": "Core · Action Queues · Set Action Queue Pause State",
+      "originalPath": "core/action-queues/set-action-queue-pause-state",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90026": {
+      "path": "Core · Actions · Get Action Group State",
+      "originalPath": "core/actions/get-action-group-state",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90018": {
+      "path": "Core · Actions · Get Action State",
+      "originalPath": "core/actions/get-action-state",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "4": {
+      "path": "Core · Actions · Run Action",
+      "originalPath": "core/actions/run-action",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90027": {
+      "path": "Core · Actions · Set Action Group State",
+      "originalPath": "core/actions/set-action-group-state",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90019": {
+      "path": "Core · Actions · Set Action State",
+      "originalPath": "core/actions/set-action-state",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90028": {
+      "path": "Core · Actions · Set Sub-Action State",
+      "originalPath": "core/actions/set-sub-action-state",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90029": {
+      "path": "Core · Actions · Set Sub-Action Weight",
+      "originalPath": "core/actions/set-sub-action-weight",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "123": {
+      "path": "Core · Arguments · Set Argument",
+      "originalPath": "core/arguments/set-argument",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90024": {
+      "path": "Core · Commands · Get Command Group State",
+      "originalPath": "core/commands/get-command-group-state",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90025": {
+      "path": "Core · Commands · Get Command State",
+      "originalPath": "core/commands/get-command-state",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90021": {
+      "path": "Core · Commands · Get Commands",
+      "originalPath": "core/commands/get-commands",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90023": {
+      "path": "Core · Commands · Set Command Group State",
+      "originalPath": "core/commands/set-command-group-state",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90022": {
+      "path": "Core · Commands · Set Command State",
+      "originalPath": "core/commands/set-command-state",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90060": {
+      "path": "Core · C# · Execute C# Code",
+      "originalPath": "core/csharp/execute-csharp-code",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90061": {
+      "path": "Core · C# · Execute C# Method",
+      "originalPath": "core/csharp/execute-csharp-method",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "1002": {
+      "path": "Core · Delay",
+      "originalPath": "core/delay",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90012": {
+      "path": "Core · File I/O · File Exists",
+      "originalPath": "core/file-io/file-exists",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90013": {
+      "path": "Core · File I/O · Folder Exists",
+      "originalPath": "core/file-io/folder-exists",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90014": {
+      "path": "Core · File I/O · Read Lines From File",
+      "originalPath": "core/file-io/read-lines-from-file",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90015": {
+      "path": "Core · File I/O · Read Random Line From File",
+      "originalPath": "core/file-io/read-random-line-from-file",
+      "titleSource": "Current public navigation"
+    },
+    "90016": {
+      "path": "Core · File I/O · Read Specific Line From File",
+      "originalPath": "core/file-io/read-specific-line-from-file",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90017": {
+      "path": "Core · File I/O · Write To File",
+      "originalPath": "core/file-io/write-to-file",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90100": {
+      "path": "Core · File Tail · Set File Tail State",
+      "originalPath": "core/file-tail/set-file-tail-state",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90101": {
+      "path": "Core · Globals · Clear Non-Persisted Globals",
+      "originalPath": "core/globals/clear-non-persisted-globals",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90102": {
+      "path": "Core · Globals · Clear Non-Persisted User Globals",
+      "originalPath": "core/globals/clear-non-persisted-user-globals",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "121": {
+      "path": "Core · Globals · Global (Get)",
+      "originalPath": "core/globals/global-get",
+      "titleSource": "Current public navigation"
+    },
+    "122": {
+      "path": "Core · Globals · Global (Set)",
+      "originalPath": "core/globals/global-set",
+      "titleSource": "Current public navigation"
+    },
+    "124": {
+      "path": "Core · Logic · Break",
+      "originalPath": "core/logic/break",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90160": {
+      "path": "Core · Logic · Get Input",
+      "originalPath": "core/logic/get-input",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90010": {
+      "path": "Core · Logic · Get Random Number",
+      "originalPath": "core/logic/get-random-number",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "120": {
+      "path": "Core · Logic · If/Else",
+      "originalPath": "core/logic/if-else",
+      "titleSource": "Current public navigation"
+    },
+    "90162": {
+      "path": "Core · Logic · Loop Break",
+      "originalPath": "core/logic/loop-break",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90163": {
+      "path": "Core · Logic · Loop Continue",
+      "originalPath": "core/logic/loop-continue",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90164": {
+      "path": "Core · Logic · Switch",
+      "originalPath": "core/logic/switch",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90161": {
+      "path": "Core · Logic · While",
+      "originalPath": "core/logic/while",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90150": {
+      "path": "Core · MIDI · Control Change",
+      "originalPath": "core/midi/control-change",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90151": {
+      "path": "Core · MIDI · Generic Event",
+      "originalPath": "core/midi/generic-event",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90152": {
+      "path": "Core · MIDI · Note On",
+      "originalPath": "core/midi/note-on",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "1009": {
+      "path": "Core · Misc · Comment",
+      "originalPath": "core/misc/comment",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90011": {
+      "path": "Core · Misc · Log",
+      "originalPath": "core/misc/log",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90002": {
+      "path": "Core · Network · Fetch URL",
+      "originalPath": "core/network/fetch-url",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90140": {
+      "path": "Core · Network · UDP Broadcast",
+      "originalPath": "core/network/udp-broadcast",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90400": {
+      "path": "Core · Points · Admin · Get Points Definition",
+      "originalPath": "core/points/admin/get-points-definition",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90401": {
+      "path": "Core · Points · Admin · Reset Points Definition",
+      "originalPath": "core/points/admin/reset-points-definition",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90402": {
+      "path": "Core · Points · Bulk · Award Points To All",
+      "originalPath": "core/points/bulk/award-points-to-all",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90403": {
+      "path": "Core · Points · Groups · Award Points To Group",
+      "originalPath": "core/points/groups/award-points-to-group",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90404": {
+      "path": "Core · Points · Groups · Get Group Multiplier",
+      "originalPath": "core/points/groups/get-group-multiplier",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90406": {
+      "path": "Core · Points · Groups · Remove Group Multiplier",
+      "originalPath": "core/points/groups/remove-group-multiplier",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90405": {
+      "path": "Core · Points · Groups · Set Group Multiplier",
+      "originalPath": "core/points/groups/set-group-multiplier",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90407": {
+      "path": "Core · Points · Leaderboards · Get Points Leaderboard",
+      "originalPath": "core/points/leaderboards/get-points-leaderboard",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90408": {
+      "path": "Core · Points · User · Award Points",
+      "originalPath": "core/points/user/award-points",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90409": {
+      "path": "Core · Points · User · Check Points",
+      "originalPath": "core/points/user/check-points",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90410": {
+      "path": "Core · Points · User · Delete Points",
+      "originalPath": "core/points/user/delete-points",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90411": {
+      "path": "Core · Points · User · Get Points",
+      "originalPath": "core/points/user/get-points",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90412": {
+      "path": "Core · Points · User · Get User Multiplier",
+      "originalPath": "core/points/user/get-user-multiplier",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90413": {
+      "path": "Core · Points · User · Reset User Points",
+      "originalPath": "core/points/user/reset-user-points",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90414": {
+      "path": "Core · Points · User · Set Points",
+      "originalPath": "core/points/user/set-points",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90415": {
+      "path": "Core · Points · User · Spend Points",
+      "originalPath": "core/points/user/spend-points",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90416": {
+      "path": "Core · Points · User · Transfer Points",
+      "originalPath": "core/points/user/transfer-points",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90417": {
+      "path": "Core · Points · User · Update Points",
+      "originalPath": "core/points/user/update-points",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90110": {
+      "path": "Core · Quotes · Add Quote",
+      "originalPath": "core/quotes/add-quote",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90111": {
+      "path": "Core · Quotes · Delete Quote",
+      "originalPath": "core/quotes/delete-quote",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90112": {
+      "path": "Core · Quotes · Get Quote",
+      "originalPath": "core/quotes/get-quote",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90113": {
+      "path": "Core · Quotes · Get Quote Count",
+      "originalPath": "core/quotes/get-quote-count",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90120": {
+      "path": "Core · Signals · Send Local Signal",
+      "originalPath": "core/signals/send-local-signal",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90121": {
+      "path": "Core · Signals · Wait for Local Signal",
+      "originalPath": "core/signals/wait-for-local-signal",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90141": {
+      "path": "Core · Sounds · Play Sound",
+      "originalPath": "core/sounds/play-sound",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90142": {
+      "path": "Core · Sounds · Play Sound From Folder",
+      "originalPath": "core/sounds/play-sound-from-folder",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90144": {
+      "path": "Core · Sounds · Stop All Sound Playback",
+      "originalPath": "core/sounds/stop-all-sound-playback",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90143": {
+      "path": "Core · Sounds · Stop Sound Playback",
+      "originalPath": "core/sounds/stop-sound-playback",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90146": {
+      "path": "Core · System · Keyboard Press",
+      "originalPath": "core/system/keyboard-press",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90003": {
+      "path": "Core · System · Run a Program",
+      "originalPath": "core/system/run-a-program",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90145": {
+      "path": "Core · System · Toast Notification",
+      "originalPath": "core/system/toast-notification",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90130": {
+      "path": "Core · Timers · Set Timer State",
+      "originalPath": "core/timers/set-timer-state",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90132": {
+      "path": "Core · Triggers · Custom Event Trigger",
+      "originalPath": "core/triggers/custom-event-trigger",
+      "titleSource": "Current public navigation"
+    },
+    "90131": {
+      "path": "Core · Triggers · Set Trigger State",
+      "originalPath": "core/triggers/set-trigger-state",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90133": {
+      "path": "Core · Users · Clear Users From Group",
+      "originalPath": "core/users/clear-users-from-group",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90134": {
+      "path": "Core · Voice Control · Set Voice Control Command",
+      "originalPath": "core/voice-control/set-voice-control-command",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90135": {
+      "path": "Core · Voice Control · Set Voice Control Command State",
+      "originalPath": "core/voice-control/set-voice-control-command-state",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90316": {
+      "path": "OBS Studio · Create Record Chapter",
+      "originalPath": "obs-studio/create-record-chapter",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90317": {
+      "path": "OBS Studio · Filters · Set State of a Random Filter",
+      "originalPath": "obs-studio/filters/set-state-of-a-random-filter",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90300": {
+      "path": "OBS Studio · Get Current Scene",
+      "originalPath": "obs-studio/get-current-scene",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90301": {
+      "path": "OBS Studio · Get Status",
+      "originalPath": "obs-studio/get-status",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90318": {
+      "path": "OBS Studio · Groups · Set Random Group Source Visible",
+      "originalPath": "obs-studio/groups/set-random-group-source-visible",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90315": {
+      "path": "OBS Studio · Raw",
+      "originalPath": "obs-studio/raw",
+      "titleSource": "Current public navigation"
+    },
+    "90311": {
+      "path": "OBS Studio · Recording",
+      "originalPath": "obs-studio/recording",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90313": {
+      "path": "OBS Studio · Replay · Set Replay Buffer State",
+      "originalPath": "obs-studio/replay/set-replay-buffer-state",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90305": {
+      "path": "OBS Studio · Scenes · Get Scene Item Properties",
+      "originalPath": "obs-studio/scenes/get-scene-item-properties",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90309": {
+      "path": "OBS Studio · Scenes · Hide Scene's Sources",
+      "originalPath": "obs-studio/scenes/hide-scenes-sources",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90319": {
+      "path": "OBS Studio · Scenes · Set Random Scene Source Visible",
+      "originalPath": "obs-studio/scenes/set-random-scene-source-visible",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90320": {
+      "path": "OBS Studio · Scenes · Set Scene Filter State",
+      "originalPath": "obs-studio/scenes/set-scene-filter-state",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90005": {
+      "path": "OBS Studio · Set Active Scene",
+      "originalPath": "obs-studio/set-active-scene",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90308": {
+      "path": "OBS Studio · Sources · Flip Source",
+      "originalPath": "obs-studio/sources/flip-source",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90321": {
+      "path": "OBS Studio · Sources · Hide Group's Sources",
+      "originalPath": "obs-studio/sources/hide-groups-sources",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90322": {
+      "path": "OBS Studio · Sources · Hide Source's Filters",
+      "originalPath": "obs-studio/sources/hide-sources-filters",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90307": {
+      "path": "OBS Studio · Sources · Rotate Source",
+      "originalPath": "obs-studio/sources/rotate-source",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "38": {
+      "path": "OBS Studio · Sources · Set Browser Source URL",
+      "originalPath": "obs-studio/sources/set-browser-source-url",
+      "titleSource": "Current public navigation"
+    },
+    "90323": {
+      "path": "OBS Studio · Sources · Set Color Source Color",
+      "originalPath": "obs-studio/sources/set-color-source-color",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "39": {
+      "path": "OBS Studio · Sources · Set GDI Text",
+      "originalPath": "obs-studio/sources/set-gdi-text",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "323": {
+      "path": "OBS Studio · Sources · Set Image Source File",
+      "originalPath": "obs-studio/sources/set-image-source-file",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "322": {
+      "path": "OBS Studio · Sources · Set Media Source File",
+      "originalPath": "obs-studio/sources/set-media-source-file",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90310": {
+      "path": "OBS Studio · Sources · Set Media State",
+      "originalPath": "obs-studio/sources/set-media-state",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90324": {
+      "path": "OBS Studio · Sources · Set Source Audio Track State",
+      "originalPath": "obs-studio/sources/set-source-audio-track-state",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90304": {
+      "path": "OBS Studio · Sources · Set Source Filter State",
+      "originalPath": "obs-studio/sources/set-source-filter-state",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90302": {
+      "path": "OBS Studio · Sources · Set Source Mute State",
+      "originalPath": "obs-studio/sources/set-source-mute-state",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "30": {
+      "path": "OBS Studio · Sources · Set Source Visibility State",
+      "originalPath": "obs-studio/sources/set-source-visibility-state",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90312": {
+      "path": "OBS Studio · Streaming",
+      "originalPath": "obs-studio/streaming",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "48": {
+      "path": "OBS Studio · Take Screenshot",
+      "originalPath": "obs-studio/take-screenshot",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90900": {
+      "path": "Twitch · Ads · Get Ad Schedule",
+      "originalPath": "twitch/ads/get-ad-schedule",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90901": {
+      "path": "Twitch · Ads · Get Pre-roll Free Time",
+      "originalPath": "twitch/ads/get-pre-roll-free-time",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90902": {
+      "path": "Twitch · Ads · Run Commercial",
+      "originalPath": "twitch/ads/run-commercial",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90903": {
+      "path": "Twitch · Ads · Snooze Ad",
+      "originalPath": "twitch/ads/snooze-ad",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91200": {
+      "path": "Twitch · Channel · Add Viewer Count",
+      "originalPath": "twitch/channel/add-viewer-count",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "18": {
+      "path": "Twitch · Channel · Create Clip",
+      "originalPath": "twitch/channel/create-clip",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91305": {
+      "path": "Twitch · Channel · Create Stream Marker",
+      "originalPath": "twitch/channel/create-stream-marker",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91304": {
+      "path": "Twitch · Channel · Set Channel Branded Content",
+      "originalPath": "twitch/channel/set-channel-branded-content",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "16": {
+      "path": "Twitch · Channel · Set Channel Game",
+      "originalPath": "twitch/channel/set-channel-game",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "15": {
+      "path": "Twitch · Channel · Set Channel Title",
+      "originalPath": "twitch/channel/set-channel-title",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "10": {
+      "path": "Twitch · Chat · Send Message to Channel",
+      "originalPath": "twitch/chat/send-message-to-channel",
+      "titleSource": "Original 1.0.7 user screenshot"
+    },
+    "91201": {
+      "path": "Twitch · Followers · Get Follower Count",
+      "originalPath": "twitch/followers/get-follower-count",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91202": {
+      "path": "Twitch · Followers · Get Latest Follower",
+      "originalPath": "twitch/followers/get-latest-follower",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90705": {
+      "path": "Twitch · Moderation · Add Moderator",
+      "originalPath": "twitch/moderation/add-moderator",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90703": {
+      "path": "Twitch · Moderation · Add VIP",
+      "originalPath": "twitch/moderation/add-vip",
+      "titleSource": "Current public navigation"
+    },
+    "90700": {
+      "path": "Twitch · Moderation · Ban User",
+      "originalPath": "twitch/moderation/ban-user",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91400": {
+      "path": "Twitch · Moderation · Chat Modes · Emote Only",
+      "originalPath": "twitch/moderation/chat-modes/emote-only",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91401": {
+      "path": "Twitch · Moderation · Chat Modes · Follow Mode",
+      "originalPath": "twitch/moderation/chat-modes/follow-mode",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91402": {
+      "path": "Twitch · Moderation · Chat Modes · Slow Mode",
+      "originalPath": "twitch/moderation/chat-modes/slow-mode",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91403": {
+      "path": "Twitch · Moderation · Chat Modes · Subscriber Only",
+      "originalPath": "twitch/moderation/chat-modes/subscriber-only",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90706": {
+      "path": "Twitch · Moderation · Remove Moderator",
+      "originalPath": "twitch/moderation/remove-moderator",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90704": {
+      "path": "Twitch · Moderation · Remove VIP",
+      "originalPath": "twitch/moderation/remove-vip",
+      "titleSource": "Current public navigation"
+    },
+    "20": {
+      "path": "Twitch · Moderation · Timeout User",
+      "originalPath": "twitch/moderation/timeout-user",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90701": {
+      "path": "Twitch · Moderation · Unban User",
+      "originalPath": "twitch/moderation/unban-user",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90702": {
+      "path": "Twitch · Moderation · UnTimeout User",
+      "originalPath": "twitch/moderation/untimeout-user",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90603": {
+      "path": "Twitch · Polls · Archive Active Poll",
+      "originalPath": "twitch/polls/archive-active-poll",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90600": {
+      "path": "Twitch · Polls · Create Poll",
+      "originalPath": "twitch/polls/create-poll",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90601": {
+      "path": "Twitch · Polls · Get Active Poll",
+      "originalPath": "twitch/polls/get-active-poll",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90602": {
+      "path": "Twitch · Polls · Terminate Active Poll",
+      "originalPath": "twitch/polls/terminate-active-poll",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90613": {
+      "path": "Twitch · Predictions · Cancel Active Prediction",
+      "originalPath": "twitch/predictions/cancel-active-prediction",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90610": {
+      "path": "Twitch · Predictions · Create Prediction",
+      "originalPath": "twitch/predictions/create-prediction",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90611": {
+      "path": "Twitch · Predictions · Get Active Prediction",
+      "originalPath": "twitch/predictions/get-active-prediction",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90612": {
+      "path": "Twitch · Predictions · Lock Active Prediction",
+      "originalPath": "twitch/predictions/lock-active-prediction",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90614": {
+      "path": "Twitch · Predictions · Resolve Last Prediction",
+      "originalPath": "twitch/predictions/resolve-last-prediction",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90615": {
+      "path": "Twitch · Predictions · Resolve Last Prediction by Title",
+      "originalPath": "twitch/predictions/resolve-last-prediction-by-title",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90911": {
+      "path": "Twitch · Raid · Cancel Raid",
+      "originalPath": "twitch/raid/cancel-raid",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90910": {
+      "path": "Twitch · Raid · Start Raid",
+      "originalPath": "twitch/raid/start-raid",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90516": {
+      "path": "Twitch · Rewards · Configure Rewards",
+      "originalPath": "twitch/rewards/configure-rewards",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90500": {
+      "path": "Twitch · Rewards · Get Reward Info",
+      "originalPath": "twitch/rewards/get-reward-info",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90514": {
+      "path": "Twitch · Rewards · Reset Reward Counter",
+      "originalPath": "twitch/rewards/reset-reward-counter",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90515": {
+      "path": "Twitch · Rewards · Reset Reward User Counters",
+      "originalPath": "twitch/rewards/reset-reward-user-counters",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90506": {
+      "path": "Twitch · Rewards · Set Background Color",
+      "originalPath": "twitch/rewards/set-background-color",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90505": {
+      "path": "Twitch · Rewards · Set Cost",
+      "originalPath": "twitch/rewards/set-cost",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90501": {
+      "path": "Twitch · Rewards · Set Enabled State",
+      "originalPath": "twitch/rewards/set-enabled-state",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90509": {
+      "path": "Twitch · Rewards · Set Global Cooldown",
+      "originalPath": "twitch/rewards/set-global-cooldown",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90512": {
+      "path": "Twitch · Rewards · Set Group Enabled State",
+      "originalPath": "twitch/rewards/set-group-enabled-state",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90513": {
+      "path": "Twitch · Rewards · Set Group Paused State",
+      "originalPath": "twitch/rewards/set-group-paused-state",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90507": {
+      "path": "Twitch · Rewards · Set Max Per Stream",
+      "originalPath": "twitch/rewards/set-max-per-stream",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90508": {
+      "path": "Twitch · Rewards · Set Max per User Per Stream",
+      "originalPath": "twitch/rewards/set-max-per-user-per-stream",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90502": {
+      "path": "Twitch · Rewards · Set Paused State",
+      "originalPath": "twitch/rewards/set-paused-state",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90504": {
+      "path": "Twitch · Rewards · Set Prompt",
+      "originalPath": "twitch/rewards/set-prompt",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90503": {
+      "path": "Twitch · Rewards · Set Title",
+      "originalPath": "twitch/rewards/set-title",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90510": {
+      "path": "Twitch · Rewards · Update",
+      "originalPath": "twitch/rewards/update",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90511": {
+      "path": "Twitch · Rewards · Update Redemption Status",
+      "originalPath": "twitch/rewards/update-redemption-status",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91100": {
+      "path": "Twitch · Sub Counter · Get Twitch Sub Counter Count",
+      "originalPath": "twitch/sub-counter/get-twitch-sub-counter-count",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91101": {
+      "path": "Twitch · Sub Counter · Set Twitch Sub Counter Count",
+      "originalPath": "twitch/sub-counter/set-twitch-sub-counter-count",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91102": {
+      "path": "Twitch · Subscribers · Get Latest Subscriber",
+      "originalPath": "twitch/subscribers/get-latest-subscriber",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90800": {
+      "path": "Twitch · Subscribers · Get Subscriber Count",
+      "originalPath": "twitch/subscribers/get-subscriber-count",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91300": {
+      "path": "Twitch · Tags · Add Channel Tag",
+      "originalPath": "twitch/tags/add-channel-tag",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91302": {
+      "path": "Twitch · Tags · Clear Channel Tags",
+      "originalPath": "twitch/tags/clear-channel-tags",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91301": {
+      "path": "Twitch · Tags · Remove Channel Tag",
+      "originalPath": "twitch/tags/remove-channel-tag",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91303": {
+      "path": "Twitch · Tags · Set Channel Tags",
+      "originalPath": "twitch/tags/set-channel-tags",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91500": {
+      "path": "Twitch · User Groups · Add User To Group",
+      "originalPath": "twitch/user-groups/add-user-to-group",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91501": {
+      "path": "Twitch · User Groups · Remove User From Group",
+      "originalPath": "twitch/user-groups/remove-user-from-group",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91502": {
+      "path": "Twitch · User Groups · User in Group",
+      "originalPath": "twitch/user-groups/user-in-group",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91600": {
+      "path": "Twitch · User · Add Broadcaster Information",
+      "originalPath": "twitch/user/add-broadcaster-information",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91700": {
+      "path": "Twitch · User · Add Present User",
+      "originalPath": "twitch/user/add-present-user",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91701": {
+      "path": "Twitch · User · Add Random Users",
+      "originalPath": "twitch/user/add-random-users",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91601": {
+      "path": "Twitch · User · Get Team Info For Target",
+      "originalPath": "twitch/user/get-team-info-for-target",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "50": {
+      "path": "Twitch · User · Get User Info for Target",
+      "originalPath": "twitch/user/get-user-info-for-target",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91800": {
+      "path": "Twitch · Chat · Clear Chat Messages",
+      "originalPath": "twitch/chat/clear-chat-messages",
+      "titleSource": "Original 1.0.7 screenshot and public API"
+    },
+    "91801": {
+      "path": "Twitch · Chat · Get Pinned Chat Message",
+      "originalPath": "twitch/chat/get-pinned-chat-message",
+      "titleSource": "Original 1.0.7 screenshot and public API"
+    },
+    "91802": {
+      "path": "Twitch · Chat · Pin Chat Message",
+      "originalPath": "twitch/chat/pin-chat-message",
+      "titleSource": "Original 1.0.7 screenshot and public API"
+    },
+    "91803": {
+      "path": "Twitch · Chat · Reply To Message",
+      "originalPath": "twitch/chat/reply-to-message",
+      "titleSource": "Original 1.0.7 screenshot and public API"
+    },
+    "91804": {
+      "path": "Twitch · Chat · Send Announcement to Channel",
+      "originalPath": "twitch/chat/send-announcement-to-channel",
+      "titleSource": "Original 1.0.7 screenshot and public API"
+    },
+    "91805": {
+      "path": "Twitch · Chat · Unpin Chat Message",
+      "originalPath": "twitch/chat/unpin-chat-message",
+      "titleSource": "Original 1.0.7 screenshot and public API"
+    },
+    "91806": {
+      "path": "Twitch · Chat · Updated Pinned Chat Message Duration",
+      "originalPath": "twitch/chat/updated-pinned-chat-message-duration",
+      "titleSource": "Original 1.0.7 screenshot and public API"
+    },
+    "91900": {
+      "path": "Twitch · Moderation · Shield · Get Shield Mode Status",
+      "originalPath": "twitch/moderation/shield/get-shield-mode-status",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91901": {
+      "path": "Twitch · Moderation · Shield · Update Shield Mode Status",
+      "originalPath": "twitch/moderation/shield/update-shield-mode-status",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91902": {
+      "path": "Twitch · Moderation · Warn User",
+      "originalPath": "twitch/moderation/warn-user",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91903": {
+      "path": "Twitch · Moderation · Add Suspicious Status",
+      "originalPath": "twitch/moderation/add-suspicious-status",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91904": {
+      "path": "Twitch · Moderation · Remove Suspicious Status",
+      "originalPath": "twitch/moderation/remove-suspicious-status",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92000": {
+      "path": "Twitch · Charity · Get Latest Charity Campaign",
+      "originalPath": "twitch/charity/get-latest-charity-campaign",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92001": {
+      "path": "Twitch · Clips · Get Clip Download Urls",
+      "originalPath": "twitch/clips/get-clip-download-urls",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92002": {
+      "path": "Twitch · Followers · Get Follow Age Info for Target",
+      "originalPath": "twitch/followers/get-follow-age-info-for-target",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92003": {
+      "path": "Twitch · Moderation · Send Shoutout",
+      "originalPath": "twitch/moderation/send-shoutout",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92100": {
+      "path": "Twitch · Guest Star · Get Channel Guest Star Settings",
+      "originalPath": "twitch/guest-star/get-channel-guest-star-settings",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92101": {
+      "path": "Twitch · Guest Star · Update Channel Guest Star Settings",
+      "originalPath": "twitch/guest-star/update-channel-guest-star-settings",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92102": {
+      "path": "Twitch · Guest Star · Get Guest Star Session",
+      "originalPath": "twitch/guest-star/get-guest-star-session",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92103": {
+      "path": "Twitch · Guest Star · Create Guest Star Session",
+      "originalPath": "twitch/guest-star/create-guest-star-session",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92104": {
+      "path": "Twitch · Guest Star · End Guest Star Session",
+      "originalPath": "twitch/guest-star/end-guest-star-session",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92105": {
+      "path": "Twitch · Guest Star · Get Guest Star Invites",
+      "originalPath": "twitch/guest-star/get-guest-star-invites",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92106": {
+      "path": "Twitch · Guest Star · Send Guest Star Invite",
+      "originalPath": "twitch/guest-star/send-guest-star-invite",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92107": {
+      "path": "Twitch · Guest Star · Delete Guest Star Invite",
+      "originalPath": "twitch/guest-star/delete-guest-star-invite",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92108": {
+      "path": "Twitch · Guest Star · Assign Guest Star Slot",
+      "originalPath": "twitch/guest-star/assign-guest-star-slot",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92109": {
+      "path": "Twitch · Guest Star · Update Guest Star Slot",
+      "originalPath": "twitch/guest-star/update-guest-star-slot",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92110": {
+      "path": "Twitch · Guest Star · Delete Guest Star Slot",
+      "originalPath": "twitch/guest-star/delete-guest-star-slot",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92111": {
+      "path": "Twitch · Guest Star · Update Guest Star Slot Settings",
+      "originalPath": "twitch/guest-star/update-guest-star-slot-settings",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "93000": {
+      "path": "Elgato · Stream Deck · Set Title",
+      "originalPath": "elgato/stream-deck/set-title",
+      "titleSource": "Original 1.0.7 reference; native Studio plugin transport"
+    },
+    "93001": {
+      "path": "Elgato · Stream Deck · Set Background",
+      "originalPath": "elgato/stream-deck/set-background",
+      "titleSource": "Original 1.0.7 reference; native Studio plugin transport"
+    },
+    "93002": {
+      "path": "Elgato · Stream Deck · Set State",
+      "originalPath": "elgato/stream-deck/set-state",
+      "titleSource": "Original 1.0.7 reference; native Studio plugin transport"
+    },
+    "93003": {
+      "path": "Elgato · Stream Deck · Set Value",
+      "originalPath": "elgato/stream-deck/set-value",
+      "titleSource": "Original 1.0.7 reference; native Studio plugin transport"
+    },
+    "93004": {
+      "path": "Elgato · Stream Deck · Show Alert",
+      "originalPath": "elgato/stream-deck/show-alert",
+      "titleSource": "Original 1.0.7 reference; native Studio plugin transport"
+    },
+    "93005": {
+      "path": "Elgato · Stream Deck · Show OK",
+      "originalPath": "elgato/stream-deck/show-ok",
+      "titleSource": "Original 1.0.7 reference; native Studio plugin transport"
+    },
+    "93006": {
+      "path": "Elgato · Stream Deck · Toggle State",
+      "originalPath": "elgato/stream-deck/toggle-state",
+      "titleSource": "Original 1.0.7 reference; native Studio plugin transport"
+    },
+    "95000": {
+      "path": "Settings · Pick Color",
+      "originalPath": "settings/pick-color",
+      "titleSource": "Original reference label; native settings and shared project state"
+    },
+    "95001": {
+      "path": "Settings · Reset Credits",
+      "originalPath": "settings/reset-credits",
+      "titleSource": "Original reference label; native settings and shared project state"
+    },
+    "95002": {
+      "path": "Settings · Reset First Words",
+      "originalPath": "settings/reset-first-words",
+      "titleSource": "Original reference label; native settings and shared project state"
+    },
+    "95003": {
+      "path": "Settings · Set Voice Control Input",
+      "originalPath": "settings/set-voice-control-input"
+    }
+  },
+  "triggers": {
+    "402": {
+      "path": "Core · Commands · Command Cooldown",
+      "originalPath": "core/commands/command-cooldown",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "401": {
+      "path": "Core · Commands · Command Triggered",
+      "originalPath": "core/commands/command-triggered",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90210": {
+      "path": "Core · File/Folder Watcher · Changed",
+      "originalPath": "core/file-folder-watcher/changed",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90211": {
+      "path": "Core · File/Folder Watcher · Created",
+      "originalPath": "core/file-folder-watcher/created",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90212": {
+      "path": "Core · File/Folder Watcher · Deleted",
+      "originalPath": "core/file-folder-watcher/deleted",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90213": {
+      "path": "Core · File/Folder Watcher · Renamed",
+      "originalPath": "core/file-folder-watcher/renamed",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90200": {
+      "path": "Core · File I/O · File Tail · Changed",
+      "originalPath": "core/file-io/file-tail/changed",
+      "titleSource": "Current public navigation"
+    },
+    "90220": {
+      "path": "Core · Global Variables · Global Variable Created",
+      "originalPath": "core/global-variables/global-variable-created",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90221": {
+      "path": "Core · Global Variables · Global Variable Deleted",
+      "originalPath": "core/global-variables/global-variable-deleted",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90222": {
+      "path": "Core · Global Variables · Global Variable Updated",
+      "originalPath": "core/global-variables/global-variable-updated",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90223": {
+      "path": "Core · Global Variables · User Global Variable Updated",
+      "originalPath": "core/global-variables/user-global-variable-updated",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90230": {
+      "path": "Core · Groups · Added",
+      "originalPath": "core/groups/added",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90231": {
+      "path": "Core · Groups · Cleared",
+      "originalPath": "core/groups/cleared",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90232": {
+      "path": "Core · Groups · Removed",
+      "originalPath": "core/groups/removed",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90233": {
+      "path": "Core · Groups · Users Added",
+      "originalPath": "core/groups/users-added",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90234": {
+      "path": "Core · Groups · Users Removed",
+      "originalPath": "core/groups/users-removed",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90243": {
+      "path": "Core · Inputs · Controller Axis",
+      "originalPath": "core/inputs/controller-axis",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90242": {
+      "path": "Core · Inputs · Controller Button",
+      "originalPath": "core/inputs/controller-button",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90244": {
+      "path": "Core · Inputs · Controller Hat",
+      "originalPath": "core/inputs/controller-hat",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90240": {
+      "path": "Core · Inputs · Key Press",
+      "originalPath": "core/inputs/key-press",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90241": {
+      "path": "Core · Inputs · Mouse Click",
+      "originalPath": "core/inputs/mouse-click",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90245": {
+      "path": "Core · MIDI · Message",
+      "originalPath": "core/midi/message",
+      "titleSource": "Current public navigation"
+    },
+    "90214": {
+      "path": "Core · Processes · Process Started",
+      "originalPath": "core/processes/process-started",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90215": {
+      "path": "Core · Processes · Process Stopped",
+      "originalPath": "core/processes/process-stopped",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90203": {
+      "path": "Core · Quotes · Quote Added",
+      "originalPath": "core/quotes/quote-added",
+      "titleSource": "Current public navigation"
+    },
+    "90254": {
+      "path": "Core · Quotes · Show Quote",
+      "originalPath": "core/quotes/show-quote",
+      "titleSource": "Current public navigation"
+    },
+    "90270": {
+      "path": "Core · Schedule · Cron",
+      "originalPath": "core/schedule/cron",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "701": {
+      "path": "Core · Schedule · Timed Actions",
+      "originalPath": "core/schedule/timed-actions",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90040": {
+      "path": "Core · Streamer.bot Started",
+      "originalPath": "core/streamerbot-started",
+      "titleSource": "Current public navigation"
+    },
+    "90250": {
+      "path": "Core · System · Clipboard Changed",
+      "originalPath": "core/system/clipboard-changed",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90251": {
+      "path": "Core · System · Toast Activation",
+      "originalPath": "core/system/toast-activation",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90041": {
+      "path": "Core · Test",
+      "originalPath": "core/test",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90201": {
+      "path": "Core · Voice Control · Command",
+      "originalPath": "core/voice-control/command",
+      "titleSource": "Current public navigation"
+    },
+    "90252": {
+      "path": "Core · Voice Control · Dictation",
+      "originalPath": "core/voice-control/dictation",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90253": {
+      "path": "Core · Voice Control · Log",
+      "originalPath": "core/voice-control/log",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90261": {
+      "path": "Core · WebSocket · Client · Websocket Client Closed",
+      "originalPath": "core/websocket/client/websocket-client-closed",
+      "titleSource": "Current public navigation"
+    },
+    "90262": {
+      "path": "Core · WebSocket · Client · Websocket Client Message",
+      "originalPath": "core/websocket/client/websocket-client-message",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90260": {
+      "path": "Core · WebSocket · Client · Websocket Client Opened",
+      "originalPath": "core/websocket/client/websocket-client-opened",
+      "titleSource": "Current public navigation"
+    },
+    "90264": {
+      "path": "Core · WebSocket · Custom Server · WebSocket Custom Server Connection Closed",
+      "originalPath": "core/websocket/custom-server/connection-closed",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90263": {
+      "path": "Core · WebSocket · Custom Server · WebSocket Custom Server Connection Opened",
+      "originalPath": "core/websocket/custom-server/connection-opened",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90265": {
+      "path": "Core · WebSocket · Custom Server · WebSocket Custom Server Message",
+      "originalPath": "core/websocket/custom-server/message",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90202": {
+      "path": "Custom · Custom",
+      "originalPath": "custom/custom",
+      "titleSource": "Current public navigation"
+    },
+    "90363": {
+      "path": "OBS Studio · Connected",
+      "originalPath": "obs-studio/connected",
+      "titleSource": "Current public navigation"
+    },
+    "90364": {
+      "path": "OBS Studio · Disconnected",
+      "originalPath": "obs-studio/disconnected",
+      "titleSource": "Current public navigation"
+    },
+    "90365": {
+      "path": "OBS Studio · Event",
+      "originalPath": "obs-studio/event",
+      "titleSource": "Current public navigation"
+    },
+    "90356": {
+      "path": "OBS Studio · Recording Started",
+      "originalPath": "obs-studio/recording-started",
+      "titleSource": "Current public navigation"
+    },
+    "90357": {
+      "path": "OBS Studio · Recording Stopped",
+      "originalPath": "obs-studio/recording-stopped",
+      "titleSource": "Current public navigation"
+    },
+    "14004": {
+      "path": "OBS Studio · Scene Changed",
+      "originalPath": "obs-studio/scene-changed",
+      "titleSource": "Current public navigation"
+    },
+    "14005": {
+      "path": "OBS Studio · Streaming Started",
+      "originalPath": "obs-studio/streaming-started",
+      "titleSource": "Current public navigation"
+    },
+    "14006": {
+      "path": "OBS Studio · Streaming Stopped",
+      "originalPath": "obs-studio/streaming-stopped",
+      "titleSource": "Current public navigation"
+    },
+    "90366": {
+      "path": "OBS Studio · Vendor Event",
+      "originalPath": "obs-studio/vendor-event",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90950": {
+      "path": "Twitch · Ads · Ad Run",
+      "originalPath": "twitch/ads/ad-run",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "112": {
+      "path": "Twitch · Channel Reward · Reward Redemption",
+      "originalPath": "twitch/channel-reward/reward-redemption",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90550": {
+      "path": "Twitch · Channel Reward · Reward Redemption Updated",
+      "originalPath": "twitch/channel-reward/reward-redemption-updated",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "101": {
+      "path": "Twitch · Channel · Follow",
+      "originalPath": "twitch/channel/follow",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91251": {
+      "path": "Twitch · Channel · Stream Offline",
+      "originalPath": "twitch/channel/stream-offline",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91250": {
+      "path": "Twitch · Channel · Stream Online",
+      "originalPath": "twitch/channel/stream-online",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91252": {
+      "path": "Twitch · Channel · Viewer Count Update",
+      "originalPath": "twitch/channel/viewer-count-update",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "120": {
+      "path": "Twitch · Chat · First Words",
+      "originalPath": "twitch/chat/first-words",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "133": {
+      "path": "Twitch · Chat · Message",
+      "originalPath": "twitch/chat/message",
+      "titleSource": "Current public navigation"
+    },
+    "91451": {
+      "path": "Twitch · Chat · Mode · Emote Mode Off",
+      "originalPath": "twitch/chat/mode/emote-mode-off",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91450": {
+      "path": "Twitch · Chat · Mode · Emote Mode On",
+      "originalPath": "twitch/chat/mode/emote-mode-on",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91454": {
+      "path": "Twitch · Chat · Mode · Follower Mode Changed",
+      "originalPath": "twitch/chat/mode/follower-mode-changed",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91453": {
+      "path": "Twitch · Chat · Mode · Follower Mode Off",
+      "originalPath": "twitch/chat/mode/follower-mode-off",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91452": {
+      "path": "Twitch · Chat · Mode · Follower Mode On",
+      "originalPath": "twitch/chat/mode/follower-mode-on",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91457": {
+      "path": "Twitch · Chat · Mode · Slow Mode Changed",
+      "originalPath": "twitch/chat/mode/slow-mode-changed",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91456": {
+      "path": "Twitch · Chat · Mode · Slow Mode Off",
+      "originalPath": "twitch/chat/mode/slow-mode-off",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91455": {
+      "path": "Twitch · Chat · Mode · Slow Mode On",
+      "originalPath": "twitch/chat/mode/slow-mode-on",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91459": {
+      "path": "Twitch · Chat · Mode · Subscriber Mode Off",
+      "originalPath": "twitch/chat/mode/subscriber-mode-off",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91458": {
+      "path": "Twitch · Chat · Mode · Subscriber Mode On",
+      "originalPath": "twitch/chat/mode/subscriber-mode-on",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91461": {
+      "path": "Twitch · Chat · Mode · Unique Mode Off",
+      "originalPath": "twitch/chat/mode/unique-mode-off",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91460": {
+      "path": "Twitch · Chat · Mode · Unique Mode On",
+      "originalPath": "twitch/chat/mode/unique-mode-on",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90030": {
+      "path": "Twitch · General · Stream Update",
+      "originalPath": "twitch/general/stream-update",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91053": {
+      "path": "Twitch · Hype Train · Hype Train End",
+      "originalPath": "twitch/hype-train/end",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91052": {
+      "path": "Twitch · Hype Train · Hype Train Level Up",
+      "originalPath": "twitch/hype-train/level-up",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91050": {
+      "path": "Twitch · Hype Train · Hype Train Starts",
+      "originalPath": "twitch/hype-train/start",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91051": {
+      "path": "Twitch · Hype Train · Hype Train Update",
+      "originalPath": "twitch/hype-train/update",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90755": {
+      "path": "Twitch · Moderation · Moderator Added",
+      "originalPath": "twitch/moderation/moderator-added",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90756": {
+      "path": "Twitch · Moderation · Moderator Removed",
+      "originalPath": "twitch/moderation/moderator-removed",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90750": {
+      "path": "Twitch · Moderation · User Banned",
+      "originalPath": "twitch/moderation/user-banned",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90751": {
+      "path": "Twitch · Moderation · User Timed Out",
+      "originalPath": "twitch/moderation/user-timed-out",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90752": {
+      "path": "Twitch · Moderation · User Unbanned",
+      "originalPath": "twitch/moderation/user-unbanned",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90753": {
+      "path": "Twitch · Moderation · VIP Added",
+      "originalPath": "twitch/moderation/vip-added",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90754": {
+      "path": "Twitch · Moderation · VIP Removed",
+      "originalPath": "twitch/moderation/vip-removed",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90654": {
+      "path": "Twitch · Polls · Poll Archived",
+      "originalPath": "twitch/polls/poll-archived",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90652": {
+      "path": "Twitch · Polls · Poll Completed",
+      "originalPath": "twitch/polls/poll-completed",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90650": {
+      "path": "Twitch · Polls · Poll Created",
+      "originalPath": "twitch/polls/poll-created",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90653": {
+      "path": "Twitch · Polls · Poll Terminated",
+      "originalPath": "twitch/polls/poll-terminated",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90651": {
+      "path": "Twitch · Polls · Poll Updated",
+      "originalPath": "twitch/polls/poll-updated",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90664": {
+      "path": "Twitch · Predictions · Prediction Canceled",
+      "originalPath": "twitch/predictions/prediction-canceled",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90663": {
+      "path": "Twitch · Predictions · Prediction Completed",
+      "originalPath": "twitch/predictions/prediction-completed",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90660": {
+      "path": "Twitch · Predictions · Prediction Created",
+      "originalPath": "twitch/predictions/prediction-created",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90662": {
+      "path": "Twitch · Predictions · Prediction Locked",
+      "originalPath": "twitch/predictions/prediction-locked",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90661": {
+      "path": "Twitch · Predictions · Prediction Updated",
+      "originalPath": "twitch/predictions/prediction-updated",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90034": {
+      "path": "Twitch · Pyramid · Pyramid Broken",
+      "originalPath": "twitch/pyramid/broken",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90033": {
+      "path": "Twitch · Pyramid · Pyramid Success",
+      "originalPath": "twitch/pyramid/success",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "107": {
+      "path": "Twitch · Raid · Raid",
+      "originalPath": "twitch/raid/raid",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90951": {
+      "path": "Twitch · Raid · Raid Send",
+      "originalPath": "twitch/raid/send",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90032": {
+      "path": "Twitch · Subscriptions · Gift Bomb",
+      "originalPath": "twitch/subscriptions/gift-bomb",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90852": {
+      "path": "Twitch · Subscriptions · Gift Paid Upgrade",
+      "originalPath": "twitch/subscriptions/gift-paid-upgrade",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90031": {
+      "path": "Twitch · Subscriptions · Gift Subscription",
+      "originalPath": "twitch/subscriptions/gift-subscription",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90854": {
+      "path": "Twitch · Subscriptions · Pay It Forward",
+      "originalPath": "twitch/subscriptions/pay-it-forward",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90853": {
+      "path": "Twitch · Subscriptions · Prime Paid Upgrade",
+      "originalPath": "twitch/subscriptions/prime-paid-upgrade",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90851": {
+      "path": "Twitch · Subscriptions · Resubscription",
+      "originalPath": "twitch/subscriptions/resubscription",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "91150": {
+      "path": "Twitch · Subscriptions · Sub Counter Rollover",
+      "originalPath": "twitch/subscriptions/sub-counter-rollover",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "90850": {
+      "path": "Twitch · Subscriptions · Subscription",
+      "originalPath": "twitch/subscriptions/subscription",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92200": {
+      "path": "Twitch · Moderation · Shield Mode Begin",
+      "originalPath": "twitch/moderation/shield-mode-begin",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92201": {
+      "path": "Twitch · Moderation · Shield Mode End",
+      "originalPath": "twitch/moderation/shield-mode-end",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92202": {
+      "path": "Twitch · Moderation · Warned User",
+      "originalPath": "twitch/moderation/warned-user",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92203": {
+      "path": "Twitch · Moderation · Warning Acknowledged",
+      "originalPath": "twitch/moderation/warning-acknowledged",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92204": {
+      "path": "Twitch · Moderation · Shoutout Created",
+      "originalPath": "twitch/moderation/shoutout-created",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92205": {
+      "path": "Twitch · General · Shoutout Received",
+      "originalPath": "twitch/general/shoutout-received",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92206": {
+      "path": "Twitch · Charity · Charity Started",
+      "originalPath": "twitch/charity/started",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92207": {
+      "path": "Twitch · Charity · Charity Progress",
+      "originalPath": "twitch/charity/progress",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92208": {
+      "path": "Twitch · Charity · Charity Completed",
+      "originalPath": "twitch/charity/completed",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92209": {
+      "path": "Twitch · Charity · Charity Donation",
+      "originalPath": "twitch/charity/donation",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92210": {
+      "path": "Twitch · Guest Star · Guest Star Session Begin",
+      "originalPath": "twitch/guest-star/session-begin",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92211": {
+      "path": "Twitch · Guest Star · Guest Star Session End",
+      "originalPath": "twitch/guest-star/session-end",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92212": {
+      "path": "Twitch · Guest Star · Guest Star Guest Update",
+      "originalPath": "twitch/guest-star/guest-update",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92213": {
+      "path": "Twitch · Guest Star · Guest Star Settings Update",
+      "originalPath": "twitch/guest-star/settings-update",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92300": {
+      "path": "Twitch · Shared Chat · Twitch Shared Chat Session Begin",
+      "originalPath": "twitch/shared-chat/session-begin",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92301": {
+      "path": "Twitch · Shared Chat · Twitch Shared Chat Session Update",
+      "originalPath": "twitch/shared-chat/session-update",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92302": {
+      "path": "Twitch · Shared Chat · Twitch Shared Chat Session End",
+      "originalPath": "twitch/shared-chat/session-end",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92303": {
+      "path": "Twitch · General · Announcement",
+      "originalPath": "twitch/general/announcement",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92304": {
+      "path": "Twitch · Shared Chat · Shared Announcement",
+      "originalPath": "twitch/shared-chat/announcement",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92305": {
+      "path": "Twitch · Shared Chat · Shared Sub",
+      "originalPath": "twitch/shared-chat/sub",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92306": {
+      "path": "Twitch · Shared Chat · Shared Resub",
+      "originalPath": "twitch/shared-chat/resub",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92307": {
+      "path": "Twitch · Shared Chat · Shared Sub Gift",
+      "originalPath": "twitch/shared-chat/sub-gift",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92308": {
+      "path": "Twitch · Shared Chat · Shared Community Sub Gift",
+      "originalPath": "twitch/shared-chat/community-sub-gift",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92309": {
+      "path": "Twitch · Shared Chat · Shared Gift Paid Upgrade",
+      "originalPath": "twitch/shared-chat/gift-paid-upgrade",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92310": {
+      "path": "Twitch · Shared Chat · Shared Prime Paid Upgrade",
+      "originalPath": "twitch/shared-chat/prime-paid-upgrade",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92311": {
+      "path": "Twitch · Shared Chat · Shared Pay It Forward",
+      "originalPath": "twitch/shared-chat/pay-it-forward",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92312": {
+      "path": "Twitch · Shared Chat · Raid",
+      "originalPath": "twitch/shared-chat/raid",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92313": {
+      "path": "Twitch · Chat · Modiversary",
+      "originalPath": "twitch/chat/modiversary",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92314": {
+      "path": "Twitch · Shared Chat · Shared Modiversary",
+      "originalPath": "twitch/shared-chat/shared-modiversary",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92315": {
+      "path": "Twitch · Chat · Watch Streak",
+      "originalPath": "twitch/chat/watch-streak",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92316": {
+      "path": "Twitch · Chat · Bits Badge Tier",
+      "originalPath": "twitch/chat/bits-badge-tier",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92400": {
+      "path": "Twitch · Moderation · Chat Cleared",
+      "originalPath": "twitch/moderation/chat-cleared",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92401": {
+      "path": "Twitch · Moderation · Chat Message Deleted",
+      "originalPath": "twitch/moderation/chat-message-deleted",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92402": {
+      "path": "Twitch · Moderation · User Untimed Out",
+      "originalPath": "twitch/moderation/user-untimed-out",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92403": {
+      "path": "Twitch · Moderation · Blocked Terms Added",
+      "originalPath": "twitch/moderation/blocked-terms-added",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92404": {
+      "path": "Twitch · Moderation · Blocked Terms Deleted",
+      "originalPath": "twitch/moderation/blocked-terms-deleted",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92405": {
+      "path": "Twitch · Moderation · Permitted Terms Added",
+      "originalPath": "twitch/moderation/permitted-terms-added",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92406": {
+      "path": "Twitch · Moderation · Permitted Terms Deleted",
+      "originalPath": "twitch/moderation/permitted-terms-deleted",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92407": {
+      "path": "Twitch · Shared Chat · Shared Chat Message Deleted",
+      "originalPath": "twitch/shared-chat/message-deleted",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92408": {
+      "path": "Twitch · Shared Chat · Shared Chat User Banned",
+      "originalPath": "twitch/shared-chat/user-banned",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92409": {
+      "path": "Twitch · Shared Chat · Shared Chat User Timed Out",
+      "originalPath": "twitch/shared-chat/user-timed-out",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92410": {
+      "path": "Twitch · Shared Chat · Shared Chat User Unbanned",
+      "originalPath": "twitch/shared-chat/user-unbanned",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92411": {
+      "path": "Twitch · Shared Chat · Shared Chat User Untimed Out",
+      "originalPath": "twitch/shared-chat/user-untimed-out",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92412": {
+      "path": "Twitch · Moderation · AutoMod Message Held",
+      "originalPath": "twitch/moderation/automod-message-held",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92413": {
+      "path": "Twitch · Moderation · AutoMod Message Updated",
+      "originalPath": "twitch/moderation/automod-message-updated",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92414": {
+      "path": "Twitch · Moderation · Suspicious User Message",
+      "originalPath": "twitch/moderation/suspicious-user-message",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92415": {
+      "path": "Twitch · Moderation · Suspicious User Update",
+      "originalPath": "twitch/moderation/suspicious-user-update",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92416": {
+      "path": "Twitch · Moderation · Unban Request Created",
+      "originalPath": "twitch/moderation/unban-request-created",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92417": {
+      "path": "Twitch · Moderation · Unban Request Approved",
+      "originalPath": "twitch/moderation/unban-request-approved",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92418": {
+      "path": "Twitch · Moderation · Unban Request Denied",
+      "originalPath": "twitch/moderation/unban-request-denied",
+      "titleSource": "Original inventory/offline reference"
+    },
+    "92500": {
+      "path": "Twitch · Channel Goal · Goal Begin",
+      "originalPath": "twitch/channel-goal/goal-begin",
+      "titleSource": "reference"
+    },
+    "92501": {
+      "path": "Twitch · Channel Goal · Goal Progress",
+      "originalPath": "twitch/channel-goal/goal-progress",
+      "titleSource": "reference"
+    },
+    "92502": {
+      "path": "Twitch · Channel Goal · Goal End",
+      "originalPath": "twitch/channel-goal/goal-end",
+      "titleSource": "reference"
+    },
+    "92503": {
+      "path": "Twitch · Chat · Cheer",
+      "originalPath": "twitch/chat/cheer",
+      "titleSource": "reference"
+    },
+    "92504": {
+      "path": "Twitch · Channel Power Ups · Power Up Redemption",
+      "originalPath": "twitch/channel-power-ups/power-up-redemption",
+      "titleSource": "reference"
+    },
+    "92505": {
+      "path": "Twitch · Channel Power Ups · Custom Power Up Redemption",
+      "originalPath": "twitch/channel-power-ups/custom-power-up-redemption",
+      "titleSource": "reference"
+    },
+    "92506": {
+      "path": "Twitch · Channel Reward · Automatic Reward Redemption",
+      "originalPath": "twitch/channel-reward/automatic-reward-redemption",
+      "titleSource": "reference"
+    },
+    "92600": {
+      "path": "Twitch · Connections · Broadcaster Authenticated",
+      "originalPath": "twitch/connections/broadcaster-authenticated",
+      "titleSource": "reference"
+    },
+    "92601": {
+      "path": "Twitch · Connections · Broadcaster Chat Connected",
+      "originalPath": "twitch/connections/broadcaster-chat-connected",
+      "titleSource": "reference"
+    },
+    "92602": {
+      "path": "Twitch · Connections · Broadcaster Chat Disconnected",
+      "originalPath": "twitch/connections/broadcaster-chat-disconnected",
+      "titleSource": "reference"
+    },
+    "92603": {
+      "path": "Twitch · Connections · Broadcaster EventSub Connected",
+      "originalPath": "twitch/connections/broadcaster-eventsub-connected",
+      "titleSource": "reference"
+    },
+    "92604": {
+      "path": "Twitch · Connections · Broadcaster EventSub Disconnected",
+      "originalPath": "twitch/connections/broadcaster-eventsub-disconnected",
+      "titleSource": "reference"
+    },
+    "92605": {
+      "path": "Twitch · Connections · Bot Chat Connected",
+      "originalPath": "twitch/connections/bot-chat-connected",
+      "titleSource": "reference"
+    },
+    "92606": {
+      "path": "Twitch · Connections · Bot Chat Disconnected",
+      "originalPath": "twitch/connections/bot-chat-disconnected",
+      "titleSource": "reference"
+    },
+    "92607": {
+      "path": "Twitch · Chat · Whispers",
+      "originalPath": "twitch/chat/whispers",
+      "titleSource": "reference"
+    },
+    "92608": {
+      "path": "Twitch · Chat · Bot Whispers",
+      "originalPath": "twitch/chat/bot-whispers",
+      "titleSource": "reference"
+    },
+    "92700": {
+      "path": "Twitch · Ads · Upcoming Ad",
+      "originalPath": "twitch/ads/upcoming-ad",
+      "titleSource": "reference"
+    },
+    "92701": {
+      "path": "Twitch · General · Present Viewers",
+      "originalPath": "twitch/general/present-viewers",
+      "titleSource": "reference"
+    },
+    "92702": {
+      "path": "Twitch · Emotes · BetterTTV Emote Added",
+      "originalPath": "twitch/emotes/betterttv-emote-added",
+      "titleSource": "reference"
+    },
+    "92703": {
+      "path": "Twitch · Emotes · BetterTTV Emote Removed",
+      "originalPath": "twitch/emotes/betterttv-emote-removed",
+      "titleSource": "reference"
+    },
+    "92704": {
+      "path": "Twitch · Emotes · SevenTV Emote Added",
+      "originalPath": "twitch/emotes/seventv-emote-added",
+      "titleSource": "reference"
+    },
+    "92705": {
+      "path": "Twitch · Emotes · SevenTV Emote Removed",
+      "originalPath": "twitch/emotes/seventv-emote-removed",
+      "titleSource": "reference"
+    },
+    "92800": {
+      "path": "Twitch · Raid · Raid Start",
+      "originalPath": "twitch/raid/start",
+      "titleSource": "reference"
+    },
+    "92801": {
+      "path": "Twitch · Raid · Raid Cancelled",
+      "originalPath": "twitch/raid/cancelled",
+      "titleSource": "reference"
+    },
+    "90255": {
+      "path": "Custom · Custom Code Event",
+      "originalPath": "custom/code-event"
+    },
+    "93050": {
+      "path": "Elgato · Stream Deck · Stream Deck Connected",
+      "originalPath": "elgato/stream-deck/connected",
+      "titleSource": "Original reference label; native Studio plugin connection/info event"
+    },
+    "93051": {
+      "path": "Elgato · Stream Deck · Stream Deck Disconnected",
+      "originalPath": "elgato/stream-deck/disconnected",
+      "titleSource": "Original reference label; native Studio plugin connection/info event"
+    },
+    "93052": {
+      "path": "Elgato · Stream Deck · Stream Deck Info",
+      "originalPath": "elgato/stream-deck/info",
+      "titleSource": "Original reference label; native Studio plugin connection/info event"
+    },
+    "92609": {
+      "path": "Twitch · Connections · Bot EventSub Connected",
+      "originalPath": "twitch/connections/bot-eventsub-connected",
+      "titleSource": "Original 1.0.7 enum / native EventSub"
+    },
+    "92610": {
+      "path": "Twitch · Connections · Bot EventSub Disconnected",
+      "originalPath": "twitch/connections/bot-eventsub-disconnected",
+      "titleSource": "Original 1.0.7 enum / native EventSub"
+    },
+    "92900": {
+      "path": "Twitch · Channel Reward · Reward Created",
+      "originalPath": "twitch/channel-reward/reward-created",
+      "titleSource": "Original 1.0.7 enum / native EventSub"
+    },
+    "92901": {
+      "path": "Twitch · Channel Reward · Reward Updated",
+      "originalPath": "twitch/channel-reward/reward-updated",
+      "titleSource": "Original 1.0.7 enum / native EventSub"
+    },
+    "92902": {
+      "path": "Twitch · Channel Reward · Reward Deleted",
+      "originalPath": "twitch/channel-reward/reward-deleted",
+      "titleSource": "Original 1.0.7 enum / native EventSub"
+    }
+  },
+  "targetVersion": "1.0.7",
+  "screenshot": "",
+  "twitchSubActionCategories107": [
+    "Ads",
+    "Channel",
+    "Charity",
+    "Chat",
+    "Clips",
+    "Followers",
+    "Guest Star",
+    "Moderation",
+    "Polls",
+    "Predictions",
+    "Raid",
+    "Rewards",
+    "Sub Counter",
+    "Subscribers",
+    "Tags",
+    "User",
+    "User Groups"
+  ]
+}

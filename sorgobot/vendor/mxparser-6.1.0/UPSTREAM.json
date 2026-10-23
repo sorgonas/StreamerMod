@@ -1,0 +1,13 @@
+{
+  "version": "6.1.0",
+  "package_url": "https://api.nuget.org/v3-flatcontainer/mathparser.org-mxparser/6.1.0/mathparser.org-mxparser.6.1.0.nupkg",
+  "package_sha256": "5c398119be2cf12016dd154c3f1aa46981f26088680d4e22c973483d29bb5210",
+  "package_entry": "lib/net8.0/MathParser.org-mXparser.dll",
+  "license": "MathParser.org-mXparser Dual License 2024-05-19",
+  "license_url": "https://mathparser.org/mxparser-license/",
+  "use": "non-commercial; explicitly confirmed by project owner on 2026-10-20",
+  "files": {
+    "MathParser.org-mXparser.dll": "76713d2e0be3d27aff51daf5af273009bd06c276ab44059d961200c805cbc7a2",
+    "LICENSE.txt": "db660c030c42162ca589e0dc7d45da71400cf9f90b39c3dfa7e04c0f79bbb73a"
+  }
+}
