@@ -13,7 +13,7 @@
 
 Das Projekt ist aus einer Linux-Migration entstanden und orientiert sich an vertrauten Konzepten von Streamer.bot: **Actions, Triggers und Sub-Actions**. Es ist ein eigenständiges Community-Projekt und kein offizielles Produkt von Streamer.bot, Twitch, YouTube, OBS oder Elgato.
 
-> **Entwicklungsstand:** Funktionen werden laufend geprüft und erweitert. Es gibt keine pauschale Zusage vollständiger Originalkompatibilität oder einer praktischen Abnahme aller Plattformereignisse und Geräte. Bitte neue/importierte Actions zunächst kontrolliert testen.
+> **Entwicklungsstand:** Funktionen wurden grösstenteils geprüft. Es gibt keine pauschale Zusage vollständiger Originalkompatibilität oder einer praktischen Abnahme aller Plattformereignisse und Geräte.
 
 ## Was kann StreamerMod?
 
@@ -161,12 +161,12 @@ C#-Code und importierte Actions können Dateien, Programme und Dienste steuern. 
 
 ## Lizenz und Projektgrenzen
 
-Eigener StreamerMod-Code: **GNU GPL-3.0**, siehe [LICENSE](LICENSE). Die Lizenz ermöglicht offene Weiterentwicklung; bei Weitergabe abgeleiteter Software gelten ihre Bedingungen.
+Python StreamerMod-Code: **GNU GPL-3.0**, siehe [LICENSE](LICENSE). Die Lizenz ermöglicht offene Weiterentwicklung; bei Weitergabe abgeleiteter Software gelten ihre Bedingungen.
 
 Drittanbieter bleiben unter ihren eigenen Bedingungen. **mXparser 6.1.0 besitzt eine gesonderte nichtkommerzielle/kommerzielle Dual License.** Die GPL des eigenen Codes erteilt keine zusätzliche kommerzielle Erlaubnis für diese Bibliothek. Vollständige Hinweise: [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md) und [Spracherkennung](THIRD-PARTY-SPEECH.md).
 
-Dieses Projekt befindet sich in aktiver Entwicklung. Vollständige Originalkompatibilität, sämtliche fremden Geräte/Plugins und jede Twitch-/YouTube-Schreibwirkung sind nicht pauschal live abgenommen. Softwaretests, simulierte Ereignisse und echte Geräte-/Plattformtests werden ausdrücklich unterschieden.
-
+Dieses Projekt befindet sich nicht mehr in Entwicklung. Vollständige Originalkompatibilität, sämtliche fremden Geräte/Plugins und jede Twitch-/YouTube-Schreibwirkung sind nicht pauschal live abgenommen. Softwaretests, simulierte Ereignisse und echte Geräte-/Plattformtests werden ausdrücklich unterschieden.
+Für Weiterentwicklung kann sich jeder den Code selbst erweitern bzw. abändern.
 ---
 
 **English:** StreamerMod is a native Linux streaming-automation desktop app for actions, Twitch, optional YouTube, OBS, AI responses, local speech recognition, Linux audio and OpenDeck integration. Run `bash install.sh --help` for installation options. Contributions through issues and pull requests are welcome. Original project code is GPL-3.0; bundled third-party components retain their own license terms.
